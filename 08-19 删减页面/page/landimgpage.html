@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>旗开得胜 点球成金</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* 手机端 */
+    #phone_box {
+      width: 100%;
+      position: relative;
+    }
+
+    #phone_box .banner {
+      width: 100%;
+    }
+
+    #phone_box .push {
+      position: absolute;
+      width: 11%;
+      height: 1%;
+      bottom: 7%;
+      left: 45%;
+      font-size: 25px;
+      z-index: 100;
+    }
+
+    /* 电脑端 */
+    #pc_box {
+      width: 100%;
+      position: relative;
+    }
+
+    #pc_box .banner {
+      width: 100%;
+    }
+
+    #pc_box .push {
+      position: absolute;
+      width: 11%;
+      height: 2%;
+      bottom: 6%;
+      left: 45%;
+      font-size: 25px;
+      z-index: 100;
+    }
+
+    @media screen and (min-width: 1100px) {
+      #pc_box {
+        display: block;
+      }
+
+      #phone_box {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      #pc_box {
+        display: none;
+      }
+
+      #phone_box {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 手机端 -->
+  <div id="phone_box">
+    <img class="banner" src="./banner_phone.jpg" alt="">
+    <a class="push" target="bank_" href="https://www.citibank.com.cn/sim/chinese/pdf/NBA1_TC.pdf"></a>
+  </div>
+
+  <!-- 电脑端 -->
+  <div id="pc_box">
+    <img class="banner" src="./banner_pc.jpg" alt="">
+    <a class="push" target="bank_" href="https://www.citibank.com.cn/sim/chinese/pdf/NBA1_TC.pdf"></a>
+  </div>
+</body>
+
+</html>

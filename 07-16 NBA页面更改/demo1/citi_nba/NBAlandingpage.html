@@ -1,0 +1,197 @@
+<html>
+
+<head>
+  <title>旗开得胜 点球成金</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #box {
+      position: relative;
+    }
+
+    /* pc 端样式 */
+    .Carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Carousel img {
+      margin-right: 40px;
+    }
+
+    .pcStyle {
+      width: 300px;
+      height: 320px;
+    }
+
+    .Carousel-box {
+      display: flex;
+
+    }
+
+    #refBox-1 {
+      position: relative;
+    }
+
+    #refa-1 {
+      display: inline-block;
+      width: 50%;
+      height: 90px;
+      left: 0;
+      right: 0;
+      bottom: 8%;
+      margin: auto;
+      position: absolute;
+    }
+
+    #refBox-2,
+    #refBox-3 {
+      position: relative;
+    }
+
+    #refa-2,
+    #refa-3 {
+      position: absolute;
+      display: inline-block;
+      width: 300px;
+      height: 100px;
+      bottom: 18%;
+      left: 16%;
+    }
+
+    .Carousel-box::-webkit-scrollbar {
+      height: 7px;
+      background: rgb(4, 77, 179);
+      border-radius: 10px;
+    }
+
+    .Carousel-box::-webkit-scrollbar-thumb {
+      background: rgb(2, 38, 88);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body style="margin:0 0 0 0;padding: 0;">
+  <img class="images" src="./images/pc/PC (1).jpg" width="100%" alt="">
+  <img class="images" src="./images/pc/PC (2).jpg" width="100%" alt="">
+
+  <div id="refBox-1">
+    <img class="images" src="./images/pc/PC (3).jpg" width="100%" usemap="#Map" border="0">
+    <a id="refa-1"
+      href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBALDPAL"
+      target="_blank">
+    </a>
+  </div>
+
+
+  <div id="refBox-2">
+    <img class="images" src="./images/pc/PC (4).jpg" width="100%" usemap="#Map" border="0">
+    <a id="refa-2"
+      href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBALDPAL"
+      target="_blank">
+    </a>
+  </div>
+
+  <div id="refBox-3">
+    <img class="images" src="./images/pc/PC (5).jpg" width="100%" alt="">
+    <a id="refa-3" href="http://www.citibank.com.cn/sim/land/mile/index.html" target="_blank">
+    </a>
+  </div>
+
+  <img class="images" src="./images/pc/PC (6).jpg" width="100%" alt="">
+  <img class="images" src="./images/pc/PC (7).jpg" width="100%" alt="">
+
+  <div id="box">
+    <img class="images" src="./images/pc/PC (8).jpg" width="100%" alt="">
+
+    <div class="Carousel">
+      <div class="Carousel-box">
+        <img class="carousel-img" src="./images/pc/lunbo (1).jpg" alt="">
+        <img class="carousel-img" src="./images/pc/lunbo (2).jpg" alt="">
+        <img class="carousel-img" src="./images/pc/lunbo (3).jpg" alt="">
+        <img class="carousel-img" src="./images/pc/lunbo (4).jpg" alt="">
+        <img class="carousel-img" src="./images/pc/lunbo (5).jpg" alt="">
+        <img class="carousel-img" src="./images/pc/lunbo (6).jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    (window.onresize = function () {
+      const img = document.querySelectorAll('.images')
+      const CarouselImg = document.querySelectorAll('.carousel-img')
+
+      // pe 端
+      if (document.body.clientWidth < 1100) {
+        document.getElementById('refa-2').style = `
+            bottom: 43px;
+            left: 120px;
+        `
+        document.getElementById('refa-3').style = `
+            bottom: 43px;
+            left: 120px;
+        `
+        document.querySelector('.Carousel').style = `
+          position: absolute;
+          top: 0;
+          display: flex;
+        `
+        document.querySelector('.Carousel-box').style = `
+          display: flex;
+          position: absolute;
+          left:40px;
+          right:40px;
+          overflow-y: hidden;
+          overflow-x: auto;
+        `
+        CarouselImg.forEach((item, i) => {
+          item.setAttribute('src', `./images/pe/lunbo (${i + 1}).png`)
+        })
+        img.forEach((item, index) => {
+          item.setAttribute('src', `./images/pe/PE (${index + 1}).jpg`)
+        })
+      }
+
+      // pc 端
+      if (document.body.clientWidth > 1100) {
+        document.querySelectorAll('.carousel-img').forEach(element => {
+          element.setAttribute('class', 'pcStyle')
+        })
+        document.querySelector('.Carousel-box').style = `
+          width: 1000px;
+          margin: auto;
+          overflow-x: auto;
+          overflow-y: hidden;
+          padding-bottom: 20px;
+        `
+        CarouselImg.forEach((item, i) => {
+          item.setAttribute('src', `./images/pc/lunbo (${i + 1}).jpg`)
+        })
+        img.forEach((item, index) => {
+          item.setAttribute('src', `images/pc/PC (${index + 1}).jpg`)
+        })
+      }
+    })()
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,439 @@
+@font-face {
+	font-family: "yingwen";
+	src: url('../fonts/InterstateMono.ttf'),
+	url('../fonts/InterstateMono.otf'),
+	url('../fonts/InterstateMono.eot'),
+	url('../fonts/InterstateMono.woff');
+	/* format: "opentype"; */
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+html{
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style:none;
+    /*火狐下隐藏滚动条*/
+    overflow:-moz-scrollbars-none;
+}
+ body{
+        overflow:scroll;
+        overflow-x:hidden;
+        background-color: rgb(15,15,15);
+     }
+
+::-webkit-scrollbar{
+    display:none;
+}
+a{color:#ffffff;text-decoration:none;}
+a:hover{color:#ffffff;text-decoration:none;}
+
+.container {
+	width: 95% !important;
+}
+
+.container-fluid  {
+	width: 100% !important;
+}
+
+.container-fluid2 {
+	width: 100% !important;
+}
+
+#mainbody {
+	background-image: url(../img/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000000;
+}
+
+#mainbody2 {
+	background-color: rgb(15,15,15);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.topbanner {
+	background: #281814;
+	height: 100px;
+	max-width: 100%;
+}
+
+.top-logo {
+	height: 80px;
+	padding: 25px 0 0;
+}
+
+.logoarea {
+	height: 80px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.slogan {
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+
+.slogan1 {
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+
+.slogan1>p {
+	font-size: 72px;
+	font-family: "yingwen","Helvetica Neue", Helvetica, Arial, "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	color: #ffffff;
+}
+
+.slogan2>p {
+	font-size: 40px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	line-height: 1.8;
+	color: #ababab;
+}
+
+.slogan2 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.slogan>h1 {
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	font-size: 80px;
+	letter-spacing: 5px;
+	margin-top: 70px;
+	color: #ffffff;
+}
+
+.slogan>span {
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	font-size: 50px;
+	color: #ffffff;
+}
+
+.mainbutton a,
+.mainbutton a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.mainbutton a {
+	cursor: pointer;
+}
+
+.mainbutton a h3 {
+	font-size: 48px;
+                font-family: "yingwen","Helvetica Neue", Helvetica, Arial, "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+.mainbutton a span {
+	font-size: 48px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+.fengmian {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 100%;
+}
+
+
+
+#footer h3 {
+    margin: 80px 13px;
+	color: rgb(180, 151, 90) !important;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row22 {
+    position: relative;
+	color: rgb(180, 151, 90);
+}
+
+.row22>h4 {
+	font-size: 36px;
+	padding-top: 100px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+.row>h3 {
+	font-size: 34px;
+	padding-top: 10px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	line-height: 1.2em;
+}
+
+.row22>h5 {
+	font-size: 36px;
+	padding-top: 10px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+.row22>p {
+	font-size: 24px;
+	color: #666666;
+}
+
+.btn-enjoy {
+	margin: 20px 70px;
+	background-color: rgb(180, 151, 90);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 36px;
+	height:100px;
+	width:80%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-enjoy:hover {
+	color: #FFFFFF;
+}
+
+.btn-enjoy2 {
+	margin-top: 30px;
+	background-color: rgb(180, 151, 90);
+	color: #FFFFFF;
+	margin-left: 48px;
+	font-size: 36px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height:100px;width:90%;
+	margin-bottom: 20px;
+}
+
+.btn-enjoy2:hover {
+	color: #FFFFFF;
+}
+
+.row33{
+	margin-top: 50px;
+}
+
+.modal-body>.close {
+	margin-top: -40px;
+	margin-right: -30px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: rgb(180, 151, 90) !important;
+	opacity: 1 !important;
+	color: #FFFFFF;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.modal-body>h3 {
+	margin-left: 16px;
+	color: #080808;
+	text-align: left;
+	margin: 50px 0px 10px 20px !important;
+	font-size: 36px;
+}
+
+.modal-body>ol {
+	margin: 20px;
+	color: #080808;
+	text-align: left;
+	color: #666666;
+}
+
+.modal-body>ol>li {
+	margin-top: 10px;
+	line-height: 1.6;
+	font-size: 30px;
+}
+
+.modal-body>.close:hover {
+	color: #FFFFFF;
+}
+
+.p1{
+	color: #555555;
+	margin: 60px 20px;
+	text-decoration:underline;
+	font-size: 30px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+	background-color:#333333;
+	border:0px;
+}
+
+.row33 .p2 {
+	color: #ffffff;
+	font-size: 30px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+button {
+	outline: none !important;
+}
+
+.downbutton{
+	background-color: #rgb(180, 151, 90);
+	font-size: 30px;
+	font-family: "Microsoft YaHei","微软雅黑","PingFang SC", "Heiti", "黑体","Hiragino Sans GB",   "WenQuanYi Micro Hei", sans-serif;
+}
+
+.row2_3{
+    padding-top: 60px;
+}
+.row2_3 table{
+    text-align: center;
+    border-top: solid 1px rgb(180, 151, 90);
+    border-left: solid 1px rgb(180, 151, 90);
+}
+
+.row2_3 table tr th{
+    color:#fff;
+    font-size:20px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: solid 1px #cdb685;
+    border-right: solid 1px #cdb685;
+
+    padding: 1% 0;
+
+}
+.row2_3 table tr th img{
+    width: 12%;
+    padding-right: 3%;
+
+}
+.icon_table_03img{
+    width: 15%!important;
+}
+.row2_3 table tr td{
+    font-size:18px;
+    color: rgb(180, 151, 90);
+    border-bottom: solid 1px rgb(180, 151, 90);
+    border-right: solid 1px rgb(180, 151, 90);
+    padding: 2% 0;
+}
+.row11 h3{
+    font-size: 22px;
+    line-height: 32px;
+}
+.row33 a:hover{
+
+    cursor: pointer!important;
+}
+.po_text{
+    font-size: 30px;
+    background-color: #333333;
+    padding-left: 2%;
+    line-height: 128%;
+}
+.text-content{
+    padding: 72px 0;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 57px!important;
+}
+.icon_div{
+    width:80%;
+    position: absolute;
+    top: -10%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    left: 2%;
+}
+.icon_div a{
+    text-decoration: underline!important;
+}
+.text_img{
+    width: 9%;
+}
+.text_img img{
+    width: 100%;
+}
+.text_bor{
+    border: 1px solid rgb(180, 151, 90);
+    position: relative;
+    width: 93%;
+    margin: -2% auto 0;
+    border-radius: 10px;
+}
+.text-content h4{
+    font-size: 30px!important;
+    clear: both;
+    padding-bottom: 1%;
+}
+.row22 .p2{
+    float:right;
+    width: 96%;
+    line-height: 40px;
+}
+
+/*新增内容*/
+.row22_2,.row22_3{
+    margin-top: 12%;
+}
+.row22_2 .icon_div{
+    top: -20%!important;
+}
+
+.row22_2 .text-content{
+    margin-bottom: 47px;
+    padding-top: 44px;
+}
+.row22_3 .icon_div{
+    top: -29%!important;
+}
+.row22_3 .text-content{
+    width: 91%;
+    padding: 75px 0 32px 0!important;
+}
+.row22_3 .text-content p{
+    font-size: 26px;
+}
+.row22_3 .text_img{
+    width:11%;
+}
+
+.row2_3 table tr th {
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: solid 1px #cdb685;
+    border-right: solid 1px #cdb685;
+    padding: 1% 0;
+}.row2_3 table tr td {
+     font-size: 24px;
+     color: rgb(180, 151, 90);
+     border-bottom: solid 1px rgb(180, 151, 90);
+     border-right: solid 1px rgb(180, 151, 90);
+     padding: 2% 0;
+ }
+ .row33 button{
+     color:#ababab;
+ }
+.row11 a{
+    color: #fff;
+    text-decoration: underline!important;
+}
+.row11 h3{
+    font-size: 34px;
+    line-height: 1.3em!important;
+}
+.row33 button{
+    margin-top: 0;
+
+}
+.row33 .btn-enjoy2{
+    color: #fff;
+}
+.row33{
+    padding-bottom: 40px;
+}
+.modal-open .modal{
+    height: 50%;
+    top: 25%;
+}
+

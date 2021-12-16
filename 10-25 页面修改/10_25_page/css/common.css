@@ -1,0 +1,161 @@
+/*@font-face{font-family:"SourceHanSan_R";src:url(../fonts/SourceHanSansCN-Regular.ttf) format("truetype");}
+@font-face{font-family:"SourceHanSan_L";src:url(../fonts/SourceHanSansSC-Light.ttf) format("truetype");}*/
+@font-face{font-family:"SourceHanSansCN_N";src:url(../fonts/SourceHanSansCN-Normal.ttf) format("truetype");}
+@font-face{font-family:"SourceHanSansCN_B";src:url(../fonts/SourceHanSansCN-Bold.ttf) format("truetype");}
+@font-face{font-family:"Interstate";src:url(../fonts/InterstateRegularCond.ttf) format("truetype");}
+*{appearance:none;-webkit-appearance:none;-moz-appearance:none;margin:0;padding:0;border:0;font-size:100%;outline:none;font-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0.0);}
+body{max-width:780px; width:100%; margin:0 auto;background-color:#FFF;font-family:"Arial","microsoft Yahei";}
+img{border:none; outline: none; vertical-align: middle;}
+
+
+/*mobile*/
+@media  (max-width:768px){
+	body{font-family: "SourceHanSansCN_N";}
+	
+	.pc{display: none;}
+	
+	.cain {}
+	.cain img{width: 100%;display:block;background-size:100%;}
+
+	.cain_02{}
+	.cain_02 img{width: 100%;display:block;background-size:100%;}
+	.cain_03{}
+	.cain_03 img{width: 100%;display:block;background-size:100%;}
+	
+	.cain_04 img{width: 100%;display:block;background-size:100%;}
+	
+	.cain_05{text-align: center;}
+	.cain_05_main{width: 62%;margin-left: 19%;border-radius:25px;border:1.5px solid rgb(5,109,174);color: rgb(5,109,174);font-weight: bold;font-size:15px;line-height: 25px;}
+
+	.cain_06{text-align: center;font-size: 15px;line-height: 30px;padding-top:10px; }
+	.cain_06_font_top{color:rgb(5,109,174);font-weight: bold; }
+	.cain_06 .saomiao{color: rgb(13,108,174);}
+	.cain_06 img{width: 50%;margin-top: 20px;}
+	
+	.foot img{width: 100%;display:block;background-size:100%;}
+	.foot_logo{margin-top:10px;}
+	.foot_logo img{width: 100%;display:block;background-size:100%;}
+
+	.Underline {height: 0.05px;margin:0 auto;border:0.5px solid #000;width: 80px;margin-top:5px;}
+	
+	.rule{text-align: center;font-size: 15px;margin-top:10px; }
+	/*弹窗*/
+	.masking .layer {font-size: 15px;}
+	.masking table{border-collapse:collapse;border:none;}
+	.masking td{border:solid #666666 1px;text-align: center;}
+	# {
+		margin:0;
+		padding:0;
+	}
+	.masking {
+		width:100%;
+		height:100%;
+		position:fixed;
+		background:rgb(91,91,91,0.9);
+		display: none;
+		top:0;
+		left:0;
+	}
+	.layer {
+		font-family: "SourceHanSansCN_N";
+		font-family:"Arial","microsoft Yahei";
+		width:70%;
+		height:400px;
+		padding: 3%;
+		margin-left:11%;
+		margin-top:50px;
+		background:#fff;
+		border:3px solid #fff;
+		border-radius:10px;
+		overflow: auto;
+		color: rgb(160, 160, 160);
+		font-size:15px;
+	}
+	.close {
+		position:absolute;
+		right:12px;
+		top:12px;
+	}
+	/*弹窗结束*/
+	
+}
+/*pc端*/
+@media  (min-width:769px){
+	body{font-family: "SourceHanSansCN_B";}
+	.logo img{width: 100%;display:block;background-size:100%;}
+	.banner img{width: 100%;display:block;}
+	.moblie{display: none;}
+
+	.cain_02 img{background-size:100%;width: 100%;}
+
+	.cain_03 img{background-size:100%;width: 100%;}
+	
+	.cain_04{width: 100%;height: 507px;}
+	.cain_04 img{background-size:100%;width: 100%;}
+	.cain_04_l{float: left;width: 50%;}
+	.cain_04_r{float: left;width: 50%;}
+
+	.cain_05{text-align: center;}
+	.cain_05_main{width: 40%;margin-left: 30%;border-radius:20px;border:2px solid rgb(5,109,174);color: rgb(5,109,174);font-weight: bold;font-size:20px;line-height: 40px;}
+	.cain_05_ws{padding-top: 40px;}
+
+	.cain_05_ws p{font-size: 20px;line-height: 32px;}
+
+	.cain_06{width: 100%;height: 228px;margin-top: 40px;}
+	.cain_06_l{float: left;width: 50%;}
+	.cain_06_l img{width: 60%;padding-left: 40%;}
+	.cain_06_r{float: left;width: 50%;}
+	.cain_06_r .cain_06_r_font{padding-top: 80px;font-size:20px; }
+	.cain_06_r .cain_06_r_font p{line-height:32px;text-align: center;color: rgb(5,109,174);}
+
+	.rule{text-align: center;font-size: 20px;margin-top:10px; }
+	.foot img{width: 100%;display:block;background-size:100%;}
+	.foot_logo{margin-top:10px;}
+	.foot_logo img{width: 100%;display:block;background-size:100%;}
+	.Underline {height: 0.1px;margin:0 auto;border:1px solid #000;width: 80px;margin-top:5px;}
+
+	.cain_rules{padding: 20px;background-color: rgb(246, 246, 246);}
+	.cain_rules p {color: rgb(160, 160, 160);}
+	/*弹窗*/
+	.masking .layer {font-size: 20px;}
+	.masking table{border-collapse:collapse;border:none;}
+	.masking td{border:solid #666666 1px;text-align: center;}
+	 # {
+		margin:0;
+		padding:0;
+	}
+	.masking {
+		width:100%;
+		height:100%;
+		position:fixed;
+		background:rgba(91,91,91,0.9);
+		display: none;
+		top:0;
+		left:0;
+	}
+	.layer {
+		font-family: "SourceHanSansCN_N";
+		font-family:"Arial","microsoft Yahei";
+		padding: 20px;
+		padding-left: 40px;
+		position:relative;
+		width:800px;
+		height:500px;
+		background:#fff;
+		border:3px solid #fff;
+		border-radius:10px;
+		left:40%;
+		margin-left:-250px;
+		top:35%;
+		margin-top:-150px;
+		overflow: auto;
+		color: rgb(160, 160, 160);
+		font-size:12px;
+	}
+	.close {
+		position:absolute;
+		right:12px;
+		top:12px;
+	}
+	/*弹窗结束*/
+}

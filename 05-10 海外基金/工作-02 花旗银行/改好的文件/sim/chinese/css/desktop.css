@@ -1,0 +1,11163 @@
+.headTxtPos {
+	position: relative !important;
+}
+
+/* Reset */
+html {
+	-webkit-text-size-adjust: none;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+li {
+	list-style: none
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	outline: 0 none;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold
+}
+
+del {
+	text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+
+input,
+select {
+	vertical-align: middle
+}
+
+sup {
+	font-weight: normal;
+}
+
+
+/* common */
+@font-face {
+	font-style: normal;
+	font-weight: normal;
+	src: url("/sim/chinese/fonts/DFHeiGB-W5.otf");
+}
+
+.pullLeft {
+	float: left;
+}
+
+.pullRight {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.txtCenter {
+	text-align: center !important;
+}
+
+.txtRht {
+	text-align: right !important;
+}
+
+a {
+	color: #3399CC;
+	outline: medium none;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	border: 0;
+}
+
+h1 {
+	color: #000000;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+h2 {
+	font-size: 16px;
+	padding: 0 0 10px;
+}
+
+h3 {
+	font-size: 14px;
+	padding: 0 0 10px;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0 10px;
+}
+
+.tabInnBgTxt {
+	font-size: 18px;
+}
+
+p {
+	padding: 0 0 10px;
+	line-height: 20px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.last {
+	padding-bottom: 0 !important;
+}
+
+.cardSelectList.last {
+	border-bottom: none !important;
+}
+
+.divider {
+	border-bottom: 1px dotted #CCCCCC;
+	margin-bottom: 20px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.redClr {
+	color: #FF0000;
+}
+
+.whiteClr {
+	color: #fff;
+}
+
+.commonSpacing {
+	margin-top: 10px;
+}
+
+.commonImgSpacer {
+	padding-top: 20px;
+}
+
+.commonPadHolder {
+	padding: 0 10px;
+}
+
+.dropshadow {
+	box-shadow: 2px 2px 4px #CCCCCC;
+}
+
+.existingCustomer {
+	display: none;
+}
+
+.disctxt {
+	padding: 0 0 5px !important;
+}
+
+.promoHeight {
+	height: 44px;
+}
+
+/* Layout */
+body {
+	background: url('/sim/chinese/images/bg-pattern.gif') repeat;
+	color: #555555;
+	font-family: "微软雅黑", "新宋体", "宋体", sans-serif;
+	font-size: 12px;
+}
+
+.enn {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	background: #FFFFFF;
+	margin: 10px auto;
+	overflow: hidden;
+	width: 984px;
+	z-index: 5;
+}
+
+#container.selectBox {
+	overflow: visible !important;
+}
+
+#header {}
+
+.topMenu {
+	background: url('/sim/chinese/images/topMenu.jpg') repeat-x top;
+	height: 22px;
+	color: #FFF;
+	font-size: 10px;
+	padding: 0 29px;
+}
+
+.topMenu li {
+	list-style: none
+}
+
+ul.topMenuLeft {
+	float: left;
+}
+
+ul.topMenuLeft li {
+	padding: 4px 0 0 0;
+}
+
+ul.topMenuRight {
+	float: right;
+}
+
+ul.topMenuRight li {
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+ul.topMenuRight li a {
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 4px 0 0;
+	font-size: 11px;
+}
+
+ul.topMenuRight li.divideBar {
+	font-size: 10.5px;
+	padding: 3px 0 0;
+}
+
+ul.topMenuRight li.flyout a.mainLinks {
+	background: url("/sim/chinese/images/main-links.png") no-repeat 8px 8px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 4px 8px 5px 24px;
+}
+
+ul.topMenuRight li.active a.mainLinks {
+	background: url("/sim/chinese/images/signOnClose.png") no-repeat 0 -2px #727272;
+	cursor: pointer;
+}
+
+ul.topMenuRight li.flyout {
+	cursor: pointer;
+	position: relative;
+}
+
+.dropFlyout {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 5px 14px -7px #3D3D3D;
+	display: none;
+	padding: 10px 0;
+	position: absolute;
+	right: 0;
+	top: 22px;
+	width: 170px;
+	z-index: 9;
+}
+
+.signOnFlyout {
+	top: 26px;
+}
+
+.dropFlyoutList ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px dotted #CCCCCC;
+	overflow: hidden;
+}
+
+.dropFlyoutList ul li:first-child {
+	border-top: none;
+}
+
+.dropFlyoutList ul li a {
+	display: block;
+	padding: 8px 10px;
+	width: 150px;
+	color: #000;
+	font-size: 11px;
+}
+
+.dropFlyoutList ul li ul li a {
+	padding-left: 20px;
+	width: 140px;
+	font-weight: normal;
+}
+
+.dropFlyoutList ul li a:hover {
+	background: #E5E5E5;
+	text-decoration: none;
+}
+
+ul.topMenuRight li.search .innerwrap {
+	background: none repeat scroll 0 0 #FFFFFF;
+	height: 18px;
+	margin: 3px 0 0;
+	padding: 0 5px;
+	width: 156px;
+}
+
+ul.topMenuRight li.search input.searchBox {
+	background: none;
+	border: none;
+	float: left;
+	font-size: 10px;
+	margin: 0;
+	outline: none;
+	padding: 1px 0 0;
+	width: 113px;
+}
+
+ul.topMenuRight li .searchIcon {
+	background: url("/sim/chinese/images/searchIcon.png") no-repeat 0 2px;
+	display: inline-block;
+	float: left;
+	height: 15px;
+	width: 16px;
+}
+
+ul.topMenuRight li.search input.searchBtn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	float: right;
+	font-size: 10px;
+	margin: 1px 0 0;
+	outline: none;
+	padding: 0;
+	width: 27px;
+}
+
+ul.topMenuRight li.last {
+	margin: 0;
+}
+
+ul.topMenuRight li.search,
+.searchMobWrap {
+	display: none;
+}
+
+.banner {
+	background: url("/sim/chinese/images/banner.jpg") repeat-x 0 0;
+	height: 86px;
+}
+
+.bannerGold {
+	background: url("/sim/chinese/images/citigold/banner-gold.jpg") repeat-x 0 0;
+	height: 86px;
+}
+
+.bannerDarkGold {
+	background: url("/sim/chinese/images/banner-dark-gold.jpg") repeat-x scroll 0 0;
+	height: 86px;
+}
+
+.citiGoldLogo {
+	background: url("/sim/chinese/images/citigold/citigold_logo.png") no-repeat 0 0;
+	width: 133px;
+	height: 37px;
+	margin: 34px 0 0 29px;
+	float: left;
+}
+
+.logo {
+	background: url("/sim/chinese/images/logo.png") no-repeat 0 0;
+	width: 133px;
+	height: 37px;
+	margin: 22px 0 0 29px;
+	float: left;
+}
+
+.citiLogo {
+	background: url("/sim/chinese/images/citi-logo.png") no-repeat scroll 0 0 transparent;
+	float: right;
+	height: 44px;
+	margin: 20px 29px 0 0;
+	width: 75px;
+}
+
+#nav {
+	background: url("/sim/chinese/images/nav.jpg") repeat-x 0 0;
+	height: 26px;
+	position: relative;
+	z-index: 998;
+}
+
+.navGold ul.mainNavList>li>a:hover {
+	background: #926F35;
+}
+
+.navGold ul.mainNavSignOn li a:hover {
+	background: #926F35;
+}
+
+.navGold ul li a.activeTabHighlight {
+	background: #926F35;
+}
+
+.navGold ul.mMenuList li a:hover {
+	color: #926F35;
+}
+
+.navGold {
+	background: #B5985C !important;
+}
+
+ul.mainNavList {
+	float: left;
+	height: 26px;
+	overflow: hidden;
+	padding: 0 0 0 21px;
+}
+
+ul.mainNavList li {
+	float: left;
+	list-style: none
+}
+
+ul.mainNavList li a,
+.mainNavSignOn li a {
+	color: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 16px;
+	padding: 5px 8px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul.mainNavList li a:hover {
+	background: url("/sim/chinese/images/nav-hover.jpg") repeat-x 0 0;
+}
+
+.mainNavList li a.activeTabHighlight {
+	background: url("/sim/chinese/images/nav-hover.jpg") repeat-x scroll 0 0 transparent;
+}
+
+.navGold .mainNavSignOn {
+	background: #926F35;
+	float: right;
+	height: 26px;
+	margin: 0 29px 0 0;
+	position: relative;
+}
+
+.mainNavSignOn {
+	background: url("/sim/chinese/images/signOnBg.jpg") repeat-x 0 0;
+	float: right;
+	height: 26px;
+	margin: 0 29px 0 0;
+	position: relative;
+}
+
+.mainNavSignOn .flyout {
+	cursor: pointer;
+}
+
+.mainNavSignOn li {
+	list-style: none;
+}
+
+.mainNavSignOn li a {
+	height: 16px;
+	margin: 0;
+	padding: 5px 14px 5px 12px;
+}
+
+.mainNavSignOn li a:hover {
+	background: url("/sim/chinese/images/nav-hover.jpg") repeat-x 0 0;
+}
+
+.mainNavSignOn li span.lockSign {
+	background: url("/sim/chinese/images/lock-icon.png") no-repeat 2px 3px;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 14px;
+}
+
+.mainNavSignOn li span.txtSign {
+	display: inline-block;
+	float: left;
+	line-height: 16px;
+}
+
+.mainNavSignOn li span.iconSign {
+	background: url("/sim/chinese/images/signOnArrow.png") no-repeat scroll 0 -3px transparent;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	margin-left: 20px;
+	width: 20px;
+}
+
+.mainNavSignOn li.active span.iconSign {
+	background: url("/sim/chinese/images/signOnClose.png") no-repeat 0 -6px;
+}
+
+/*MegaMenu*/
+.megaMenuCnt {
+	margin: 25px 17px;
+	overflow: hidden;
+	position: absolute;
+	width: 950px;
+	z-index: 999;
+	left: 0;
+}
+
+.mmContainer {
+	margin-left: 3px;
+	margin-top: 8px;
+	position: absolute;
+	top: -270px;
+	width: 941px;
+	font-size: 11px;
+}
+
+.megamenu {
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+
+.mmContainerInner {
+	overflow: hidden;
+}
+
+.mmContainer ul.mMenuList {
+	float: left;
+	padding: 16px 0;
+	width: 694px;
+}
+
+ul.mMenuList li {
+	border-right: 1px dotted #333333;
+	float: left;
+	height: 185px;
+	list-style: none outside none;
+	margin: 0 0 0 25px;
+	width: 205px;
+}
+
+ul.mMenuList li.last {
+	border-right: none;
+}
+
+ul.mMenuList li.mMenuListSpace ul {
+	padding-top: 25px;
+}
+
+ul.mMenuList li h4.mMenuListHdr {
+	padding: 3px 0;
+}
+
+ul.mMenuList li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	line-height: 18px;
+}
+
+ul.mMenuList li h4 a {
+	padding: 0;
+}
+
+ul.mMenuList li a:hover {
+	color: #00589D;
+	text-decoration: underline;
+}
+
+ul.mMenuList li ul li {
+	border: medium none;
+	height: auto;
+	margin: 0;
+}
+
+.mmOffer {
+	background: url("/sim/chinese/images/mega-menu-tile.gif") repeat scroll 0 0 transparent;
+	border-radius: 0 10px 0 0;
+	float: right;
+	height: 194px;
+	padding: 23px 17px 0;
+	position: relative;
+	text-align: right;
+	width: 200px;
+}
+
+.mmBottomArea {
+	background: none repeat scroll 0 0 #EDEDED;
+	height: 29px;
+	padding: 11px 0 0 25px;
+	border-radius: 0 0 10px 10px;
+	position: relative;
+}
+
+a.mmBottomAreaLink {
+	background: url("/sim/chinese/images/spriteView.png") no-repeat scroll -10px -336px transparent;
+	margin: 8px 0 0 5px;
+	padding: 0 0 0 10px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.mmBottomAreabg {
+	background: #ededed url("/sim/chinese/images/left-nav.png") no-repeat left top;
+}
+
+.mmBottomArea a {
+	padding-left: 10px;
+}
+
+.mmSubArrow {
+	background: url("/sim/chinese/images/submenu-arrow.png") no-repeat scroll 0 0 transparent;
+	height: 14px;
+	left: 48px;
+	position: absolute;
+	top: -6px;
+	width: 69px;
+}
+
+/*MegaMenu*/
+
+#wrapper {
+	overflow: hidden;
+	padding: 0 29px;
+	background: #FFF !important;
+}
+
+#wrapper.selectBox {
+	overflow: visible !important;
+}
+
+.heading {
+	border-bottom: 2px solid #C5C5C5;
+	overflow: hidden;
+	padding: 16px 0 12px;
+}
+
+#sidebar {
+	background: url("/sim/chinese/images/navContainerBg.jpg") no-repeat scroll right 0 transparent;
+	float: left;
+	margin: 0 20px 0 0;
+	min-height: 458px;
+	padding: 23px 9px 0 0;
+	width: 205px;
+}
+
+#leftNav {
+	border-bottom: 1px dotted #333333;
+	list-style-type: none;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+#leftNav li {
+	border-top: 1px dotted #333333;
+	display: block;
+	list-style: none outside none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#leftNav li a {
+	display: inline-block;
+	float: left;
+	line-height: normal;
+	padding: 12px 0 12px 5px;
+	text-decoration: none;
+	width: 179px;
+	color: #333;
+}
+
+#leftNav.leftNavGold li a:hover {
+	color: #bca677;
+}
+
+#leftNav li span {
+	display: block;
+	float: right;
+}
+
+#leftNav li span.rightArrow {
+	background: url("/sim/chinese/images/left-nav.png") no-repeat scroll right 0 transparent;
+	width: 21px;
+	height: 29px;
+	padding: 10px 0 0;
+	display: block;
+}
+
+
+#leftNav li span.rightArrow.listActive {
+	background: url("/sim/chinese/images/left-nav.png") no-repeat scroll right -38px transparent;
+}
+
+#leftNav li span.rightArrowSub {
+	background: url("/sim/chinese/images/left-nav.png") no-repeat scroll right -81px transparent;
+	width: 21px;
+	padding: 10px 0 0;
+	display: block;
+	margin-top: -28px;
+	height: 18px;
+}
+
+#leftNav li span.rightArrowSub.listActive {
+	background-image: url("/sim/chinese/images/left-nav.png");
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: right -122px;
+	height: 18px;
+}
+
+#leftNav li ul.leftNavSubLinks {
+	clear: both;
+	display: none;
+	padding: 1px 0 10px;
+}
+
+#leftNav li ul.leftNavSubLinks.last {
+	padding: 0px;
+}
+
+#leftNav li ul.leftNavSubLinks li {
+	border-top: 0 dotted #333333;
+}
+
+#leftNav li ul.leftNavSubLinks li a {
+	padding: 6px 20px 5px;
+	width: 170px;
+}
+
+#leftNav li ul.leftNavSubLinks li a.listActive {
+	background: #f3f3f3;
+}
+
+#leftNav li a:hover {
+	color: #3399CC;
+}
+
+#leftNav.leftNavGold li a:hover {
+	color: #BCA677;
+}
+
+#leftNav li a.listActive {
+	font-weight: bold;
+}
+
+#leftNav li ul.leftNavSubLinks li ul li a {
+	padding: 6px 20px 5px 30px;
+	width: 156px;
+}
+
+#leftNav li a.lftnavLink {
+	width: 200px;
+}
+
+#leftNav li ul.leftNavSubLinks li ul li a.listActive {}
+
+#leftNav li ul.leftNavSubLinks li ul li ul li {
+	padding: 6px 20px 5px 35px;
+}
+
+#leftNav li ul.leftNavSubLinks li ul li ul li a {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0 0 0 10px;
+}
+
+#leftNav li ul.leftNavSubLinks li ul li ul li a.listActive {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	text-decoration: none;
+}
+
+.linkListHldr {
+	padding: 0 0 15px 0;
+}
+
+.linkListHldr li {
+	list-style: none;
+}
+
+.linkListDetails {
+	clear: both;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: none;
+}
+
+.showHideHldr {
+	float: left;
+	padding: 0;
+}
+
+.hideDetails,
+.showDetails {
+	display: inline-block;
+	float: left;
+	height: 14px;
+	margin-right: 6px;
+	width: 14px;
+	vertical-align: middle;
+}
+
+.hideDetails {
+	background: url("/sim/chinese/images/minus.png") no-repeat 0 0;
+}
+
+.showDetails {
+	background: url("/sim/chinese/images/plus.png") no-repeat 0 0;
+}
+
+.linkListHldrTxt {
+	color: #333333;
+	float: left;
+	line-height: 15px;
+	padding: 0;
+}
+
+.linkListHdr {
+	padding: 0 0 10px 0;
+	overflow: hidden;
+	display: block;
+}
+
+#main {
+	float: left;
+	width: 692px;
+}
+
+ul.breadCrumb {
+	color: #666666;
+	overflow: hidden;
+	padding: 5px 0;
+	zoom: 1;
+	z-index: 9;
+	position: relative;
+	background: #fff;
+}
+
+.searchArea {
+	margin-top: -92px;
+	margin-bottom: 10px;
+	z-index: 3;
+}
+
+ul.breadCrumb li {
+	display: inline-block;
+	float: left;
+	font-size: 11px;
+	padding: 0 4px 0 0;
+}
+
+ul.breadCrumb li a {
+	color: #666666;
+}
+
+ul.breadCrumb li.active {
+	color: #000000;
+	padding: 0;
+}
+
+.bannerHolder {
+	height: 100%;
+	position: relative;
+	margin: 0 0 25px;
+}
+
+.bannerProd {
+	height: auto;
+	position: relative;
+	margin: 0 0 25px;
+	z-index: 0;
+}
+
+.fullBanner {
+	left: -29px;
+	max-width: none;
+	position: relative;
+}
+
+.bannerTitle {
+	color: #FFFFFF;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	padding: 0 20px 0 14px;
+	position: absolute;
+	z-index: 1;
+	left: 40%;
+	width: 390px;
+}
+
+.bannerTitle.bannerTitleWOImg {
+	color: #FFFFFF;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	padding: 0 20px 0 14px;
+	position: absolute;
+	z-index: 1;
+	left: -2%;
+	width: 361px;
+}
+
+.largeTitle {
+	font-size: 26px;
+	line-height: 30px;
+	padding: 0;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+}
+
+.mediumTitle {
+	font-size: 18px;
+	line-height: 24px;
+	padding: 8px 0 0;
+}
+
+.smallTitle,
+.smallTitleSlide {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 4px 0 0;
+}
+
+.bannerPromo {
+	position: relative;
+	margin: 0 0 30px;
+}
+
+.bannerPromo .bannerTitle {
+	color: #FFFFFF;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	font-weight: lighter;
+	padding: 0 0 0 25px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	width: 480px;
+	top: 8%;
+}
+
+.bannerPromo .largeTitle {
+	font-size: 60px;
+	line-height: normal;
+	padding: 0;
+}
+
+.bannerPromo .mediumTitle {
+	font-size: 24px;
+	line-height: 30px;
+	padding: 8px 0 0;
+}
+
+.bannerPromo .smallTitle,
+.bannerPromo .smallTitleSlide {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 4px 0 0;
+}
+
+.bannerBtn {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	z-index: 1;
+}
+
+.learnMoreLink {
+	text-align: right;
+	padding-top: 15px;
+}
+
+.learnMoreLink a {
+	background: url("/sim/chinese/images/learn-more.png") no-repeat scroll right 4px transparent;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 9px;
+	padding-right: 12px;
+	width: 5px;
+}
+
+.airAsiaBlock,
+.freeStay,
+.premierMiles {
+	height: 452px;
+	position: relative;
+	margin: 0 0 25px;
+}
+
+.airAsiaBlock .bannerTitle {
+	color: #FFFFFF;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	padding: 25px 20px 0 0px;
+	position: absolute;
+	z-index: 1;
+	left: 0%;
+	width: 500px;
+}
+
+.airAsiaBlock .largeTitle {
+	font-size: 35px;
+	line-height: 30px;
+	padding: 0 0 7px 0;
+}
+
+.airAsiaBlock .smallTitle {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 4px 0 0;
+}
+
+.bannerProdTile {
+	height: 55px;
+	position: relative;
+	margin: 0 0 25px;
+	z-index: 1;
+}
+
+.bannerProdTile .bannerSubTitle {
+	color: #555555;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	padding: 0 20px 0 0px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	/*width:500px;*/
+}
+
+.bannerProdTile .largeSubTitle {
+	font-size: 24px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+
+.overview {
+	padding: 0 0 20px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.commLikeArea {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.topBox {
+	background: none repeat scroll 0 0 #F6F6F6;
+	border-bottom: 1px dotted #CCCCCC;
+	border-top: 1px dotted #CCCCCC;
+	padding: 20px 25px 20px;
+	margin: 0 0 30px 0;
+}
+
+.topBox .topBoxInner,
+.topBox .topBoxInnBlock {
+	overflow: hidden;
+}
+
+.topBox .topBoxInner ul.giftVocher {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.topBox .topBoxInner ul.giftVocher li {
+	width: 100px;
+	margin-right: 5px;
+	float: left;
+}
+
+.topBox .topBoxInner .left {
+	float: left;
+}
+
+.topBox .topBoxInner .right {
+	float: left;
+	margin-left: 20px;
+	width: 446px;
+}
+
+.topBox .topBoxInner .right p {
+	padding-top: 40px;
+}
+
+.topBox .topBoxInner .right ul li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat scroll 0 4px transparent;
+	line-height: 16px;
+	padding: 0 0 15px 25px;
+}
+
+.topBox .topBoxInnBlock .topBoxInnBckCont {
+	width: 100%;
+}
+
+.topBox .topBoxInnBlock .topBoxInnBckCont ul li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat scroll 0 4px transparent;
+	line-height: 16px;
+	padding: 0 0 15px 25px;
+}
+
+.topBox .topBoxBtn {
+	border-top: 1px dotted #CCCCCC;
+	margin-top: 5px;
+	padding: 20px 0 30px 0;
+}
+
+.topBoxBtn .left {
+	float: left;
+}
+
+.topBoxBtn .right {
+	float: right;
+}
+
+.tabBtnBlock {
+	padding: 15px 0px 15px 0;
+	overflow: hidden;
+}
+
+.topContentArea {
+	background: #EDEDED;
+	border-bottom: 1px dotted #999999;
+	border-top: 1px dotted #999999;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 15px 20px 5px;
+}
+
+.topContentThump {
+	float: left;
+	width: 150px;
+	padding: 0 10px 10px 0;
+}
+
+.topContentInner h3 {
+	padding-bottom: 10px;
+}
+
+ul.tickList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 11px 0px;
+}
+
+ul.tickList li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat 0 3px;
+	list-style: none;
+	padding: 0 0 15px 25px;
+}
+
+.productsMain {
+	overflow: hidden
+}
+
+.productWrap {
+	border-bottom: 1px #ccc dotted;
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+
+.productWrap.last {
+	border: none;
+}
+
+.productsList {
+	float: left;
+	width: 176px;
+	padding: 0 27px;
+}
+
+.productsList.center {
+	border-left: 1px solid #CCCCCC;
+}
+
+.productsList.right {
+	border-left: 1px solid #CCCCCC;
+}
+
+.thumbImg {
+	padding: 0 0 10px;
+}
+
+.productsListDetails {
+	margin: 0 0 15px;
+	overflow: hidden;
+}
+
+ul.tabInnerListHolder li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat scroll 0 2px transparent;
+	line-height: 20px;
+	padding: 0 0 5px 25px;
+}
+
+.productsList.micWelcomFrst {
+	float: left;
+	width: 176px;
+	padding-left: 0px;
+}
+
+ul.tabInnerListHolder.airAsia li {
+	font-size: 13px;
+}
+
+.productsList.productsListWrapCom {
+	width: 92%;
+}
+
+.productWrapPro {
+	border-bottom: 1px #ccc dotted;
+	padding: 0 0 20px;
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+
+.productWrapPro.last {
+	border: none;
+}
+
+.productsListPro {
+	float: left;
+	width: 295px;
+	padding: 0 13px;
+}
+
+.productsListPro.center {
+	border-left: 1px solid #CCCCCC;
+}
+
+.productsMain.topBox {
+	padding: 20px 0 0 0;
+}
+
+.productsMain.topBox .productWrap {
+	border-bottom: none;
+	margin: 0px;
+}
+
+.productsList.twoLst {
+	float: left;
+	width: 291px;
+	padding: 0 27px;
+}
+
+.micPadBtmInn {
+	padding-bottom: 20px;
+}
+
+.grayClr {
+	color: #555 !important;
+}
+
+.blueClr {
+	color: #00589d;
+}
+
+.productsListContWrap {
+	overflow: hidden;
+}
+
+.productsListContWrap .getDetail {
+	overflow: hidden;
+}
+
+.checkList li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat 0 3px;
+	line-height: 16px;
+	list-style: none;
+	padding: 0 0 15px 25px;
+}
+
+.getDetail {
+	padding: 15px 0 0;
+}
+
+.getDetail li {
+	list-style: none;
+}
+
+.productsListContWrap .getDetail li.more {
+	float: left;
+}
+
+.productsListContWrap .getDetail li.talk {
+	/*float: right; 9-25 by yunxi*/
+	float: left;
+	margin-left: 10px;
+}
+
+.topContentAplyWrap {
+	clear: both;
+	/*overflow: hidden;*/
+	padding: 15px 0 0;
+	min-height: 35px;
+}
+
+.topContentAplyWrap a {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0;
+	text-align: center;
+	width: 175px;
+}
+
+.greyBtn,
+.blueBtn,
+.goldBtn {
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	min-width: 60px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+}
+
+.greyBtn {
+	background: #97999B;
+}
+
+.goldBtn {
+	background: #BCA677;
+}
+
+.blueBtn {
+	background: #00BDF2;
+}
+
+/*.productsListContWrap .greyBtn, .productsListContWrap .blueBtn {
+	width: auto;
+	padding: 6px 7px;
+	font-size: 11px;
+	min-width: inherit;
+}*/
+.goldBtn:hover {
+	background: #BCA677;
+}
+
+.greyBtn:hover,
+.blueBtn:hover {
+	background: #008ce6;
+}
+
+.greyBtn.commBtnPro,
+.blueBtn.commBtnPro {
+	width: auto !important;
+	padding: 10px;
+}
+
+ul.bottomLinksWrap {
+	border-top: 1px #ccc dotted;
+	padding: 20px 0 0;
+	margin: 0 0 10px;
+	overflow: hidden;
+}
+
+ul.bottomLinksWrap li {
+	list-style: none;
+	float: left;
+}
+
+ul.bottomLinksWrap li.left {
+	padding: 0 10px 0 27px;
+	width: 191px;
+}
+
+ul.bottomLinksWrap li.center {
+	border-left: 1px #ccc solid;
+	padding: 0 20px;
+	width: 191px;
+}
+
+ul.bottomLinksWrap li.right {
+	padding: 0 20px;
+	border-left: 1px #ccc solid;
+	width: 191px;
+}
+
+ul.bottomLinksWrap li ul.linkList li {
+	float: none;
+}
+
+ul.bottomLinksWrap li.left.micWelcomFrst {
+	padding-left: 0px;
+}
+
+ul.bottomLinksWrap.noBorder {
+	border-top: none;
+	padding-top: 0px;
+}
+
+ul.bottomLinksWrap.cLrBorderTop {
+	border-top: none;
+}
+
+ul.linkList {
+	overflow: hidden;
+}
+
+ul.linkList li {
+	background: url("/sim/chinese/images/grayarrow.png") no-repeat scroll 0 center transparent;
+	padding: 0 0 0 15px;
+	list-style: none;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+ul.linkList li a {
+	display: inline-block;
+}
+
+.bottomPromo {
+	overflow: hidden;
+	padding: 23px 0;
+	border-top: 1px dotted #CCCCCC;
+}
+
+ul.bottomPromo.cLsBdrNone {
+	border: none;
+}
+
+ul.bottomPromo li.left {
+	float: left;
+	padding: 0 25px 0 0;
+	width: 295px;
+	list-style: none;
+}
+
+ul.bottomPromo li.left.creditCard {
+	width: 228px;
+}
+
+ul.bottomPromo li.right {
+	border-left: 1px dotted #CCCCCC;
+	float: right;
+	padding: 0 0 0 25px;
+	width: 295px;
+	list-style: none;
+}
+
+ul.bottomPromo li.right.creditCard {
+	width: 362px;
+}
+
+ul.promoInnBlock {
+	overflow: hidden;
+	padding: 23px 24px 23px 0px;
+	border-top: 1px dotted #CCCCCC;
+}
+
+ul.promoInnBlock li.left {
+	float: left;
+	padding: 0 25px 0 0;
+	width: 295px;
+	list-style: none;
+}
+
+ul.promoInnBlock li.left.features {
+	width: 285px !important;
+}
+
+ul.promoInnBlock li.left h3,
+ul.promoInnBlock li.right h3 {
+	overflow: hidden;
+}
+
+ul.promoInnBlock li.left h3 span.promoInnTopPad,
+ul.promoInnBlock li.right h3 span.promoInnTopPad {
+	padding: 4px 0 0 5px;
+}
+
+ul.promoInnBlock li.left h3 span,
+ul.promoInnBlock li.right h3 span {
+	float: left;
+	padding-right: 5px;
+	display: block;
+}
+
+ul.promoInnBlock li.right {
+	border-left: 1px dotted #CCCCCC;
+	float: right;
+	padding: 0 0 0 25px;
+	width: 295px;
+	list-style: none;
+}
+
+ul.promoInnBlock li.right.features {
+	width: 285px !important;
+}
+
+ul.promoBoxBlock {
+	overflow: hidden;
+	padding: 20px;
+	border-top: 1px dotted #CCCCCC;
+	border-bottom: 1px dotted #cccccc;
+	background: none repeat scroll 0 0 #F6F6F6;
+	margin-bottom: 20px;
+}
+
+ul.promoBoxBlock li.left {
+	float: left;
+	padding: 0 25px 0 0;
+	width: 295px;
+	list-style: none;
+}
+
+ul.promoBoxBlock li.left h3,
+ul.promoBoxBlock li.right h3 {
+	overflow: hidden;
+}
+
+ul.promoBoxBlock li.left h3 span.promoInnTopPad,
+ul.promoBoxBlock li.right h3 span.promoInnTopPad {
+	padding: 4px 0 0 5px;
+}
+
+ul.promoBoxBlock li.left h3 span,
+ul.promoBoxBlock li.right h3 span {
+	float: left;
+	padding-right: 5px;
+	display: block;
+}
+
+ul.promoBoxBlock li.right {
+	border-left: 1px dotted #CCCCCC;
+	float: right;
+	padding: 0 0 0 25px;
+	width: 295px;
+	list-style: none;
+}
+
+.listcontentFooter {
+	margin: 0 0 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+.listcontentFooter ul li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.listcontentFooter ul li a {
+	color: #fff;
+	background: url("/sim/chinese/images/blue-gradient.jpg") repeat-x;
+	text-align: center;
+	padding: 14px 0 0;
+	position: relative;
+	display: inline-block;
+	height: 33px;
+	width: 227px;
+}
+
+.listcontentFooter ul li a:hover {
+	background: url("/sim/chinese/images/gray-gradient.jpg") repeat-x;
+}
+
+.listcontentFooter span {
+	height: 24px;
+	left: 45px;
+	position: absolute;
+	top: 10px;
+	width: 24px;
+}
+
+.listcontentFooter ul li.right {
+	margin-right: 0;
+}
+
+.listcontentFooter span.footInnTxt {
+	display: inline-block;
+	padding-left: 31px;
+	padding-top: 4px;
+	width: 100px;
+}
+
+.listcontentFooter span.footInnTxtEmail {
+	display: inline-block;
+	padding-left: 31px;
+	padding-top: 4px;
+	width: 70px;
+}
+
+.listcontentFooter span.footInnTxtVst {
+	display: inline-block;
+	padding-left: 31px;
+	padding-top: 4px;
+	width: 83px;
+}
+
+.iconPhone {
+	background: url("/sim/chinese/images/call.png") no-repeat 0 0;
+	margin-left: 5px;
+}
+
+.iconMail {
+	background: url("/sim/chinese/images/mail.png") no-repeat 0 0;
+	margin-left: 5px;
+}
+
+.iconVisit {
+	background: url("/sim/chinese/images/visit.png") no-repeat 0 0;
+}
+
+#footer {
+	padding: 20px 29px 0;
+	font-size: 11px;
+	position: relative;
+	clear: both;
+	z-index: 1;
+}
+
+.footerMenu {
+	border-bottom: 2px solid #CCCCCC;
+	overflow: hidden;
+	padding: 7px 0 5px;
+	width: 100%;
+	z-index: 9999;
+	background: #fff;
+	position: relative;
+}
+
+.footerMenu a {
+	color: #666;
+}
+
+.footerMenu a:hover {
+	text-decoration: underline;
+}
+
+.footerLinks {
+	float: right;
+	padding: 0;
+}
+
+.footerLinks ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footerLinks ul li {
+	float: left;
+	padding: 0 0 0 23px;
+	list-style: none;
+}
+
+.footerLeftLink {
+	float: left;
+	padding: 2px 7px 0 0;
+}
+
+.mediaIcons {
+	float: left;
+	border-left: 1px solid #ccc;
+	padding: 0 0 0 7px;
+}
+
+.mediaIcons li {
+	float: left;
+	margin: 0 6px 0 0;
+	list-style: none;
+}
+
+.mediaIcons li a.facebookIcon,
+.mediaIcons li a.twitterIcon,
+.mediaIcons li a.youtubeIcon,
+.faceIcon {
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.mediaIcons li a.facebookIcon,
+.faceIcon {
+	background-image: url("/sim/chinese/images/facebookIcon.png");
+}
+
+.mediaIcons li a.twitterIcon {
+	background-image: url("/sim/chinese/images/twitterIcon.png");
+}
+
+.mediaIcons li a.youtubeIcon {
+	background-image: url("/sim/chinese/images/youtubeIcon.png");
+}
+
+.footerLinksList {
+	float: right;
+	padding: 0;
+	margin-top: 30px;
+}
+
+.footerList li {
+	float: left;
+	padding-left: 24px;
+	list-style: none;
+}
+
+.footerDisclaimer {
+	overflow: hidden;
+	padding: 16px 0 35px;
+	z-index: 9999;
+	position: relative;
+	background: #fff;
+}
+
+.footerLogo {
+	background: url("/sim/chinese/images/citi-logo-pc.png") no-repeat;
+	width: 62px;
+	height: 16px;
+	float: left;
+}
+
+.copyRight {
+	float: right;
+	text-align: right;
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#back-top {
+	bottom: 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	z-index: 999999;
+}
+
+#back-top span {
+	background: url("/sim/chinese/images/back-to-top.png") no-repeat scroll 0 0 #DDDDDD;
+	border-radius: 3px 3px 3px 3px;
+	display: block;
+	height: 33px;
+	margin-bottom: 0;
+	transition: all 1s ease 0s;
+	width: 33px;
+	z-index: 999999;
+}
+
+.linkLstWrap {
+	position: absolute;
+	display: none;
+	width: 200px;
+	top: 25px;
+	right: 73px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	z-index: 999;
+	box-shadow: 0 0 10px #ccc;
+	border-radius: 5px;
+	height: 0;
+}
+
+.linkLstWrap li a {
+	color: #999;
+	padding: 0 0 5px;
+	display: block;
+}
+
+.linkLstWrap li a:hover {
+	color: #3399cc;
+}
+
+.linkLstArro {
+	background: url("/sim/chinese/images/link-arrow.png") no-repeat scroll 0 0;
+	width: 14px;
+	height: 8px;
+	display: inline-block;
+	left: 46.5%;
+	bottom: -8px;
+	position: absolute;
+}
+
+.CommonWrapperTwo,
+.CommonWrapperThree {
+	overflow: hidden;
+	width: 100%;
+}
+
+.CommonWrapperTwoIn {
+	overflow: visible;
+}
+
+.CommonWrapperTwo.commonSpace {
+	margin: 0 0 15px 0;
+}
+
+.CommonWrapperTwo .left,
+.CommonWrapperThree .left {
+	width: 290px;
+	float: left;
+}
+
+.CommonWrapperTwo .right,
+.CommonWrapperThree .right {
+	margin-bottom: 20px;
+	float: right;
+}
+
+.leftComm {
+	float: left;
+	width: 290px;
+	padding-bottom: 20px;
+}
+
+.rightComm {
+	float: right;
+	width: 290px;
+	padding-bottom: 20px;
+}
+
+.CommonWrapper {
+	padding: 0 0 20px 0;
+}
+
+.FormCommonWrapper {
+	padding: 20px 0;
+}
+
+.tabsWrapper {
+	padding-bottom: 20px;
+}
+
+.tabsWrapperForm {
+	padding-bottom: 20px;
+}
+
+.tabsContainer {
+	padding: 28px 0 0;
+	position: relative;
+}
+
+.tabsContainer.largeTab {
+	padding: 54px 0 0;
+}
+
+.citiGoldMain .tabs li {
+	-moz-border-radius: 3px 0 0 0;
+	-webkit-border-radius: 3px 0 0 0;
+	-o-border-radius: 3px 0 0 0;
+	border-radius: 3px 3px 0 0;
+	background: #BCA677;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#BCA677), to(#926F35));
+	background: -webkit-linear-gradient(#BCA677, #926F35 70%);
+	background: -moz-linear-gradient(#BCA677, #926F35 70%);
+	background: -ms-linear-gradient(#BCA677, #926F35 70%);
+	background: -o-linear-gradient(#BCA677, #926F35 70%);
+	background: linear-gradient(#BCA677, #926F35 70%);
+	-pie-background: linear-gradient(#BCA677, #926F35 70%);
+	display: inline-block;
+	float: left;
+	margin-right: 4px;
+	padding: 0;
+	position: relative;
+}
+
+.tabs {
+	position: absolute;
+	top: 0;
+}
+
+.tabs li,
+.tabsContainer .yansa {
+	-moz-border-radius: 3px 0 0 0;
+	-webkit-border-radius: 3px 0 0 0;
+	-o-border-radius: 3px 0 0 0;
+	border-radius: 3px 3px 0 0;
+	background: #74A2D0;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#74A2D0), to(#1D6AA8));
+	background: -webkit-linear-gradient(#74A2D0, #1D6AA8 70%);
+	background: -moz-linear-gradient(#74A2D0, #1D6AA8 70%);
+	background: -ms-linear-gradient(#74A2D0, #1D6AA8 70%);
+	background: -o-linear-gradient(#74A2D0, #1D6AA8 70%);
+	background: linear-gradient(#74A2D0, #1D6AA8 70%);
+	-pie-background: linear-gradient(#74A2D0, #1D6AA8 70%);
+	display: inline-block;
+	float: left;
+	margin-right: 4px;
+	padding: 0;
+	position: relative;
+}
+
+.tabsContainer .yansa {
+	float: left;
+	margin-top: -28px;
+}
+
+.tabs li.active {
+	background: -webkit-gradient(linear, 0 0, 0 90%, from(#F4F4F4), to(#FFFFFF));
+	background: -webkit-linear-gradient(#F4F4F4, #FFFFFF 90%);
+	background: -moz-linear-gradient(#F4F4F4, #FFFFFF 90%);
+	background: -ms-linear-gradient(#F4F4F4, #FFFFFF 90%);
+	background: -o-linear-gradient(#F4F4F4, #FFFFFF 90%);
+	background: linear-gradient(#F4F4F4, #FFFFFF 90%);
+	-pie-background: linear-gradient(#F4F4F4, #FFFFFF 90%);
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	top: 0;
+}
+
+.tabs.small {
+	font-size: 11px;
+}
+
+.tabs li a,
+.tabsContainer .yansa a {
+	border-bottom: medium none;
+	color: #FFFFFF;
+	display: block;
+	height: 22px;
+	outline: medium none;
+	padding: 6px 10px 0;
+	text-decoration: none;
+}
+
+.tabs li a.largeTab {
+	height: 48px !important;
+	padding: 6px 9px 0;
+}
+
+.tabs li.active a {
+	color: #00589D;
+	font-weight: bold;
+}
+
+.tabsgold li.active a {
+	color: #bca677;
+}
+
+.citiGoldMain .tabs li.active a {
+	color: #BCA677;
+	font-weight: bold;
+}
+
+.tabBotBtn {
+	padding: 0 0 15px;
+	overflow: hidden;
+}
+
+.tabContentWrap {
+	border: 1px solid #C1C1C1;
+	padding: 21px 22px 20px;
+}
+
+.tabContent {
+	display: none;
+}
+
+.active_content {
+	display: block;
+}
+
+.tabProBlock {
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.tabProBlockInn {
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px dotted #cccccc;
+	padding: 15px 0;
+}
+
+.tabProBlockInn .left {
+	float: left;
+	width: 150px;
+}
+
+.tabProBlockInn .right {
+	float: left;
+	padding-left: 20px;
+	width: 452px;
+}
+
+.tabProBlockInn .right .clsPadTopPro {
+	padding: 27px 0 0 0;
+}
+
+.tabProBlockInn.noBorderLast {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+
+.tabProInnBtn {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.clsipen {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0px 0 10px 10px;
+}
+
+ul.bulLst {
+	padding: 0 0 10px;
+}
+
+ul.bulLst li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+ul.bulLst li ul {
+	margin: 10px 0 0 0;
+}
+
+ul.bulLst li ul li {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0px 0 10px 10px;
+}
+
+ul.bulLst li ul.numLst li {
+	background: none;
+	padding: 0px 0 10px 2px;
+	margin-left: 17px;
+}
+
+ul.bulLst.last,
+ul.bulLst li.last,
+ul.bulLst li ul.numLst.last,
+.clsDisList ol.termsCondtn li ol.bulList.last,
+.clsDisList ol.termsCondtn li.last {
+	padding-bottom: 0 !important;
+}
+
+ul.bulLst.Online {
+	width: 40%;
+	float: left;
+}
+
+ul.bulLstSplit li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+	width: 140px;
+	float: left;
+}
+
+ul.bulLstSplit2 {
+	overflow: hidden;
+}
+
+ul.bulLstSplit2 li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+	width: 200px;
+	float: left;
+}
+
+ul.bulLstSmall li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0 0 5px 10px;
+	list-style: none;
+	line-height: 17px;
+	font-size: 11px;
+}
+
+ul.numLst,
+ol.numLst {
+	padding-bottom: 10px;
+}
+
+ol.numLst {
+	padding: 0 0 10px;
+	margin: 0 0 0 10px;
+}
+
+ul.numLst li,
+ol.numLst li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 15px;
+	list-style: disc;
+	line-height: 17px;
+}
+
+ul.numLst li ul.bullLst li {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0px 0 10px 10px;
+	list-style: none;
+}
+
+ol.lowerAlpha {
+	padding-bottom: 10px;
+}
+
+ol.lowerAlpha li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-alpha;
+	line-height: 17px;
+}
+
+ol.lowerAlpha li ol li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-roman;
+	line-height: 17px;
+}
+
+ol.lowerAlpha li ol.lowerAlpha li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-alpha;
+	line-height: 17px;
+}
+
+ol.lowerAlpha li ol.bulletList li {
+	margin: 0;
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+ol.lowerRomanLtr {
+	padding-bottom: 10px;
+}
+
+ol.lowerRomanLtr li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-roman;
+	line-height: 17px;
+}
+
+ol.lowerRomanBig li {
+	margin: 0 0 0 40px;
+}
+
+ol.lowerRomanLtr li ol {
+	padding-top: 10px;
+}
+
+ol.lowerRomanLtr li ol li {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0px 0 10px 10px;
+	list-style: none;
+}
+
+ol.lowerAlphaBul {
+	padding-bottom: 10px;
+	margin-left: -8px;
+}
+
+ol.lowerAlphaBul li {
+	padding: 6px 0 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-alpha;
+	line-height: 17px;
+}
+
+ol.lowerAlphaBul li ol {
+	padding-top: 10px;
+}
+
+ol.lowerAlphaBul li ol li {
+	background: url("/sim/chinese/images/squareBullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0px 0 10px 10px;
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+/*For Terms Conditions*/
+.clsDisList ol.termsCondtn li {
+	padding: 0 0 5px;
+	margin: 0 0 0 25px;
+	list-style: decimal;
+	line-height: 17px;
+	*margin: 0 0 0 28px;
+}
+
+.clsDisList p {
+	padding: 0 0 5px !important;
+}
+
+.clsDisList p.last {
+	padding: 0 !important;
+}
+
+.clsDisList ul.numLst li {
+	margin: 0 0 0 25px;
+	*margin: 0 0 0 28px;
+}
+
+.clsDisList ol.termsCondtn,
+.clsDisList ol.termsCondtn li ol,
+.clsDisList ol.termsCondtn li ol li ol,
+.clsDisList ol.termsCondtn li ol.bulList li ol,
+.clsDisList ol.lowerRoman {
+	padding: 0;
+	margin: 0;
+}
+
+.clsDisList ol.termsCondtn li ol.cLspadTop {
+	margin-top: 10px;
+}
+
+.clsDisList ol.termsCondtn li ol li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 18px;
+	list-style: lower-alpha;
+	line-height: 17px;
+}
+
+.clsDisList ol.termsCondtn li ol.bulList {
+	margin: 0;
+	padding: 0;
+}
+
+.clsDisList ol.termsCondtn li ol.bulList li {
+	background: url("/sim/chinese/images/	.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0 0 5px 10px;
+	list-style: none;
+	line-height: 17px;
+	margin: 0;
+}
+
+.clsDisList ol.termsCondtn li ol.lowerRoman li ol li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: lower-alpha;
+	line-height: 17px;
+}
+
+.clsDisList ol.termsCondtn li ol.lowerRoman li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 18px;
+	list-style: lower-roman;
+	line-height: 17px;
+}
+
+.clsDisList ol.termsCondtn li ol li ol li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 17px;
+	list-style: lower-roman;
+	line-height: 17px;
+}
+
+.clsDisList ol.termsCondtn li ol li ol li ol li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 7px transparent;
+	padding: 0 0 5px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+.clsDisList ol.termsCondtn li.clsPadTopBlock ol li.clsMarTopMin1 {
+	margin-top: -18px;
+}
+
+.clsDisList ol li ol li.clsMarTopMin {
+	margin-top: -20px;
+	margin-left: 0px;
+}
+
+.clsDisList ol li ol li.clsMarTopLft {
+	margin-left: 0px;
+}
+
+.clsDisList ol.lowerRoman li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 19px;
+	list-style: none;
+	list-style: lower-roman;
+	line-height: 17px;
+}
+
+/* New Disclaimer */
+.disClaimerBlock {
+	width: 100%;
+}
+
+.disClaimerBckInn {
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.disClaimerLftFrst {
+	float: left;
+	width: 20px;
+}
+
+.disClaimerRgtFrst {
+	float: left;
+	width: 620px;
+	padding-left: 5px;
+}
+
+/* Common Type List */
+.proPromInnLst {
+	overflow: hidden;
+	width: 100%;
+	padding-left: 25px;
+}
+
+.proPromInnLstBlk {
+	float: left;
+	width: 200px;
+}
+
+ol.comTypeLst {
+	display: block;
+}
+
+ol.comTypeLst li {
+	list-style-type: decimal;
+	padding-bottom: 8px;
+}
+
+.proInnImgArea {
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+
+.proInnImgArea ul {
+	display: block;
+}
+
+.proInnImgArea ul li {
+	float: left;
+	padding-right: 30px;
+}
+
+.showHideArea {
+	padding: 0 0 7px;
+}
+
+.showHideHdr a {
+	font-weight: bold;
+}
+
+.show,
+.hide {
+	display: inline-block;
+	padding-left: 25px;
+	line-height: 17px;
+}
+
+.show {
+	background: url("/sim/chinese/images/plus.png") no-repeat scroll 0 3px transparent;
+}
+
+.hide {
+	background: url("/sim/chinese/images/minus.png") no-repeat scroll 0 3px transparent;
+}
+
+.showHideHdr {
+	padding: 0 0 10px 0;
+}
+
+.showHideSubHdr {
+	padding: 0 0 15px 0;
+}
+
+.showHideHdr a,
+.showHideSubHdr a,
+.showHideHdr span,
+.showHideSubHdr span {
+	cursor: pointer;
+	display: inline-block;
+}
+
+.showHideCont {
+	display: none;
+	padding: 0 0 0 24px;
+}
+
+.showHideSubArea .showHideHdr a {
+	font-weight: normal;
+}
+
+.showHideSubCont {
+	display: none;
+	padding: 0 0 5px 24px;
+}
+
+.tableWrap {
+	padding: 0 0 15px;
+}
+
+.tableWrap table {
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	width: 100%;
+	box-shadow: 2px 2px 4px #CCCCCC;
+}
+
+.tableWrap tr {
+	vertical-align: top;
+}
+
+.tableWrap tr.whiteBg,
+.tableWrap tr.grayBg {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+.tableWrap tr.whiteBg {
+	background-color: #FFFFFF;
+}
+
+.tableWrap tr.grayBg {
+	background-color: #F5F5F5;
+}
+
+.tableWrap tr th,
+.tableWrap tr td {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	line-height: 17px;
+	padding: 13px 10px;
+	text-align: left;
+}
+
+.oneColumn {
+	width: 100%;
+}
+
+.tblColumn70 {
+	width: 70%;
+}
+
+.tblColumn80 {
+	width: 80%;
+}
+
+.tblTwoColumn {
+	width: 50%;
+}
+
+.tblTwoColumn30 {
+	width: 30%;
+}
+
+.tblThreeColumn {
+	width: 33.33333333333333%;
+}
+
+.tblFourColumn {
+	width: 25%;
+}
+
+.tblFiveColumn {
+	width: 20%;
+}
+
+.tblColumn10 {
+	width: 10%;
+}
+
+.tblColumn5 {
+	width: 5%;
+}
+
+.tblColumn90 {
+	width: 90%;
+}
+
+.tblColumn40 {
+	width: 40%;
+}
+
+.tblCol30 {
+	width: 30%;
+}
+
+.tblMarg {
+	margin-top: 10px;
+}
+
+.contInnerWrap {
+	padding-bottom: 10px;
+}
+
+.contInnerList {
+	overflow: hidden;
+}
+
+.contInnerList ul {
+	float: left;
+	padding-right: 30px;
+}
+
+.contInnerBox {
+	padding-bottom: 20px;
+}
+
+.contInnerBox h3 {
+	padding-bottom: 5px;
+}
+
+.contInnerBox p {
+	padding-left: 34px;
+}
+
+.monthlyIcon,
+.weeklyIcon,
+.dailyIcon,
+.eyeIcon,
+.getStartIcon,
+.oneIcon,
+.twoIcon,
+.threeIcon,
+.fourIcon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.monthlyIcon {
+	background: url("/sim/chinese/images/monthly-icon.png") no-repeat scroll 0 0 transparent;
+}
+
+.weeklyIcon {
+	background: url("/sim/chinese/images/weekly-icon.png") no-repeat scroll 0 0 transparent;
+}
+
+.dailyIcon {
+	background: url("/sim/chinese/images/daily-icon.png") no-repeat scroll 0 0 transparent;
+}
+
+.eyeIcon {
+	background: url("/sim/chinese/images/eye-icon.png") no-repeat scroll 0 0 transparent;
+}
+
+.getStartIcon {
+	background: url("/sim/chinese/images/get-started.png") no-repeat scroll 0 0 transparent;
+}
+
+.oneIcon {
+	background: url("/sim/chinese/citi-online/images/icon/01.png") no-repeat scroll 0 0 transparent;
+}
+
+.twoIcon {
+	background: url("/sim/chinese/citi-online/images/icon/02.png") no-repeat scroll 0 0 transparent;
+}
+
+.threeIcon {
+	background: url("/sim/chinese/citi-online/images/icon/03.png") no-repeat scroll 0 0 transparent;
+}
+
+.fourIcon {
+	background: url("/sim/chinese/citi-online/images/icon/04.png") no-repeat scroll 0 0 transparent;
+}
+
+.bottomBox {
+	background: #f6f6f6;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	margin: 0 0 10px;
+	overflow: hidden;
+}
+
+.listBox {
+	overflow: hidden;
+	width: 100%;
+	padding: 0 0 10px;
+}
+
+.listBox li {
+	width: 17%;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	float: left;
+	min-height: 75px;
+}
+
+.listBox li.rhtArro {
+	background: url("/sim/chinese/images/rht-arrow.png") center center no-repeat;
+	width: 18px;
+	border: none;
+	box-shadow: none;
+}
+
+.bottomBoxBtn {
+	float: right;
+}
+
+ul.stepHldr {
+	overflow: hidden;
+}
+
+ul.stepHldr li {
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+ul.stepHldr li span.stepList {
+	float: left;
+	padding-right: 10px;
+	width: 7%;
+}
+
+ul.stepHldr li span.stepCont {
+	float: left;
+	width: 90%;
+}
+
+.disclaimer {
+	font-size: 11px;
+	color: #666;
+}
+
+.scrollArea {
+	overflow: hidden;
+	padding: 0 0 20px;
+	position: relative;
+}
+
+.scrollAreaWrap {
+	overflow: hidden;
+}
+
+.scrollAreaHdr {
+	float: left;
+	padding-top: 3px;
+}
+
+.termsCondIcon {
+	float: right;
+}
+
+.printIcon {
+	background: url("/sim/chinese/images/printIcon.png") no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
+.TermsAndConditions {
+	clear: both;
+	padding: 10px;
+	border: 1px #ccc solid;
+	font-size: 11px;
+}
+
+.TermsAndConditions .scroll-pane {
+	width: 100%;
+	height: 110px;
+	overflow: auto;
+}
+
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane {
+	position: absolute;
+}
+
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6px;
+	height: 100%;
+}
+
+.jspHorizontalBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar * {
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap {
+	display: none;
+}
+
+.jspHorizontalBar .jspCap {
+	float: left;
+}
+
+.jspTrack {
+	background: #f7f7f7;
+	position: relative;
+}
+
+.jspDrag {
+	background: #ccc;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+	float: left;
+	height: 100%;
+}
+
+.jspArrow {
+	background: #F7F7F7;
+	text-indent: -20000px;
+	display: none;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled {
+	cursor: default;
+	background: #F7F7F7;
+}
+
+.jspVerticalBar .jspArrow {
+	height: 0px;
+}
+
+.jspHorizontalBar .jspArrow {
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus {
+	outline: none;
+}
+
+.jspCorner {
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+* html .jspCorner {
+	margin: 0 -3px 0 0;
+}
+
+.discList ol {
+	margin: 0;
+	padding-left: 40px;
+}
+
+.discList ol li {
+	list-style-type: decimal;
+	padding-bottom: 12px;
+	line-height: 14px;
+}
+
+/**************************** Forms CC APPLICATION Start *****************************/
+.innerCont {
+	overflow: hidden;
+	padding-bottom: 25px;
+}
+
+.innerCont.kanaform {
+	overflow: visible !important;
+	display: inline-block;
+}
+
+.cardSelectScroll {
+	height: 300px;
+	overflow: auto;
+	width: 100%;
+}
+
+.cardSelect {
+	background: url("/sim/chinese/images/form-bg.jpg") 0 0 repeat;
+	width: 398px;
+	padding: 10px 20px;
+	float: left;
+}
+
+.cardSelectHdr {
+	background: url("/sim/chinese/images/shadow.jpg") bottom center no-repeat;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.cardSelectList {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.cardCheck {
+	float: left;
+	margin-right: 5px;
+}
+
+.cardSelectList .cardImg {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 78px;
+	cursor: pointer;
+}
+
+.cardName {
+	float: left;
+	width: 230px;
+}
+
+.cardName h3 {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cardName h4 {
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.cardDetails {
+	width: 200px;
+	display: none;
+}
+
+.openArrow {
+	background: url("/sim/chinese/images/show.png") no-repeat scroll 0 0 transparent;
+	background-size: 31px 31px;
+}
+
+.closeArrow {
+	background: url("/sim/chinese/images/hide.png") no-repeat scroll 0 0 transparent;
+	background-size: 31px 31px;
+}
+
+.openArrow,
+.closeArrow {
+	cursor: pointer;
+	width: 34px;
+	height: 33px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+	z-index: 997;
+	display: block;
+}
+
+.formHldr {
+	float: left;
+	margin-left: 20px;
+	width: 468px;
+}
+
+.formHldr h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.formInner {
+	display: block;
+	float: left;
+}
+
+.formInner .formField {
+	float: left;
+	width: 207px;
+	padding: 0;
+}
+
+.formInner .formValue {
+	float: left;
+	padding-left: 20px;
+	line-height: 20px;
+	width: 240px;
+}
+
+.formInner input,
+.formValue input[type="radio"] {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.formInner input[type="checkbox"] {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.radioValue {
+	margin-right: 10px;
+	float: left;
+}
+
+.dropListSmall {
+	width: 40px;
+}
+
+.dropListLarge {
+	width: 195px;
+}
+
+.inputTxt {
+	margin-left: 10px;
+	width: 140px;
+}
+
+.inputTxtImp {
+	margin-left: 10px;
+	width: 116px;
+	float: left;
+}
+
+.inputBoxMedium {
+	width: 140px;
+	height: 24px;
+	padding: 0;
+	border: 1px solid #ccc;
+	color: #555;
+}
+
+.inputBoxMediumImp {
+	width: 126px;
+	height: 16px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+
+.inputBoxLarge {
+	width: 231px;
+	height: 24px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+
+.formSubmit {
+	padding: 10px 0 20px;
+	float: right;
+}
+
+.tabHldr {
+	float: left;
+	width: 438px;
+}
+
+/**************************** Forms CC APPLICATION End *****************************/
+/* Home Page */
+.contentBody {
+	position: relative;
+}
+
+.WorkAreaHldr {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.bannerRotate {
+	position: relative;
+}
+
+.marketProductHldr {
+	left: 29px;
+	position: absolute;
+	top: 24px;
+	z-index: 99;
+}
+
+.marketSignHolder {
+	float: left;
+	position: static;
+	width: 209px;
+}
+
+.introUser {
+	padding-bottom: 17px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: 0 19px 15px;
+	overflow: hidden;
+}
+
+.introUser span {
+	float: left;
+	color: #fff;
+}
+
+.introUser a.register {
+	background: url("/sim/chinese/images/register-bg.jpg") repeat-x scroll 0 0 transparent;
+	color: #333;
+	display: block;
+	font-weight: bold;
+	float: right;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 8px;
+	width: auto;
+}
+
+.signOnTxt {
+	color: #fff;
+	font-size: 11px;
+	padding: 0 0 0 12px;
+	background: url("/sim/chinese/images/lock.png") no-repeat scroll 0 2px transparent;
+}
+
+.signOnAccount .formLabel {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 5px;
+	display: block;
+}
+
+.signOnAccount .inputTxt {
+	width: 171px;
+	border: none;
+	padding: 2px 0;
+}
+
+.rememberId {
+	color: #fff;
+	padding: 0 19px;
+}
+
+.rememberId a {
+	color: #fff;
+}
+
+.rememberId input[type="checkbox"] {
+	vertical-align: middle;
+	margin: 0 7px 0 0;
+}
+
+.singOnBtn {
+	float: right;
+	overflow: hidden;
+	margin: 10px 19px;
+	width: 60px;
+}
+
+.singOnBtn .greyBtn {
+	width: auto;
+	padding: 4px 7px;
+	text-align: left;
+}
+
+.signOnGroupHldr {
+	background: url("/sim/chinese/images/signonBg.png") repeat scroll 0 0 transparent;
+	border-radius: 10px 10px 0 0;
+	padding: 7px 0 5px;
+	position: relative;
+	width: 209px;
+	font-size: 11px;
+}
+
+.signOnGroupHldr p {
+	color: #FFFFFF;
+	display: block;
+	margin: 0 0 4px;
+	padding: 0;
+}
+
+.signOnGroupHldr p img {
+	display: block;
+}
+
+.signOnAccount {
+	margin: 0 14px 3px;
+}
+
+.signOnHldr {
+	position: relative;
+}
+
+.selectTxt,
+.applyTxt {
+	background: url("/sim/chinese/images/signDownArrow.gif") no-repeat scroll right center #FFFFFF;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	padding: 1px 0 1px 7px;
+	width: 162px;
+	font-size: 12px;
+	color: #000;
+}
+
+.selectDiv,
+.applyDiv {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #CCC;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	width: 169px;
+	z-index: 999;
+}
+
+.selectDiv a,
+.applyDiv a {
+	display: block;
+	margin: 0 !important;
+	padding: 5px 7px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #333;
+}
+
+.applyDiv li ul a {
+	padding-left: 15px;
+}
+
+.selectDiv a:hover,
+.applyDiv a:hover {
+	background: #f7f7f7;
+	color: #000;
+}
+
+.signOnAccount.clsPadTopHme,
+.signOnLinkList.clsPadTopHme {
+	padding-top: 2px;
+}
+
+.signOnLinkList li {
+	list-style: none;
+	line-height: 16px;
+	position: relative;
+}
+
+.signOnLinkList li a {
+	background: url("/sim/chinese/images/arrow-white.gif") no-repeat left 7px;
+	padding-left: 10px;
+	color: #FFFfff;
+	display: inline-block;
+}
+
+.signOnLinkList li a.signOnLinkListBg {
+	background: none repeat scroll 0 0 transparent;
+	padding: 0;
+}
+
+.signOnLinkList02 {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.signOnLinkList02 li {
+	width: 85px;
+	float: left;
+}
+
+.signOnLinkList02 li a {
+	display: block;
+}
+
+.newsAdHldr {
+	background: #f3f3f3 url(/sim/chinese/images/newsBg02.png) no-repeat left bottom;
+	border-radius: 0 0 10px 10px;
+	bottom: 140px;
+	left: 29px;
+	padding: 7px 0 10px;
+	position: static;
+	z-index: 99;
+	text-align: center;
+}
+
+.newsAdBlueTxt {
+	color: #05589D;
+	font-weight: bold;
+	padding: 0;
+}
+
+.newsAdGrayTxt {
+	padding: 0px 0 0 85px;
+	color: #333;
+}
+
+.newsAdLink a {
+	color: #05589d;
+	background: url("/sim/chinese/images/grayarrow.png") 0 4px no-repeat;
+	padding: 0 0 0 12px;
+}
+
+.comInnLink a {
+	color: #05589d;
+	background: url("/sim/chinese/images/grayarrow.png") 0 4px no-repeat;
+	padding: 0 0 0 12px;
+}
+
+.cS-signOnLinkHldr {
+	z-index: 99;
+}
+
+.cS-signOnLinkHldr ul {
+	padding: 0 8px;
+}
+
+.cS-holderGeneralInfo {
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	z-index: 2;
+	margin-left: -14px;
+}
+
+.cS-holderGeneralInfo.cS-holderGeneralInfo1 {
+	position: relative;
+	z-index: 4;
+}
+
+.cS-holderGeneralInfo.cS-holderGeneralInfo2 {
+	position: relative;
+	z-index: 4;
+}
+
+.cS-holderGeneralInfo .cS-headTxt {
+	border-radius: 0 10px 0 0;
+	padding: 3px 0px 3px 15px;
+}
+
+/*.cS-holderGeneralInfo .cS-headTxt a:hover {
+	color: inherit;
+}
+*/
+.cS-headTxt {
+	width: 210px;
+	background-position: left top;
+}
+
+.cS-whiteArrow {
+	background: url("/sim/chinese/images/arrow-white.gif") no-repeat scroll 0 3px transparent;
+	display: inline-block;
+	height: 12px;
+	vertical-align: middle;
+	width: 10px;
+}
+
+.cS-holderGeneralInfo .cA-ancLink {
+	color: #FFF;
+}
+
+.cS-holderGeneralInfo .active {
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.cA-ancLink.active span.cS-whiteArrow {
+	background: url("/sim/chinese/images/closeIcon.png") no-repeat scroll 0 0 transparent;
+	padding-left: 10px;
+}
+
+.cS-generalInfoHolder {
+	background: url("/sim/chinese/images/mega-menu-tile.gif") repeat scroll left bottom transparent;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 2px 2px 24px -7px #3D3D3D;
+	display: none;
+	overflow: hidden;
+	padding: 0 19px;
+	position: absolute;
+	top: 20px;
+	width: 675px;
+	z-index: 999999;
+	height: 0;
+}
+
+.cS-signOnLinkHldr ul li {
+	display: block;
+	overflow: hidden;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecA ul {
+	padding: 0 15px 0 0;
+}
+
+.cS-generalInfoHolder ul li {
+	float: left;
+	font-size: 12px;
+	color: #000;
+}
+
+.cS-signOnLinkHldr ul li ul {
+	background: url("/sim/chinese/images/bg-more-flyout.png") repeat-y scroll 100% 50% transparent;
+	min-height: 220px;
+	overflow: hidden;
+	padding: 0 0 10px 0;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecB ul {
+	padding: 0 15px;
+	background: none;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecC ul {
+	background: none repeat scroll 0 0 transparent;
+	padding: 0 15px;
+}
+
+.cS-generalInfoHolder ul li ul li {
+	float: none;
+	width: auto;
+	padding-bottom: 5px;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecA {
+	width: 330px;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecB {
+	width: 329px;
+}
+
+.cS-generalInfoHolder ul li.cS-listSecC {
+	width: 110px;
+}
+
+.newRedImg {
+	padding: 0 0 0 10px;
+}
+
+p.divider {
+	background: url("/sim/chinese/images/x-divider.jpg") no-repeat scroll 0 0 transparent;
+	height: 1px;
+	margin: 3px 0 6px;
+	border: none;
+}
+
+.marketOfferContent {
+	position: absolute;
+	left: 278px;
+	top: 63px;
+	width: 428px;
+}
+
+.offerContTopHldr {
+	color: #FFFFFF;
+}
+
+.offerContLargeHdr {
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	padding: 0 0 15px;
+	line-height: 36px;
+}
+
+.offerContMediumHdr {
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	font-size: 20px;
+	padding: 0 0 10px;
+}
+
+.offerContSmallHdr {
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+}
+
+.offerContBotHldr {
+	padding: 0 0 15px;
+	overflow: hidden;
+}
+
+.offerCardImg {
+	float: left;
+	margin-right: 12px;
+	width: 30%;
+	padding: 0;
+}
+
+.offerCardTxt {
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	float: left;
+	font-size: 14px;
+	width: 61%;
+	padding-bottom: 0;
+	color: #FFF;
+}
+
+.offerCardTxtHldr {
+	width: 80%;
+}
+
+.blueTxt {
+	color: #05589D;
+}
+
+/*.marketOfferContent a.greyBtn {
+	width: auto !important;
+	padding: 6px 7px;
+	font-size: 11px;
+}
+.marketOfferContent a.blueBtn {
+	width: auto !important;
+	padding: 6px 7px;
+	font-size: 11px;
+}
+*/
+.learnMoreBtn a:hover {
+	text-decoration: none;
+}
+
+.offerContentList {
+	position: absolute;
+	right: -1px;
+	top: 350px;
+	z-index: 1;
+	font-size: 11px;
+}
+
+.marketOfferContent a.goldBtn {
+	width: auto !important;
+	padding: 6px 7px;
+	font-size: 11px;
+}
+
+.offerContentList ul {
+	overflow: hidden;
+	padding: 15px 0 0;
+}
+
+.offerContentList li {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	float: left;
+	position: relative;
+	width: 175px;
+	list-style: none;
+}
+
+.offerContentList li.last {
+	border-right: 1px solid #FFFFFF;
+}
+
+.offerContentList li .topArrow {
+	background: url("/sim/chinese/images/tab_arrow.png") no-repeat;
+	height: 10px;
+	display: none;
+	position: absolute;
+	top: -10px;
+	right: -140px;
+	width: 176px;
+}
+
+.offerContentList li.flex-active .topArrow {
+	display: block;
+}
+
+.offerContentList li a {
+	background: url("/sim/chinese/images/bg-darkblue.png") repeat scroll 0 0 transparent;
+	display: block;
+	min-height: 45px;
+	padding: 8px 5px 8px 15px;
+	position: relative;
+	text-decoration: none;
+	color: #FFF;
+	line-height: 15px;
+}
+
+.offerContentList.goldContentList li a {
+	background: url("/sim/chinese/images/citigold/citigold_px.png") repeat scroll 0 0 transparent;
+}
+
+.offerContentList li a span {
+	display: block;
+}
+
+.offerContentList li.flex-active a {
+	background: #fff;
+	cursor: text;
+	color: #000000;
+}
+
+.hideDisplay {
+	display: none;
+}
+
+.offerListHdr {
+	font-weight: bold;
+}
+
+.footerCont {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	margin: 28px 0 0 0;
+	padding: 12px 15px;
+	font-size: 11px;
+	color: #000;
+}
+
+.footerCont .footerContTxt {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.homeBtmArea {
+	overflow: hidden;
+	padding: 0;
+}
+
+.homeBtmArea ul {
+	display: block;
+	float: right;
+}
+
+.homeBtmArea ul li {
+	float: left;
+	padding: 0 0 0 0;
+	margin-left: -16px;
+}
+
+/* Home Page */
+.showForm {
+	display: none;
+}
+
+.formWrap {
+	padding: 10px;
+	margin: 15px 0 0;
+	border: 1px #ccc solid;
+}
+
+.formInner {
+	padding: 0 0 10px 10px;
+	display: block;
+	width: 100%;
+}
+
+.formInner lable {
+	padding: 0 10px 0 0;
+}
+
+.jqtransform lable {
+	float: left;
+	padding: 3px 10px 0 0;
+}
+
+.jqtransform .jqTransformSelectWrapper {
+	float: left;
+}
+
+.formInner.formThreeColumn lable {
+	padding: 0 0 10px 0;
+	display: block;
+}
+
+.formInner.formThreeColumn .formRow {
+	float: left;
+	width: 33.33333333333333%;
+	padding: 0 0 10px;
+}
+
+.formWrap .inputBox {
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	padding: 2px 6px 2px 7px;
+}
+
+.formInnerClr {
+	clear: both;
+}
+
+.mandatory {
+	color: #FE3434;
+}
+
+.thumbWrap {
+	overflow: hidden;
+}
+
+.thumbWrap img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.filter {
+	border-bottom: 1px #ccc dotted;
+	margin: 0 0 25px;
+}
+
+.filterBtn {
+	overflow: hidden;
+	padding: 0 0 25px;
+}
+
+.filterLftBtn {
+	float: left;
+}
+
+.filterRhtBtn {
+	float: right;
+}
+
+.cardsTabHldr {
+	margin: 0 0 15px;
+}
+
+ul.cardsTab {
+	overflow: hidden;
+	background: #EDEEF0;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px #ddd;
+	position: relative;
+}
+
+ul.cardsTab li {
+	float: left;
+	cursor: pointer;
+	height: 46px;
+	text-align: center;
+	width: 19.7%;
+	border: 1px solid #EDEEF0;
+}
+
+ul.cardsTab.deposits li {
+	width: 16.35%
+}
+
+ul.cardsTab.invest li {
+	width: 24.7%
+}
+
+ul.cardsTab.cardoffer li {
+	width: 13.99%
+}
+
+ul.cardsTab.deposits li,
+ul.cardsTab.deposits li a {
+	height: 75px;
+}
+
+ul.cardsTab.discoverPreTab li {
+	border: 1px solid #EDEEF0;
+	cursor: pointer;
+	float: left;
+	height: 46px;
+	text-align: center;
+	width: 24.7%;
+}
+
+ul.cardsTab.discoverPreTab li,
+ul.cardsTab.discoverPreTab li a {
+	height: 50px;
+}
+
+ul.cardsTab.discoverPreTab li {
+	border: 1px solid #EDEEF0;
+	cursor: pointer;
+	float: left;
+	height: 46px;
+	text-align: center;
+	width: 24.7%;
+}
+
+ul.cardsTab.discoverPreTab li,
+ul.cardsTab.discoverPreTab li a {
+	height: 50px;
+}
+
+ul.cardsTab.preMilesTab li {
+	border: 1px solid #EDEEF0;
+	cursor: pointer;
+	float: left;
+	height: 65px;
+	text-align: center;
+	width: 19.7%;
+}
+
+ul.cardsTab.preMilesTab li,
+ul.cardsTab.preMilesTab li a {
+	height: 65px;
+}
+
+ul.cardsTab li a {
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	font-size: 15px;
+}
+
+ul.cardsTab li a:hover {
+	text-decoration: none;
+}
+
+ul.cardsTab li:hover,
+ul.cardsTab li.active {
+	background: #FDFDFD;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#FDFDFD), to(#F8F8F8));
+	background: -webkit-linear-gradient(#FDFDFD, #F8F8F8 70%);
+	background: -moz-linear-gradient(#FDFDFD, #F8F8F8 70%);
+	background: -ms-linear-gradient(#FDFDFD, #F8F8F8 70%);
+	background: -o-linear-gradient(#FDFDFD, #F8F8F8 70%);
+	background: linear-gradient(#FDFDFD, #F8F8F8 70%);
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ddd;
+	border: 1px solid #ddd;
+	position: relative;
+}
+
+ul.cardsTab li a.rewards {
+	background: url("/sim/chinese/credit-cards/images/pc/rewards-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.rewards,
+ul.cardsTab li.active a.rewards {
+	background: url("/sim/chinese/credit-cards/images/pc/rewards-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.travel {
+	background: url("/sim/chinese/credit-cards/images/pc/travel-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.travel,
+ul.cardsTab li.active a.travel {
+	background: url("/sim/chinese/credit-cards/images/pc/travel-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.cashRebate {
+	background: url("/sim/chinese/credit-cards/images/pc/cash-rebate-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.cashRebate,
+ul.cardsTab li.active a.cashRebate {
+	background: url("/sim/chinese/credit-cards/images/pc/cash-rebate-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.business {
+	background: url("/sim/chinese/credit-cards/images/pc/business-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.business,
+ul.cardsTab li.active a.business {
+	background: url("/sim/chinese/credit-cards/images/pc/business-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.showAll {
+	background: none;
+}
+
+ul.cardsTab li:hover a.showAll,
+ul.cardsTab li.active a.showAll {
+	background: none;
+}
+
+ul.cardsTab li a.checkingAcc {
+	background: url("/sim/chinese/deposits/images/pc/current-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.checkingAcc,
+ul.cardsTab li.active a.checkingAcc {
+	background: url("/sim/chinese/deposits/images/pc/current-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.savingsAcc {
+	background: url("/sim/chinese/deposits/images/pc/saving-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.savingsAcc,
+ul.cardsTab li.active a.savingsAcc {
+	background: url("/sim/chinese/deposits/images/pc/saving-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.timeDeposit {
+	background: url("/sim/chinese/deposits/images/pc/time-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.timeDeposit,
+ul.cardsTab li.active a.timeDeposit {
+	background: url("/sim/chinese/deposits/images/pc/time-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.foreignCurrAcc {
+	background: url("/sim/chinese/deposits/images/pc/foreign-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.foreignCurrAcc,
+ul.cardsTab li.active a.foreignCurrAcc {
+	background: url("/sim/chinese/deposits/images/pc/foreign-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.fundTransfer {
+	background: url("/sim/chinese/deposits/images/pc/fund-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.fundTransfer,
+ul.cardsTab li.active a.fundTransfer {
+	background: url("/sim/chinese/deposits/images/pc/fund-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.showall {
+	background: url("/sim/chinese/deposits/images/pc/show-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.showall,
+ul.cardsTab li.active a.showall {
+	background: url("/sim/chinese/deposits/images/pc/show-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.travelInsur {
+	background: url("/sim/chinese/insurances/images/pc/travel-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.travelInsur,
+ul.cardsTab li.active a.travelInsur {
+	background: url("/sim/chinese/insurances/images/pc/travel-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.motorInsur {
+	background: url("/sim/chinese/insurances/images/pc/motor-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.motorInsur,
+ul.cardsTab li.active a.motorInsur {
+	background: url("/sim/chinese/insurances/images/pc/motor-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.savingProtect {
+	background: url("/sim/chinese/insurances/images/pc/savings-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.savingProtect,
+ul.cardsTab li.active a.savingProtect {
+	background: url("/sim/chinese/insurances/images/pc/savings-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.hospitalization {
+	background: url("/sim/chinese/insurances/images/pc/hospital-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.hospitalization,
+ul.cardsTab li.active a.hospitalization {
+	background: url("/sim/chinese/insurances/images/pc/hospital-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.homeProtect {
+	background: url("/sim/chinese/insurances/images/pc/home-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.homeProtect,
+ul.cardsTab li.active a.homeProtect {
+	background: url("/sim/chinese/insurances/images/pc/home-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.showallInsur {
+	background: url("/sim/chinese/insurances/images/pc/show-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.showallInsur,
+ul.cardsTab li.active a.showallInsur {
+	background: url("/sim/chinese/insurances/images/pc/show-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.whatPreMiles {
+	background: url("/premiermiles/images/filter/what-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.whatPreMiles,
+ul.cardsTab li.active a.whatPreMiles {
+	background: url("/premiermiles/images/filter/what-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.earnPreMiles {
+	background: url("/premiermiles/images/filter/earn-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.earnPreMiles,
+ul.cardsTab li.active a.earnPreMiles {
+	background: url("/premiermiles/images/filter/earn-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.redeemPreMiles {
+	background: url("/premiermiles/images/filter/redeem-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.redeemPreMiles,
+ul.cardsTab li.active a.redeemPreMiles {
+	background: url("/premiermiles/images/filter/redeem-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.soarPreMiles {
+	background: url("/premiermiles/images/filter/soar-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.soarPreMiles,
+ul.cardsTab li.active a.soarPreMiles {
+	background: url("/premiermiles/images/filter/soar-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.travelPri {
+	background: url("/premiermiles/images/filter/travel-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.travelPri,
+ul.cardsTab li.active a.travelPri {
+	background: url("/premiermiles/images/filter/travel-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.hotelPri {
+	background: url("/premiermiles/images/filter/hotel-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.hotelPri,
+ul.cardsTab li.active a.hotelPri {
+	background: url("/premiermiles/images/filter/hotel-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.shopPri {
+	background: url("/premiermiles/images/filter/shopping-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.shopPri,
+ul.cardsTab li.active a.shopPri {
+	background: url("/premiermiles/images/filter/shopping-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.diningPri {
+	background: url("/premiermiles/images/filter/dining-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.diningPri,
+ul.cardsTab li.active a.diningPri {
+	background: url("/premiermiles/images/filter/dining-on.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li a.exclusivePri {
+	background: url("/premiermiles/images/filter/exclusive-off.png") no-repeat scroll center center transparent;
+}
+
+ul.cardsTab li:hover a.exclusivePri,
+ul.cardsTab li.active a.exclusivePri {
+	background: url("/premiermiles/images/filter/exclusive-on.png") no-repeat scroll center center transparent;
+}
+
+.clsTableWrap {
+	padding: 0 0 15px;
+	width: 100%;
+}
+
+.clsTableWrap.clsPadTopTb {
+	padding: 10px 0 10px 0;
+}
+
+.clsTable {
+	border-top: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	width: 100%;
+}
+
+.clsTable th {
+	background: #F5F5F5;
+	border-left: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	padding: 10px;
+	text-align: left;
+}
+
+.clsTable tr {
+	vertical-align: top;
+}
+
+.clsTable tr.cLsGrey {
+	background: #F5F5F5;
+}
+
+.clsTable tr.cLsGold {
+	background: #EEE1C6;
+}
+
+.clsTable tr.cLsWhite {
+	border-left: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	padding: 10px;
+	background: #FFF;
+}
+
+.clsTable td {
+	border-left: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	padding: 13px 10px 15px 10px;
+}
+
+.clsTable td.clsTblInner {
+	padding: 0;
+}
+
+.clsTable tr td.clsTblInner table {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.clsTable tr td.clsTblInner table tr td.first {
+	border-left: none;
+	width: 27.7%
+}
+
+.clsTable tr td.clsTblInner table tr.last td,
+.clsTable tr td.clsTblInner table tr td.bdrNone {
+	border-bottom: none !important;
+}
+
+span.clsTableInnTxt {
+	float: left;
+	padding: 13px 10px 0 0;
+}
+
+.visible-phone {
+	display: none !important;
+}
+
+.visible-tablet {
+	display: none !important;
+}
+
+.hidden-desktop {
+	display: none !important;
+}
+
+.clsDisList {
+	width: 100%;
+	overflow: hidden;
+}
+
+.clsDisList ol {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.clsDisList ol li {
+	list-style-type: decimal;
+	padding-bottom: 12px;
+	margin-left: 25px;
+}
+
+.clsDisList ol li ol li {
+	list-style-type: none;
+}
+
+.cmnImgHld {
+	overflow: hidden;
+	width: 100%;
+}
+
+.cmnImgHldLft {
+	float: left;
+	padding-right: 20px;
+	width: 144px;
+}
+
+.cmnImgHldRgt {
+	float: left;
+	width: 482px;
+}
+
+ol.currencyWorks {
+	margin: 10px 0 0 10px;
+}
+
+ol.currencyWorks li {
+	list-style-type: decimal;
+	vertical-align: middle;
+	padding: 0 0 8px 8px;
+}
+
+ul.bulLstDisc li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+ul.commonNumberList li {
+	padding: 0 0 8px 10px;
+}
+
+.bottomPromo .iconBlock {
+	width: 100%;
+}
+
+.bottomPromo .iconBlock .iconBlkInnLft {
+	float: left;
+	padding-right: 15px;
+	width: 25px;
+}
+
+.bottomPromo .iconBlock .iconBlkInnRgt {
+	float: left;
+	width: 80%;
+}
+
+ul.bottomPromo li.right .iconBlock.clsPadTopWel {
+	padding-top: 32px;
+}
+
+.iconBlock {
+	width: 100%;
+}
+
+.iconBlockInner {
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 12px;
+}
+
+.iconBlkInnLft {
+	float: left;
+	padding-right: 15px;
+	width: 25px;
+}
+
+.iconBlkInnLft.report {
+	width: 85px;
+}
+
+.iconBlkInnRgt {
+	float: left;
+	width: 93%;
+}
+
+.iconBlkInnRgt.report {
+	width: 85%;
+}
+
+.iconBlkInnRgt ol.lowerAlpha li {
+	margin: 0 0 0 16px;
+}
+
+.iconBlkInnLft2 {
+	float: left;
+	padding-right: 15px;
+	width: 38px;
+}
+
+.iconBlkInnRgt2 {
+	float: left;
+	width: 91%;
+}
+
+.iconBlkInnRgt2 ol.lowerAlpha li {
+	margin: 0 0 0 16px;
+}
+
+.iconBlockInnerWrap {
+	float: left;
+	overflow: hidden;
+	padding: 0 0 12px 0;
+	width: 230px;
+}
+
+.iconBlkInnLftWrap {
+	float: left;
+	padding: 0 15px 0 0;
+	width: 25px;
+}
+
+.iconBlkInnRgtWrap {
+	float: left;
+	width: 70%;
+}
+
+.iconBlockInnerWrap2 {
+	float: left;
+	overflow: hidden;
+	padding: 0 0 12px 0;
+	width: 337px;
+}
+
+.iconBlkInnLftWrap2 {
+	float: left;
+	padding: 0 15px 0 0;
+	width: 25px;
+}
+
+.iconBlkInnRgtWrap2 {
+	float: left;
+	width: 80%;
+}
+
+.iconBlockInnerWrap3 {
+	overflow: hidden;
+	width: 98%;
+}
+
+.iconBlkInnLftWrap3 {
+	float: left;
+	padding: 0 15px 0 0;
+	width: 85px;
+}
+
+.iconBlkInnRgtWrap3 {
+	float: left;
+	width: 85%;
+}
+
+.iconBlockPro {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.iconBlockPro ul {
+	display: block;
+	float: left;
+}
+
+.iconBlockPro ul li {
+	float: left;
+	padding: 10px 10px 0 40px;
+}
+
+.hotlinkIcon {
+	background: url("/sim/chinese/citi-online/images/desktop/hotlink-icon.png") no-repeat scroll 0 0px transparent;
+	height: 33px;
+}
+
+.winIcon {
+	background: url("/sim/chinese/citi-online/images/desktop/win-icon.png") no-repeat scroll 0 0px transparent;
+	height: 33px;
+}
+
+.iconBlockProArrow {
+	background: url("/sim/chinese/citi-online/images/desktop/arrow.png") no-repeat scroll 0 0px transparent;
+	height: 40px;
+}
+
+.commIconBlock {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.commIconBlock ul {
+	overflow: hidden;
+	width: 100%;
+}
+
+.commIconBlock ul li {
+	width: 100%;
+	clear: both;
+}
+
+.commIconBlock ul li span {
+	padding: 0 10px 10px 0;
+}
+
+.partHldr {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.partHldr.last {
+	margin: 0;
+}
+
+.lftPartLogo {
+	float: left;
+	width: 150px;
+}
+
+.lftPartLogoSmall {
+	float: left;
+	width: 50px;
+}
+
+.rhtPartCont {
+	float: left;
+	padding: 0 0 0 15px;
+	width: 481px;
+}
+
+.rhtPartContSmall {
+	float: left;
+	padding: 0 0 0 15px;
+	width: 625px;
+}
+
+/* Form Area */
+.contInnerArea {
+	padding: 0px 0 20px 0;
+}
+
+.formDetails {
+	display: block;
+	width: 100%;
+}
+
+.formDetails table {
+	margin: 15px 0 0;
+}
+
+.fieldTitle {
+	width: 116px;
+	padding-right: 13px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.inputBox {
+	border: 1px solid #ccc;
+}
+
+.formDetails tr td {
+	padding-bottom: 19px;
+}
+
+.jqTransformSelectWrapper select.cLsDropDown {
+	width: 440px;
+}
+
+.formDetails tr td input[type="radio"] {
+	margin: -4px 5px 0 0;
+}
+
+textarea.textAreaInn {
+	border: 1px solid #ccc;
+	font-size: 12px;
+	padding: 5px 0;
+}
+
+.firstDrop .jqTransformSelectWrapper {
+	z-index: 100 !important
+}
+
+.secDrop .jqTransformSelectWrapper {
+	z-index: 99 !important
+}
+
+.thirdDrop .jqTransformSelectWrapper {
+	z-index: 98 !important
+}
+
+.fourthDrop .jqTransformSelectWrapper {
+	z-index: 97 !important
+}
+
+.firstDrop .sbHolder {
+	z-index: 99999999 !important
+}
+
+.secDrop .sbHolder {
+	z-index: 9999999 !important
+}
+
+.thirdDrop .sbHolder {
+	z-index: 999999 !important
+}
+
+.fourthDrop .sbHolder {
+	z-index: 99999 !important
+}
+
+.radioLabel {
+	padding-right: 10px;
+}
+
+/*Common Style for Terms ansd Condition*/
+.termsCondScdLevel {
+	margin-left: 20px;
+}
+
+.termsCondScdLevel.cLsLstHolder {
+	margin-left: 40px;
+}
+
+.termsCondthirdLevel {
+	margin-left: 45px;
+}
+
+.termsConditionHolder {
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.termsConditionHolder p {
+	padding: 0 0 5px !important;
+}
+
+.termsConditionHolder p.last {
+	padding: 0 !important;
+}
+
+.termsConditionHolder.last {
+	padding: 0;
+}
+
+.termsConditionLft {
+	float: left
+}
+
+.termsConditionRgt {
+	margin-left: 35px;
+}
+
+.termsConditionRgt.cLsLstHolder {
+	margin-left: 40px;
+}
+
+.termsConditionRgt.ScndLevel {
+	margin-left: 35px;
+}
+
+/* CitiPhone Banking */
+.citiPhoneBlock {
+	overflow: hidden;
+	width: 100%;
+}
+
+.citiPhoneBlockLft {
+	float: left;
+	width: 44%;
+	padding-right: 32px;
+}
+
+.citiPhoneBlockRgt {
+	float: left;
+	width: 51%;
+}
+
+.citiPhoneBlockRgt .iconBlkInnRgt {
+	float: left;
+	width: auto;
+	padding-top: 5px;
+}
+
+/* Header Slider */
+#slides {
+	position: relative;
+	left: -29px;
+	width: 721px;
+	height: 238px;
+}
+
+#Proslides {
+	position: relative;
+	left: -29px;
+	width: 721px;
+	height: 213px;
+}
+
+#slides .fullBanner {
+	left: 0;
+}
+
+.slides .bannerProd {
+	height: auto;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.bannerSlider {
+	position: relative;
+	margin: 0 0 25px;
+	width: 721px;
+}
+
+.flex-control-nav {
+	bottom: 18px;
+	z-index: 99999;
+}
+
+.flex-control-paging li a,
+.flex-control-paging li a:hover {
+	background: url("../images/off.png") 0 0 no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	color: #fff;
+}
+
+.flex-control-paging li a.flex-active {
+	background: url("../images/on.png") 0 0 no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+
+ul.headSlideArrow {
+	padding: 10px 0 10px;
+}
+
+ul.headSlideArrow li {
+	background: url("/sim/chinese/images/head-slider-arrow.png") no-repeat scroll 0 3px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+.headSlideArrowTop {
+	padding-top: 10px;
+}
+
+p.headSlideArrow {
+	background: url("/sim/chinese/images/head-slider-arrow.png") no-repeat scroll 0 3px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+/* Loans calculator */
+ul.loanCal {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+ul.loanCal li {
+	float: left;
+	padding: 0 20px 0 0;
+	width: 230px;
+}
+
+ul.loanCal li .inputBox {
+	border: 1px solid #ccc;
+	padding: 0 0 0 5px;
+	color: #555;
+}
+
+ul.loanCal li .inputBoxTxtWid {
+	width: 140px;
+}
+
+ul.loanCal li .inputBoxTxtWidCal {
+	width: 250px;
+}
+
+.loanCalInn {
+	overflow: hidden;
+}
+
+.loanCalInnLft {
+	padding-bottom: 15px;
+	font-size: 12px;
+	color: #555;
+}
+
+.loanCalInnRgt {
+	float: right;
+	padding-bottom: 15px;
+}
+
+#tdAmorTable {
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	box-shadow: 2px 2px 4px #CCCCCC;
+}
+
+#tdAmorTable tr {
+	vertical-align: top;
+}
+
+#tdAmorTable tr.whiteBg,
+#tdAmorTable tr.grayBg {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+#tdAmorTable tr.whiteBg {
+	background-color: #FFFFFF;
+}
+
+#tdAmorTable tr.grayBg {
+	background-color: #F5F5F5;
+}
+
+#tdAmorTable tr th,
+#tdAmorTable tr td {
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	line-height: 17px;
+	padding: 13px 10px;
+	text-align: left;
+}
+
+.facebShare {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+/*.bannerSlider{width: 100%;margin:0;}*/
+ul.slidesjs-pagination {
+	position: absolute;
+	bottom: 15px;
+	left: 420px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 150px;
+	z-index: 999;
+}
+
+ul.slidesjs-pagination li {
+	float: left;
+	margin-right: 5px;
+}
+
+ul.slidesjs-pagination li a {
+	background: url("../images/off.png") 0 0 no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	color: #fff;
+}
+
+ul.slidesjs-pagination li a.active {
+	background: url("../images/on.png") 0 0 no-repeat;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+
+#slides {
+	position: relative;
+	left: -29px;
+	width: 721px;
+	height: 238px;
+}
+
+#slides .fullBanner {
+	left: 0;
+}
+
+/* PROGRESSIVE INVESTMENT PLAN */
+.progresiveBlock {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.progresiveDes {
+	background: url("/sim/chinese/investments/images/desktop/pip-chart-work-bg.png") 0 0 no-repeat;
+	display: block;
+	height: 129px;
+}
+
+.progresiveDesInn {
+	display: block;
+	padding: 10px 15px;
+}
+
+.progresiveDesInn ul {
+	display: block;
+	width: 100%;
+}
+
+.progresiveDesInn ul li {
+	float: left;
+	padding-right: 40px;
+	width: 180px;
+}
+
+/****************** Tooltip ***********************/
+.tooltipWrap {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	bottom: 21px;
+	box-shadow: 0 0 10px #CCCCCC;
+	display: none;
+	left: 50%;
+	margin: 0 0 0 -150px;
+	padding: 10px 15px;
+	position: absolute;
+	width: 280px;
+	z-index: 999;
+}
+
+.tooltip p {
+	color: #555555;
+	font-size: 12px;
+}
+
+.tooltipInnerImg {
+	width: 88px;
+	left: -30px;
+}
+
+.tooltip .tipClose {
+	display: inline-block;
+	background: url("/sim/chinese/images/close.jpg") no-repeat;
+	width: 14px;
+	height: 15px;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.tooltip .arrow {
+	background: url("/sim/chinese/images/toolTiparrow.png") no-repeat;
+	bottom: -7px;
+	height: 8px;
+	left: 50%;
+	margin: 0 0 0 -10px;
+	position: absolute;
+	width: 19px;
+}
+
+.clsInfoIcon {
+	background: url("/sim/chinese/images/info-icon.png") no-repeat;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.tooltip.left {
+	left: 0;
+	margin: 0 0 0 -14px;
+}
+
+.tooltip.left .arrow {
+	left: 0;
+	margin: 0 0 0 15px;
+}
+
+.tooltip.right {
+	left: auto;
+	right: -15px;
+	margin: 0;
+}
+
+.tooltip.right .arrow {
+	left: auto;
+	right: 19px;
+	margin: 0;
+}
+
+.tooltip.bottom {
+	bottom: auto;
+	top: 18px;
+	left: 50%;
+	margin: 0 0 0 -150px;
+}
+
+.tooltip.bottom .arrow {
+	left: 50%;
+	margin: 0 0 0 -10px;
+	top: -7px;
+}
+
+.tpFormBlock {
+	display: block;
+}
+
+.tpFormBlockInn ul {
+	width: 100%;
+}
+
+.tpFormBlockInn ul li {
+	margin: 0 0 20px 0 !important;
+	width: 280px;
+	display: inline-block;
+}
+
+.tpFormBlockInn ul li span.formCont {
+	padding: 0 15px 0 0;
+	width: 130px;
+	float: left;
+}
+
+.tpFormBlockInn ul li span input.inputBoxSlide {
+	border: 1px solid #ccc;
+	padding: 0 10px 0 5px;
+	width: 118px;
+	height: 20px;
+	color: #555555;
+}
+
+.tpFormBlockInn ul li span.tooltipSelect select {
+	width: 110px !important;
+}
+
+.tpFormBlockInn ul li div.jqTransformSelectWrapper .tooltipSelect {
+	float: left;
+	padding: 0 10px 0 0;
+	width: 100px !important;
+	color: #555555;
+}
+
+.tpFormBlockInn ul li div.jqTransformSelectWrapper ul li {
+	margin: 0 0 0px 0 !important;
+}
+
+.firstDrop .jqTransformSelectWrapper {
+	z-index: 100 !important
+}
+
+.secDrop .jqTransformSelectWrapper {
+	z-index: 99 !important
+}
+
+.thirdDrop .jqTransformSelectWrapper {
+	z-index: 98 !important
+}
+
+.fourthDrop .jqTransformSelectWrapper {
+	z-index: 97 !important
+}
+
+.newsAdCont {
+	width: 144px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.newsAdContBtm {
+	overflow: hidden;
+	padding: 0;
+}
+
+.newsAdContBtm p {
+	line-height: 15px;
+	padding: 0;
+}
+
+.newsAdLogo {
+	width: 66px;
+	height: 48px;
+	float: left;
+	padding: 0;
+}
+
+ul.signOnBtn {
+	float: right;
+}
+
+ul.signOnBtn li a {
+	background: url("/sim/chinese/images/sign-on.png") no-repeat;
+	width: 126px;
+	height: 26px;
+	display: block;
+	margin: 0 8px 0 0;
+}
+
+/*========================Forms=====================*/
+
+ul.cLsTabList li {
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat 0 6px;
+	padding: 0 0 6px 10px
+}
+
+.headMarTop {
+	margin-top: 10px;
+}
+
+.formSteps {
+	margin-bottom: 15px;
+}
+
+.formSteps ul {
+	background: #F7F7F7;
+	background: -webkit-gradient(linear, 0 0, 0 50%, from(#F7F7F7), to(#FFFFFF));
+	background: -webkit-linear-gradient(#F7F7F7, #FFFFFF 50%);
+	background: -moz-linear-gradient(#F7F7F7, #FFFFFF 50%);
+	background: -ms-linear-gradient(#F7F7F7, #FFFFFF 50%);
+	background: -o-linear-gradient(#F7F7F7, #FFFFFF 50%);
+	background: linear-gradient(#F7F7F7, #FFFFFF 50%);
+	-pie-background: linear-gradient(#F7F7F7, #FFFFFF 50%);
+	min-height: 43px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.formSteps ul li {
+	float: left;
+	padding: 6px 20px;
+	background: url("/sim/chinese/images/step_arrow.png") right center no-repeat;
+	height: 30px;
+}
+
+.formSteps ul li.last {
+	background: none;
+}
+
+.formSteps ul.bulLst {
+	padding: 0 0 10px;
+	border: none;
+	background: none;
+}
+
+.formSteps ul.bulLst li {
+	float: none;
+	width: auto;
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0 0 8px 10px;
+	list-style: none;
+	line-height: 17px;
+}
+
+.formSteps ul li span.formStepList {
+	color: #C1E0F2;
+	font-weight: bold;
+	padding: 7px 10px 0 0;
+	display: inline-block;
+	float: left;
+}
+
+.formSteps ul li span.formStepCont {
+	color: #C1C1C1;
+	font-weight: bold;
+}
+
+.formSteps ul li span.formStepContPad {
+	padding: 7px 0 0;
+	display: inline-block;
+}
+
+.formSteps ul li.active span.formStepList {
+	color: #3398CC;
+}
+
+.formSteps ul li.active span.formStepCont {
+	color: #333;
+}
+
+/*Contact us form */
+.formDetailsBlock {
+	display: block;
+	width: 100%;
+}
+
+.formDetailsinner {
+	margin: 0 0 15px 0;
+	width: 100%;
+}
+
+.formDetailsinner.last {
+	margin: 0;
+}
+
+.formDetailsinner ul.cLsContactus {
+	padding: 20px 0 20px 20px;
+	width: 97%;
+}
+
+.formDetailsinner ul.lightGreyBg {
+	background: #F7F7F7;
+	float: left;
+}
+
+.formDetailsinner ul.darkGreyBg {
+	background: #EAEAEA;
+	float: left;
+}
+
+.formDetailsinner ul.cLsContactus li {
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+}
+
+.formDetailsinner ul.cLsContactus li.monthlyIncome {
+	float: left;
+	padding-right: 26px;
+	width: 255px;
+}
+
+.formDetailsinner ul.cLsContactus.cLsContNoPadTop {
+	padding-top: 0px;
+}
+
+.formDetailsinnerCalc ul.cLsContactus li.clsInnPadTop {
+	padding-top: 10px !important;
+	padding-right: 0px;
+	display: block;
+}
+
+.formDetailsinnerCalc ul.cLsContactus li.clsInnPadTop2 {
+	padding-top: 15px !important;
+	padding-right: 0px;
+	display: block;
+}
+
+.formDetailsinner ul.cLsContactus li.clsPadTopInnForm {
+	padding-top: 24px;
+}
+
+.formDetailsinner ul.cLsContactus li.clsInnFormWid {
+	width: 417px !important;
+}
+
+select.innSmallWdh1 {
+	width: 72px;
+}
+
+.redColTxt {
+	color: #FE3434;
+}
+
+.formDetailsinner ul.cLsContactus li .rminput {
+	width: 160px !important;
+}
+
+.formDetailsinner ul.cLsContactus li .midSmallbox {
+	margin-left: 10px;
+	width: 111px !important;
+	height: 20px;
+}
+
+.formDetailsinner ul.cLsContactus li .smallbox {
+	margin-left: 10px;
+	width: 85px !important;
+	height: 20px;
+}
+
+.formDetailsinner ul.cLsContactus li .inputBox {
+	border: 1px solid #CCCCCC;
+	width: 188px;
+	padding: 2px 6px 2px 7px;
+	color: #555555;
+	height: 21px;
+}
+
+.formKanaPad {
+	padding-top: 15px;
+}
+
+.formDetailsinner ul.cLsContactusManual li .smallbox {
+	width: 18px !important;
+	padding: 4.1px 5px;
+}
+
+.formDetailsinner ul.cLsContactus li div.jqtransform ul li {
+	width: 170px;
+}
+
+.formDetailsinner ul.cLsContactus li.noPadRgt {
+	margin-right: 0px;
+}
+
+.kanasmallfont {
+	font-size: 10px;
+}
+
+.formDetailsinner ul.cLsContactus li div.jqtransform ul li a {
+	width: 191px;
+}
+
+.cLsContactusManual {
+	padding: 20px;
+	float: left;
+	width: 94.2%;
+}
+
+.cLsContactusManual .radioValueInn {
+	width: auto;
+	margin: 0 0 10px 0;
+}
+
+.radioValueInn span {
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+.radioValueInn span.clsManPadTop {
+	padding: 6px 0 0 0;
+}
+
+.radioValueInn span.radioValueDis input.radioValueInnSpa {
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+
+.radioValueInn span input.smallbox2 {
+	width: 60px;
+	display: inline-block;
+}
+
+.radioValueInn span.jqtransform .jqTransformSelectWrapper {
+	float: inherit !important;
+}
+
+.clearForm {
+	clear: both;
+}
+
+.selDropDown {
+	padding-top: 9px;
+}
+
+.selDropDown2 {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.offsmall {
+	width: 15px !important;
+}
+
+.jqtransform select.cLsDropDownWidth {
+	width: 183px !important;
+}
+
+.jqtransform select.nametitle {
+	width: 183px !important;
+}
+
+.cLsTextAreaBlock {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.cLsTextAreaBlock textarea {
+	width: 97%;
+	resize: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #555555;
+}
+
+.cLsSubmitArea {
+	margin-top: 20px;
+	width: 100%;
+	float: right;
+	padding-bottom: 10px;
+}
+
+.cLsSubmitAreaLft {
+	float: right;
+}
+
+.cLsSubmitAreaRgt {
+	float: right;
+	margin-left: 20px;
+}
+
+.cLsSubmitAreaRgt.cLsSubmitAreaLft {
+	float: left;
+	margin-left: 0px;
+}
+
+.contactReport {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.contactReportInner {
+	position: relative;
+	background: none repeat scroll 0 0 #EDEDED;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.clsRadioBtnBlock {
+	width: 100%;
+	overflow: hidden;
+}
+
+.clsRadioBtnBlock ul {
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.clsRadioBtnBlock ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.clsPadLftForm {
+	padding-left: 15px;
+}
+
+.compareTxt {
+	display: block;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.outstandingCredit {
+	width: 218px !important;
+}
+
+#errorpage {
+	margin: 200px auto;
+	text-align: center;
+	width: 100%;
+}
+
+#per-det {
+	background: url("../images/icon-per-det.gif") no-repeat scroll 0 0 transparent;
+}
+
+.sub-hd-comm {
+	font-size: 16px;
+	padding: 0 0 20px 35px;
+}
+
+.formSubmit {
+	float: right;
+	padding: 10px 30px 20px 0;
+}
+
+.cLsContactusFix li {
+	width: 315px !important;
+}
+
+.formSubmitFix {
+	float: right;
+	padding: 10px 0px 20px 0;
+}
+
+.manFieldWrapper {
+	width: 100%;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+
+.manField {
+	padding: 10px;
+}
+
+.formSubmitBlueFix {
+	width: 450px !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+
+.formSubmitBlueFix>p {
+	width: 250px;
+	float: left !important;
+}
+
+.formSubmitBlueFix .formSubmit {
+	padding-right: 20px !important;
+	margin-top: -8px !important;
+}
+
+.noteFieldWrapper {
+	width: 100%;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+
+.noteField {
+	padding: 10px;
+}
+
+.cLsContactusFixIT li {
+	width: 290px !important;
+}
+
+.tab-referrals {
+	margin-top: 15px;
+}
+
+.tab-referrals span {
+	width: 184px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+.tab-referral {
+	background: none repeat scroll 0 0 #009BD5;
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 10px;
+	width: 150px;
+}
+
+.tab-referral.active {
+	color: #009BD5;
+}
+
+.tab-referral.on,
+.tab-referral.active {
+	cursor: pointer;
+}
+
+.disclosure {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.formInner .formValue span {
+	float: left;
+}
+
+.formInner .formValue span.inputTxt {
+	display: inline-block;
+	float: left;
+}
+
+.dropListSmallInn {
+	width: auto !important;
+	float: left;
+}
+
+/* Graph */
+
+.barGraph {
+	width: 648px;
+	height: 334px;
+}
+
+.previous_creditlimit {
+	width: 468px;
+	height: 220px;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+
+.effective_creditlimit {
+	width: 468px;
+	height: 220px;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+
+.graphposition {
+	position: relative;
+	float: left;
+	margin: 0px 0px 0px 10px;
+	text-align: center;
+}
+
+.grphTxt {
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.legend {
+	float: left;
+	margin: 0px 12px 0px 0px;
+}
+
+.nolegend {
+	float: left;
+	border: 1px solid white;
+	margin: 0px 12px 0px 0px;
+	width: 2.5px;
+}
+
+.legendConatiner {
+	position: relative;
+	top: 230px;
+	display: none;
+}
+
+.ulContainer {
+	position: relative;
+	left: 10px;
+	height: 30px;
+	text-align: center;
+}
+
+.explanationContainer {
+	position: relative;
+	top: 230px;
+	width: 468px;
+	display: none;
+}
+
+.explantion {
+	position: relative;
+	width: 300px;
+	height: 20px;
+}
+
+/* Airasia */
+.airAsiaTopMnu,
+.premDingMnu {
+	width: 721px;
+	/* overflow:hidden;*/
+	position: relative;
+	left: -29px;
+}
+
+.airAsiaTopMnuInn,
+.premDingMnuInn {
+	width: 100%;
+	overflow: hidden;
+	background: url("/sim/chinese/debit_card/images/desktop/airasia-menulst-bg.jpg") repeat-x 100% 100%;
+	height: 38px;
+}
+
+.airAsiaTopMnuInn .homeIcon,
+.premDingMnuInn .homeIcon {
+	float: left;
+	padding: 10px 0 10px 10px;
+}
+
+.airAsiaTopMnu ul,
+.premDingMnuInn ul {
+	float: left;
+}
+
+.airAsiaTopMnu ul li,
+.premDingMnuInn ul li {
+	float: left;
+	padding: 12px 0 10px 29px;
+}
+
+.airAsiaTopMnu ul li a,
+.premDingMnuInn ul li a {
+	font-weight: bold;
+}
+
+.airAsiaTopMnu ul li a.active,
+.premDingMnuInn ul li a.active {
+	color: #000;
+}
+
+.airAsiaBlockInner {
+	position: absolute;
+	top: 122px;
+	width: 100%;
+	z-index: 999;
+}
+
+.airAsiaBlockInner .left {
+	float: left;
+	padding: 73px 15px 0 0;
+	width: 194px;
+}
+
+.airAsiaBlockInner .left h3,
+.airAsiaBlockInner .right h3 {
+	color: #fff;
+	font-weight: normal;
+}
+
+.airAsiaBlockInner .mid {
+	float: left;
+	padding: 0 20px 0 0;
+	width: 253px;
+	position: relative;
+}
+
+.airAsiaBlockInner .mid .first {
+	position: absolute;
+}
+
+.airAsiaBlockInner .mid .second {
+	left: 95px;
+	position: relative;
+	top: 57px;
+	width: 161px;
+}
+
+.airAsiaBlockInner .right {
+	float: left;
+	width: 193px;
+	padding: 73px 0 0 0;
+}
+
+.airAsiaBlockInner .getDetail li.more {
+	float: left;
+}
+
+.airAsiaBlockInner .getDetail li.talk {
+	float: right;
+}
+
+.airAsiaBlockInner .greyBtn {
+	width: auto;
+	padding: 5px 9px;
+}
+
+.airAsiaBlockInner .blueBtn {
+	width: auto;
+	padding: 5px 9px;
+}
+
+.airAsiaBlock .topBoxBtn,
+.premierMiles .topBoxBtn {
+	position: absolute;
+	z-index: 999;
+	bottom: 29px;
+}
+
+.airAsiaBlockList {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+.airAsiaBlockList ul {
+	display: block;
+	border: 1px solid #dfdfdf;
+	overflow: hidden;
+	padding: 0px 10px;
+	background: url("/sim/chinese/debit_card/images/desktop/airasia-bginner.jpg") repeat-x #EEEEEE;
+}
+
+.airAsiaBlockList ul li .mainLst {
+	float: left;
+	width: 100%;
+}
+
+.airAsiaBlockList ul li .mainLst .left {
+	float: left;
+	padding: 0 20px 0 0;
+	width: 205px;
+}
+
+.airAsiaBlockList ul li .mainLst .left .leftInn {
+	float: left;
+	padding: 15px 10px 21px 0;
+	width: 82px
+}
+
+.airAsiaBlockList ul li .mainLst .left .rightInn {
+	padding: 15px 0 20px;
+	float: left;
+	width: 107px;
+}
+
+.airAsiaBlockList ul li .mainLst .mid .leftInn {
+	float: left;
+	padding: 15px 10px 21px 0;
+	width: 82px
+}
+
+.airAsiaBlockList ul li .mainLst .mid .rightInn {
+	padding: 15px 0 20px 0;
+	float: left;
+	width: 107px;
+}
+
+.airAsiaBlockList ul li .mainLst .right .leftInn {
+	float: left;
+	padding: 15px 10px 21px 0;
+	width: 82px
+}
+
+.airAsiaBlockList ul li .mainLst .right .rightInn {
+	padding: 15px 0 0;
+	float: left;
+	width: 107px;
+}
+
+.airAsiaBlockList ul li .mainLst .mid {
+	float: left;
+	border-right: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	padding: 0 15px;
+	width: 199px;
+}
+
+.airAsiaBlockList ul li .mainLst .right {
+	float: left;
+	padding: 0 0 0 15px;
+	width: 199px;
+}
+
+.mainLst a.greyBtn,
+.mainLst a.blueBtn {
+	width: auto !important;
+	padding: 6px 7px;
+}
+
+.airAsiaCardArea {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 20px 0;
+	background: url("/sim/chinese/images/airasia-blue-bg.jpg") repeat-x scroll 0 0 transparent;
+}
+
+.airAsiaCardAreaInn {
+	overflow: hidden;
+	padding: 1px 0 5px 10px;
+}
+
+.airAsiaCardAreaInn .left {
+	float: left;
+	width: 88px;
+	padding: 3px 15px 0 0;
+}
+
+.airAsiaCardAreaInn .mid {
+	float: left;
+	padding: 14px 15px 0 0;
+	width: 400px;
+}
+
+.airAsiaCardAreaInn .mid h3 {
+	color: #fff;
+	font-weight: normal;
+}
+
+.airAsiaCardAreaInn .right {
+	float: right;
+	padding: 22px 15px 0 0;
+}
+
+.airasiaProductWrap {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.airasiaProductWrap .productsList {
+	float: left;
+	padding: 0 27px;
+	width: 290px;
+}
+
+.airasiaProductWrap .productsList.first {
+	padding-left: 0px;
+}
+
+.airasiaProductWrap .productsList.second {
+	padding-right: 0px;
+}
+
+.airAsiaTopMnuInn.welcomeMic ul li {
+	padding-top: 4px !important;
+	text-align: center;
+	padding-left: 25px !important;
+}
+
+/*************************** CALCULATOR **********************************/
+.calcWrap {
+	background: #FCFCFC;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#FCFCFC), to(#F7F7F7));
+	background: -webkit-linear-gradient(#FCFCFC, #F7F7F7 70%);
+	background: -moz-linear-gradient(#FCFCFC, #F7F7F7 70%);
+	background: -ms-linear-gradient(#FCFCFC, #F7F7F7 70%);
+	background: -o-linear-gradient(#FCFCFC, #F7F7F7 70%);
+	background: linear-gradient(#FCFCFC, #F7F7F7 70%);
+	-pie-background: linear-gradient(#FCFCFC, #F7F7F7 70%);
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	padding: 0 20px 20px;
+}
+
+.calcWrap.calcInnerPad {
+	padding-top: 20px;
+}
+
+.calcInner {
+	overflow: hidden;
+}
+
+.calcCategory {
+	float: left;
+	width: 180px;
+}
+
+.calcCategory.giant {
+	float: left;
+	width: 220px;
+}
+
+.calcCategory.readyCredit {
+	float: left;
+	width: 250px;
+}
+
+.calcCategoryHdrTxt {
+	width: 170px;
+}
+
+.calcSpend {
+	float: left;
+}
+
+.calcInnerHdr {
+	color: #003C7B;
+}
+
+.calcInner {
+	padding: 23px 0 0;
+}
+
+.calcCategoryHdr {
+	display: block;
+	padding: 3px 0 0 35px;
+}
+
+.calcSliderWrap {
+	position: relative;
+}
+
+.calcSlider {
+	position: relative;
+	width: 100%;
+}
+
+.calcShell .calcSpend {
+	width: 55%;
+}
+
+.calcShell .calcSpendShell {
+	width: 53.5%;
+}
+
+.calcShell div.ui-slider {
+	width: 87% !important;
+}
+
+.calcSpendYear {
+	float: left;
+}
+
+.otherIconsTxt {
+	margin: 0 5px 0 0;
+}
+
+.maxisDigiIcon,
+.astroIcon,
+.utilitiesIcon,
+.muniCounIcon,
+.giantIcon,
+.diningIcon,
+.travelIcon,
+.utilityIcon,
+.shoppingIcon,
+.everythingIcon,
+.FuelIcon,
+.mobileIcon,
+.preferredIcon,
+.repaymentIcon,
+.effectiveIcon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	float: left;
+}
+
+.FuelIcon {
+	height: 26px;
+}
+
+.maxisDigiIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/maxis-digi.png") no-repeat scroll 0 0 transparent;
+}
+
+.astroIcon {
+	background: url("/sim/chinese/debit_card/images/icon/astro.png") no-repeat scroll 0 0 transparent;
+}
+
+.utilitiesIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/utilities.png") no-repeat scroll 0 0 transparent;
+}
+
+.muniCounIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/municipal-councils.png") no-repeat scroll 0 0 transparent;
+}
+
+.diningIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/dining.png") no-repeat scroll 0 0 transparent;
+}
+
+.giantIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/giant-purchase.png") no-repeat scroll 0 0 transparent;
+}
+
+.travelIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/travel.png") no-repeat scroll 0 0 transparent;
+}
+
+.utilityIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/utility.png") no-repeat scroll 0 0 transparent;
+}
+
+.shoppingIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/shopping.png") no-repeat scroll 0 0 transparent;
+}
+
+.everythingIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/everything-else.png") no-repeat scroll 0 0 transparent;
+}
+
+.FuelIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/shell-fuel.png") no-repeat scroll 0 0 transparent;
+}
+
+.mobileIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/mobile.png") no-repeat scroll 0 0 transparent;
+}
+
+.preferredIcon {
+	background: url("/sim/chinese/forms/images/icon/preferred-loan.png") no-repeat scroll 0 0 transparent;
+}
+
+.repaymentIcon {
+	background: url("/sim/chinese/forms/images/icon/repayment-tenure.png") no-repeat scroll 0 0 transparent;
+}
+
+.effectiveIcon {
+	background: url("/sim/chinese/forms/images/icon/effective-interest.png") no-repeat scroll 0 0 transparent;
+}
+
+.everythingElse,
+.grocery,
+.petrol,
+.pharmaceutical,
+.phoneBills {
+	display: inline-block;
+	height: 26px;
+	width: 24px;
+	vertical-align: middle;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.everythingElse {
+	background: url("/sim/chinese/credit-cards/images/icon/every-else.png") no-repeat scroll 0 0 transparent;
+}
+
+.grocery {
+	background: url("/sim/chinese/credit-cards/images/icon/grocery.png") no-repeat scroll 0 0 transparent;
+}
+
+.petrol {
+	background: url("/sim/chinese/credit-cards/images/icon/petrol.png") no-repeat scroll 0 0 transparent;
+}
+
+.pharmaceutical {
+	background: url("/sim/chinese/credit-cards/images/icon/pharmaceutical.png") no-repeat scroll 0 0 transparent;
+}
+
+.phoneBills {
+	background: url("/sim/chinese/credit-cards/images/icon/phone-bills.png") no-repeat scroll 0 0 transparent;
+}
+
+.calcWrapper .calcProgress {
+	height: 8px;
+	float: left;
+	width: 89.6%;
+	background: #ADADAD;
+	margin: 7px 0px 0;
+	border: 1px solid #ADADAD;
+	border-top: 1px solid #838383;
+	border-radius: 8px;
+	background: #FFFFFF;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#9D9D9D), to(#FFFFFF));
+	background: -webkit-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -moz-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -ms-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -o-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: linear-gradient(#9D9D9D, #FFFFFF 70%);
+	-pie-background: linear-gradient(#9D9D9D, #FFFFFF 70%);
+}
+
+.ui-slider-range {
+	background: #015291;
+	background: -webkit-gradient(linear, 0 0, 0 80%, from(#00B5EC), to(#015291));
+	background: -webkit-linear-gradient(#00B5EC, #015291 70%);
+	background: -moz-linear-gradient(#00B5EC, #015291 80%);
+	background: -ms-linear-gradient(#00B5EC, #015291 80%);
+	background: -o-linear-gradient(#00B5EC, #015291 80%);
+	background: linear-gradient(#00B5EC, #015291 80%);
+	-pie-background: linear-gradient(#00B5EC, #015291 80%);
+	border-radius: 8px;
+	height: 8px;
+}
+
+div.ui-slider {
+	display: inline-block;
+	height: 15px;
+	margin: 0 !important;
+	overflow: visible;
+	padding: 0;
+	position: relative;
+	top: 9px !important;
+	width: 100%;
+}
+
+.ui-controlgroup a.ui-slider-handle,
+a.ui-slider-handle {
+	background: url("/sim/chinese/credit-cards/images/icon/slider-button.png") no-repeat 50% bottom;
+	height: 24px !important;
+	margin-left: 0px !important;
+	margin-top: -31px;
+	padding: 0 3px 2px;
+	width: 24px !important;
+	color: #003C78;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.calcProgress.finance.ui-controlgroup a.ui-slider-handle,
+a.ui-slider-handle {
+	background: url("/sim/chinese/credit-cards/images/icon/slider-button.png") no-repeat 50% bottom;
+	height: 24px !important;
+	margin-left: 0px !important;
+	margin-top: -14px;
+	padding: 0 3px 2px;
+	width: 24px !important;
+	color: #003C78;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	outline: none;
+	border: 0;
+}
+
+.calcProgress.readyCredit.ui-controlgroup a.ui-slider-handle,
+a.ui-slider-handle {
+	background: url("/sim/chinese/credit-cards/images/icon/slider-button.png") no-repeat 50% bottom;
+	height: 24px !important;
+	margin-left: 0px !important;
+	margin-top: -17px;
+	padding: 0 3px 2px;
+	width: 24px !important;
+	color: #003C78;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	position: absolute;
+	outline: none;
+	border: 0;
+}
+
+.calcSpend {
+	width: 68%;
+}
+
+.calcSpend.giant {
+	width: 60%;
+	margin-left: 39px;
+}
+
+div.ui-slider {
+	width: 85% !important;
+	left: 0;
+}
+
+.calcProgress {
+	height: 8px !important;
+	float: left;
+	width: 89.6%;
+	background: #ADADAD;
+	margin: 7px 0px 0;
+	border: 1px solid #ADADAD;
+	border-top: 1px solid #838383;
+	border-radius: 8px;
+	background: #FFFFFF;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#9D9D9D), to(#FFFFFF));
+	background: -webkit-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -moz-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -ms-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: -o-linear-gradient(#9D9D9D, #FFFFFF 70%);
+	background: linear-gradient(#9D9D9D, #FFFFFF 70%);
+	-pie-background: linear-gradient(#9D9D9D, #FFFFFF 70%);
+}
+
+.sliderTxt {
+	background: url("/sim/chinese/debit_card/images/calc-arrow.png") no-repeat scroll 0 0 transparent;
+	position: absolute;
+	top: -19px;
+	left: -50%;
+	color: #666666;
+	font-weight: normal;
+	font-size: 11px;
+	height: 21px;
+	width: 56px;
+	text-align: center;
+}
+
+.calcRate {
+	background: #00B2F0;
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#00B2F0), to(#01559D));
+	background: -webkit-linear-gradient(#00B2F0, #01559D 70%);
+	background: -moz-linear-gradient(#00B2F0, #01559D 70%);
+	background: -ms-linear-gradient(#00B2F0, #01559D 70%);
+	background: -o-linear-gradient(#00B2F0, #01559D 70%);
+	background: linear-gradient(#00B2F0, #01559D 70%);
+	-pie-background: linear-gradient(#00B2F0, #01559D 70%);
+	padding: 20px;
+	margin: 0 0 20px;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+.calcRateLft,
+.calcRateMid,
+.calcRateRht {
+	float: left;
+}
+
+.calcRateLft {
+	width: 150px;
+	padding: 0 20px 0 0;
+}
+
+.calcRateMid {
+	width: 150px;
+	padding: 0 40px 26px 0;
+}
+
+.calcRateRht {
+	width: 171px;
+	border-left: 1px solid #fff;
+	padding: 0 0 0 50px;
+}
+
+.calcRate input {
+	border: 1px solid #ccc;
+	padding: 10px 0;
+	width: 125px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.calcRateRht input {
+	margin: 14px 0 0;
+	font-size: 25px;
+}
+
+.pointsRate {
+	padding: 0;
+}
+
+.calcRateMidShell {
+	padding-bottom: 0;
+}
+
+.calcRate p.disclaimer {
+	color: #fff;
+}
+
+.merchantIcon {
+	float: left;
+}
+
+.calcCategoryHdrLft {
+	padding-left: 0;
+}
+
+.calcCategoryHdrLft.giant {
+	padding-left: 0;
+	float: left;
+}
+
+.calcRateBtm {
+	width: 100%;
+}
+
+.calcRMlft {
+	float: left;
+	margin-right: 20px;
+}
+
+.calcRMlft .calctxtmiddle {
+	padding: 10px 0 0 0;
+}
+
+.calcRMRgt {
+	float: left;
+}
+
+.calcInnerWrapHdr,
+.calcInnerWrap {
+	clear: both;
+	padding: 20px 0 30px;
+}
+
+.calcInnerWrapHdr li,
+.calcInnerWrap li {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.calcInnerWrap li {
+	font-weight: normal;
+}
+
+.calcInnerWrapHdr li.first,
+.calcInnerWrap li.first {
+	width: 80px;
+}
+
+.calcInnerWrapHdr li.second,
+.calcInnerWrap li.second {
+	width: 170px;
+}
+
+.calcInnerWrapHdr li.third,
+.calcInnerWrap li.third {
+	width: 250px;
+}
+
+.calcInnerWrapHdr li.fourth,
+.calcInnerWrap li.fourth {
+	width: 100px;
+	text-align: center;
+}
+
+.calcInnerWrap.last {
+	padding-bottom: 30px !important;
+}
+
+.diningIcon1 {
+	margin-right: 10px;
+	vertical-align: middle;
+	float: none;
+}
+
+.calcRateWrap {
+	overflow: hidden;
+}
+
+.calcRateRhtWrap {
+	float: right;
+}
+
+.calcRateRhtWrap h3 {
+	float: left;
+	padding: 8px 10px 0 0;
+}
+
+.calcRateRhtWrap p {
+	float: left;
+}
+
+.calcRateLftWrap {
+	float: left;
+}
+
+.calcBtnSpacer {
+	margin-right: 10px;
+}
+
+.calcRMval {
+	width: 60%;
+	float: left;
+}
+
+.calcAmt {
+	margin-right: 20px;
+}
+
+.calcInner.calcInnerClr {
+	overflow: visible;
+}
+
+.calcPaylft {
+	width: 60%;
+	float: left;
+}
+
+.calcPayrgt {
+	margin-left: 10px;
+}
+
+.calcPayrgt input {
+	width: 80px;
+	font-size: 14px;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.calcRateWrap {
+	padding: 10px;
+}
+
+.calcRateRhtWrap {
+	padding-right: 20px;
+}
+
+.calcRateRhtWrap p {
+	padding: 0;
+}
+
+.calcRateRhtWrap input {
+	width: 80px;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+.calcInnerWrap div.ui-slider {
+	width: 100% !important;
+}
+
+.calcInner input.RMVal {
+	width: 80px;
+	font-size: 14px;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.calcInner input.RMValNoBor {
+	width: 80px;
+	font-size: 14px;
+	padding: 5px 0;
+	border: none;
+	text-align: center;
+	background: none;
+}
+
+.tabsmenuWrapper {
+	border: 1px solid #EBEBEB;
+	overflow: hidden;
+	background: #EBEBEB;
+	width: 100%;
+	margin: 20px 0;
+	border-bottom: none;
+}
+
+.tabsmenuContainer {
+	width: 160px;
+	float: left;
+}
+
+.tabsmenu li {
+	position: relative;
+}
+
+.tabsmenu li .tabmenutopArrow {
+	background: url("../images/white-arrow.png") no-repeat scroll 0 0 transparent;
+	height: 19px;
+	position: absolute;
+	right: -9px;
+	top: 37%;
+	width: 10px;
+}
+
+.tabsmenu li a {
+	background: #F7F5F6;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 36px 15px;
+	width: 130px;
+	display: inline-block;
+}
+
+.tabsmenu li a.padHolder {
+	padding: 29px 15px;
+}
+
+.tabsmenu li.active a {
+	background: #fff;
+	font-weight: bold;
+}
+
+.tabmenuContainer {
+	float: left;
+	padding: 20px 20px 20px 30px;
+	width: 480px;
+}
+
+.tabmenuContainer.readyCreditform {
+	width: 430px;
+}
+
+.tabmenuContent {
+	display: none;
+}
+
+.tabmenuContent.active {
+	display: block;
+}
+
+.tabmenuInner {
+	overflow: hidden;
+}
+
+.tabmenuInnerLft {
+	float: left;
+	width: 45%;
+	padding: 0 20px 0 0;
+}
+
+.tabmenuInnerRht {
+	float: left;
+	width: 45%;
+	padding: 0 0 0 20px;
+	border-left: 1px dotted #999;
+}
+
+.tabInnerImg {
+	text-align: center;
+}
+
+.tabInnerImg img {
+	padding: 0 10px 5px 0;
+}
+
+.iconHdrCont {
+	padding: 0 0 20px;
+}
+
+.cashIcon,
+.balanceIcon,
+.flexiIcon,
+.dialIcon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.cashIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/cash-advance.png") no-repeat scroll 0 0 transparent;
+}
+
+.balanceIcon {
+	background: url("/sim/chinese/debit_card/images/icon/balance-transfers.png") no-repeat scroll 0 0 transparent;
+}
+
+.flexiIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/flexi-payment.png") no-repeat scroll 0 0 transparent;
+}
+
+.dialIcon {
+	background: url("/sim/chinese/credit-cards/images/icon/dial-for-cash.png") no-repeat scroll 0 0 transparent;
+}
+
+.fancybox-wrap {
+	z-index: 9999;
+}
+
+#declaration-bg {
+	padding: 20px 15px;
+}
+
+#declaration-bg .declareCont {
+	height: 400px;
+	margin-bottom: 15px;
+	width: 100% !important;
+}
+
+#declaration-bg .declareCont.digitalServices {
+	margin-left: 5px;
+}
+
+#declaration-bg .declareCont .jspContainer,
+#declaration-bg .declareCont .jspPane {
+	width: 98% !important;
+	margin-right: 10px;
+}
+
+#declaration-bg .declareCont .jspContainer,
+#declaration-bg .declareCont.digitalServices .jspPane {
+	margin-right: 10px;
+	width: auto;
+}
+
+#declaration-bg .declareCont .termsCondtn {
+	padding-right: 0px;
+}
+
+#fancybox-wrap {
+	/**
+	top: 50px !important;
+        */
+}
+
+/*****/
+.socialMedia {
+	position: fixed;
+	right: -791px;
+	top: 273px;
+	height: 150px;
+	z-index: 999;
+}
+
+.contactMedia {
+	position: fixed;
+	right: -591px;
+	z-index: 999;
+	top: 537px;
+}
+
+.creditcardIcon {
+	position: fixed;
+	z-index: 999;
+	top: 105px;
+	right: -840px;
+}
+
+.goldcreditcardIcon {
+	right: 0 !important;
+}
+
+
+.creditcardSite {
+	top: 141px !important
+}
+
+.socialMediaIcons {
+	position: fixed;
+	right: 0;
+	top: 192px;
+	z-index: 999;
+}
+
+.socialMediaIcons div.mediaIconsList {
+	padding: 0 0 7px;
+	position: relative;
+}
+
+.socialMediaIcons div img {
+	height: 28px;
+	width: 31px;
+}
+
+.iconDesc {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	background: #fff;
+	box-shadow: 0 0 20px #ccc;
+	border: 1px solid #ccc;
+	padding: 7px 0;
+	width: 200px;
+	text-align: center;
+	display: none;
+}
+
+.iconDesc1 {
+	top: 50px;
+}
+
+.iconDesc2 {
+	top: 90px;
+}
+
+.iconDescArro {
+	position: absolute;
+	top: 7px;
+	right: -8px;
+	background: url("/sim/chinese/images/socialarr.png") right center no-repeat;
+	width: 8px;
+	height: 16px;
+}
+
+.tabWrap {
+	position: relative;
+	left: -39px;
+	top: -35px;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#swiffycontainer {
+	cursor: pointer;
+}
+
+.atIcon {
+	cursor: pointer;
+	width: 40px;
+	height: 123px;
+}
+
+.atIcon1 {
+	width: 40px;
+	height: 29px;
+}
+
+.contentWrap {
+	margin: 0;
+	width: 751px;
+	height: 150px;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-right: none;
+	overflow: hidden;
+	box-shadow: 10px 0 10px #666;
+	-webkit-box-shadow: 10px 0 10px #666;
+	padding: 10px 20px 20px;
+	position: relative;
+	top: -162px;
+	z-index: 99;
+}
+
+.newcontentWrap {
+	width: 800px !important;
+	height: 160px !important;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-right: none;
+	overflow: hidden;
+	box-shadow: 10px 0 10px #666;
+	-webkit-box-shadow: 10px 0 10px #666;
+	padding: 10px 20px 20px;
+	position: relative;
+	top: -162px;
+	z-index: 99;
+}
+
+.contentWrap h2 {
+	color: #333;
+	font-weight: normal;
+}
+
+.contentWrapLft {
+	width: 190px;
+	float: left;
+}
+
+.contentWrapLft ul.mediaIcons {
+	border: none;
+	padding: 0 0 0 15px;
+}
+
+.contentWrapMid {
+	width: 160px;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin-right: 20px;
+	padding: 0 20px;
+}
+
+.contentWrapRht {
+	width: 100%;
+	height: auto;
+}
+
+.promotionImg {
+	float: left;
+	width: 85px;
+}
+
+.newpromotionImg {
+	float: left;
+	width: 103px;
+}
+
+.promotionCont {
+	width: 147px;
+	float: left;
+	padding-left: 10px;
+}
+
+.newpromotionCont {
+	width: 110px;
+	float: left;
+	padding-left: 10px;
+}
+
+.newpromotionCont h4 {
+	color: #00498e;
+}
+
+.newpromotionCont p {
+	color: #848484;
+	line-height: 17px;
+}
+
+.newpromotionCont a {
+	color: #00387d;
+}
+
+p#liji {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
+
+.closeIcon {
+	background: url("/sim/chinese/images/close.jpg") no-repeat;
+	width: 14px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+.recentViewClose {
+	background: url("/sim/chinese/images/close.jpg") no-repeat;
+	width: 14px;
+	height: 15px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#promotionslides {
+	position: relative;
+}
+
+.promotionWrap {
+	overflow: hidden;
+	width: 250px;
+	float: left;
+}
+
+.newpromotionUl {
+	margin-top: 35px;
+}
+
+.newpromotionWrap {
+	border-left: 1px solid #e5e5e5;
+	float: left;
+	padding-left: 32px;
+	overflow: hidden;
+	width: 230px;
+}
+
+.newpromotionWraplft {
+	float: left;
+	overflow: hidden;
+	width: 225px;
+	margin-top: -20px;
+}
+
+#promotionslides ul.slidesjs-pagination {
+	position: absolute;
+	top: 115px;
+	left: 355px;
+	overflow: hidden;
+	z-index: 999;
+}
+
+#promotionslides ul.slidesjs-pagination li {
+	float: left;
+	margin-right: 5px;
+}
+
+#promotionslides ul.slidesjs-pagination li a {
+	background: url("/sim/chinese/images/gray-dot.png") 0 0 no-repeat;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+}
+
+#promotionslides ul.slidesjs-pagination li a.active {
+	background: url("/sim/chinese/images/blueDot.png") 0 0 no-repeat;
+}
+
+.slideWrap {
+	width: 750px;
+	float: left;
+}
+
+.contactMedia .contentWrap {
+	height: 90px;
+	top: -69px;
+	width: 551px;
+}
+
+.contactCol {
+	border-right: 1px solid #ccc;
+	margin-right: 15px;
+	overflow: hidden;
+	width: 235px;
+	float: left;
+}
+
+.contactCol.last {
+	border: none;
+	margin: 0;
+	width: 280px;
+}
+
+/*******/
+
+/* Kana form Light Bod */
+.LightKanaForm {
+	width: 100%;
+	overflow: hidden;
+}
+
+.LightKanaFormInn {
+	width: 100%;
+	margin: 15px 0;
+}
+
+.LightKanaFormInnLft {
+	width: 149px;
+	margin: 0 20px 0 0;
+	float: left;
+}
+
+.LightKanaFormInnRgt {
+	width: 350px;
+	float: left;
+}
+
+.LightKanaFormInnRgt ul {
+	width: 348px;
+	float: left;
+}
+
+.LightKanaFormInnRgt ul li {
+	width: 348px;
+	float: left;
+	padding: 0 0 20px 0;
+}
+
+.LightKanaFormInnRgt ul li .left {
+	float: left;
+	width: 78px;
+	padding: 0 15px 0 0;
+}
+
+.LightKanaFormInnRgt ul li .right {
+	float: left;
+	width: 255px;
+}
+
+.readyCreditTab {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-left: 1px solid #ccc;
+}
+
+.readyCreditTabOn {
+	border-top: 1px solid #05528A;
+	border-left: 1px solid #05528A;
+	border-right: 1px solid #05528A;
+	height: 22px;
+	padding: 15px;
+	width: 44.1%;
+	float: left;
+	cursor: pointer;
+}
+
+.readyCreditTabOn .leftContent,
+.readyCreditTabOff .leftContent {
+	width: 200px;
+	float: left;
+}
+
+.readyCreditTabOn .rightContent,
+.readyCreditTabOff .rightContent {
+	float: right;
+}
+
+.readyCreditTabOff {
+	background: url("/sim/chinese/images/readycreditoff.jpg") repeat-x scroll 100% 0 #EBEBEB;
+	border-left: none;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #05528A;
+	height: 21px;
+	padding: 15px;
+	width: 44.1%;
+	float: left;
+	cursor: pointer;
+}
+
+.fader {
+	height: 143px;
+	overflow: hidden;
+	width: 228px;
+}
+
+#fancybox-title {
+	display: none !important;
+}
+
+/*Footer*/
+
+
+/* Card Selector */
+
+.cardsHldr {
+	display: none;
+}
+
+.detailList {
+	display: none;
+}
+
+.termsHldr {
+	display: none;
+}
+
+#cardDetailsHolder {
+	display: none;
+}
+
+.compareHdr {
+	margin: 10px 0 0;
+	overflow: hidden;
+}
+
+.addCardHldr {
+	border-top: 1px dotted #CCCCCC;
+	margin: 20px 0 0;
+	padding: 20px 0 0;
+	display: none;
+}
+
+.addCard {
+	background: url("/sim/chinese/images/add-card-bg.jpg") repeat-x;
+	overflow: hidden;
+	padding: 20px 30px 0;
+	box-shadow: 0 0 6px 4px #CCCCCC;
+}
+
+.addCard ul {
+	float: left;
+}
+
+.lftStripBg {
+	background: url("/sim/chinese/credit-cards/images/selectorCards/addcard/leftBg.png") no-repeat;
+	width: 13px;
+	height: 175px;
+	float: left;
+}
+
+.rhtStripBg {
+	background: url("/sim/chinese/credit-cards/images/selectorCards/addcard/rightBg.png") no-repeat;
+	width: 13px;
+	height: 175px;
+	float: right;
+}
+
+.addCard ul li {
+	width: 168px;
+	float: left;
+	text-align: center;
+}
+
+.addCardMort ul li {
+	width: 140px;
+}
+
+.addCardHdr {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.rangeHldrCompare {
+	border-right: 1px solid #CCCCCC;
+	padding-left: 5px;
+	width: 658px !important;
+}
+
+.rangeHldrLend {
+	width: 760px !important;
+	border-right: 1px solid #ccc;
+}
+
+.compareAllBtnLend {
+	padding-right: 10px;
+	text-align: center !important;
+}
+
+.rangeHldrLend .rangeValue {
+	padding-right: 20px !important;
+}
+
+.rangeHldrCompare .rangeValue {
+	margin-right: 30px;
+}
+
+.rangeValueBot {
+	padding-bottom: 0px !important;
+}
+
+.rangeHldrComp {
+	width: 740px !important;
+	border-right: 1px solid #CCCCCC;
+}
+
+.rangeHldrMort {
+	width: 760px !important;
+	border-right: 1px solid #ccc;
+}
+
+.rangeHldrComp .rangeValue {
+	display: inline-block;
+	padding: 0 5px 12px 0;
+}
+
+.rangeHldrMort .rangeValue {
+	display: inline-block;
+	padding: 0 2px 12px 0;
+}
+
+.rangeHldrMort .rangeValueAll {
+	padding-left: 6px;
+}
+
+.availableCards .compareAllBtn1 {
+	float: none;
+	text-align: left;
+	margin: 0;
+}
+
+.availableCardsComp {
+	width: 220px !important;
+}
+
+.orHldr {
+	padding: 0 20px;
+}
+
+.availableCardsCompare {
+	border: none;
+	width: 150px !important;
+}
+
+.selectedCardsComp ul li,
+.cardsDetailsComp ul li {
+	width: 20% !important;
+}
+
+.selectedCardsLend ul li,
+.cardsDetailsLend ul li {
+	width: 25% !important;
+}
+
+.selectedCardsLend ul li p.cardHdr {
+	min-height: 14px !important;
+}
+
+.cardCont sup {
+	vertical-align: 3px;
+}
+
+.selectedCardsLend .cardCont {
+	min-height: 55px !important;
+}
+
+.compareTabList span {
+	display: block;
+	background: url("/sim/chinese/images/bullet.jpg") no-repeat scroll 0 6px transparent;
+	padding: 0px 0 8px 10px;
+}
+
+.cardsDetailsComp ul li p {
+	min-height: 28px;
+}
+
+#comapreHldr .TermsAndConditions {
+	margin: 10px 0;
+}
+
+.selectCardsHldr {
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 3px 3px;
+	position: relative;
+	margin: 20px 0 10px;
+	padding: 10px 0 10px 10px;
+	overflow: hidden;
+	color: #333;
+}
+
+.rangeHldr {
+	float: left;
+	width: 407px;
+}
+
+.selectCardsHdr {
+	padding: 10px 0 12px;
+}
+
+.cardsSelectHdr {
+	padding-bottom: 8px;
+}
+
+.selectCardsValue {
+	padding: 0 0 10px;
+}
+
+.rangeHldr input,
+.cardSelectHldr input {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.cardSelectHldr input {
+	margin: 0 6px 0 0;
+}
+
+.rangeValue {
+	padding: 0 3px 0 0;
+}
+
+.cardSelectHldr {
+	padding: 0 10px 0 10px;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	float: left;
+	width: 330px;
+}
+
+.cardCompHldr {
+	padding: 0 15px 0 0;
+	float: left;
+	width: auto;
+	border-right: 0 none;
+	border-left: 0 none;
+}
+
+.cardSelectHldr .rangeValue {
+	padding: 0 5px 0 0;
+}
+
+.availableCards {
+	float: right;
+	padding: 10px 10px 0;
+	width: 135px;
+	font-weight: bold;
+}
+
+.orCompare {
+	display: block;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.availableCompCards {
+	border-left: 1px solid #ccc;
+	width: 115px;
+}
+
+.availableCompCards .cardsList {
+	float: left;
+}
+
+.availableCompCards .cardsAvailable {
+	float: left;
+	padding: 16px 0 0 5px;
+}
+
+.cardsList {
+	float: left;
+	padding-right: 5px;
+}
+
+.compareAllBtnWidth {
+	width: 170px !important;
+}
+
+.compareAllBtn {
+	float: right;
+	width: 244px;
+	text-align: center;
+}
+
+.compareAllBtn1 {
+	float: left;
+	width: auto;
+}
+
+.selectedCards,
+.cardsDetails {
+	background: url("/sim/chinese/images/bg-pattern.gif") repeat scroll 0 0;
+	box-shadow: 0 0 6px 4px #ccc;
+	margin: 20px 0 10px;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+}
+
+.selectedCardsHldr {
+	margin-top: 0;
+}
+
+.selectedCards ul {
+	width: 100.1%;
+}
+
+.selectedCards ul li {
+	width: 16.66%;
+	float: left;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+.cardsDetails {
+	margin: 20px 0 10px;
+}
+
+.cardsDetails ul li {
+	text-align: left;
+	width: 16.66%;
+	float: left;
+}
+
+.cardsDetails ul li div {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+	font-size: 11px;
+}
+
+.productName {
+	color: #05589D;
+}
+
+.cardsGrayBg {
+	background: #f3f3f3;
+}
+
+.cardsWhiteBg {
+	background: #ffffff;
+}
+
+.cardHdr {
+	min-height: 34px;
+	font-weight: bold;
+	padding: 0;
+}
+
+.selectedCardsComp .cardCont {
+	height: 65px !important;
+}
+
+.selectedCardsCompare .cardCont {
+	height: 95px !important;
+}
+
+.cardImg {
+	position: relative;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.closeIconHldr {
+	position: absolute;
+	right: 10px;
+}
+
+.closeIconHldrLend {
+	right: 60px !important;
+}
+
+.cardCont {
+	padding: 10px 10px 0;
+	height: 40px;
+	font-size: 11px;
+}
+
+.cardsGrayBg .cardCont {
+	background: #EBEBEB;
+}
+
+.cardsWhiteBg .cardCont {
+	background: #F6F6F6;
+}
+
+.cardBtn .greyBtn {
+	padding: 5px;
+}
+
+.compareAllBtn1.cardSelAppNow {
+	width: 150px;
+	text-align: center;
+}
+
+.cardSelAppNow .greyBtn,
+.cardSelAppNow .blueBtn {
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px 7px;
+	text-align: center;
+	width: 75px;
+}
+
+.compareAllBtn .blueBtn {
+	width: auto !important;
+	padding: 5px 10px;
+}
+
+.cardBtn span {
+	margin: 10px 0 0;
+	display: block;
+	min-height: 25px;
+}
+
+.availableCardsLend {
+	width: 130px !important;
+	border: none;
+}
+
+.viewCardsList {
+	overflow: hidden;
+}
+
+.viewCardsList ul {
+	background: #edeeef;
+	border: 1px solid #ddd;
+	border-radius: 3px 3px 3px 3px;
+	overflow: hidden;
+	margin: 10px 0 0;
+	position: relative;
+}
+
+.viewCardsList ul li {
+	float: left;
+}
+
+.viewCardsList ul li a {
+	border: 1px solid #EDEEEF;
+	color: #768696;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 15px 22.5px;
+}
+
+.viewCardsListLend ul li a {
+	padding: 15px 28.8px;
+}
+
+.viewCardsListMort ul li a {
+	padding: 15px 26.4px;
+}
+
+.viewCardsList ul li a:hover,
+.viewCardsList ul li a.active {
+	background: #F9F9F9;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	color: #384553;
+	position: relative;
+	text-decoration: none;
+}
+
+.rewardsIcon,
+.lowRateIcon,
+.cardtravelIcon,
+.everydayIcon,
+.savingsIcon,
+.termIcon {
+	display: inline-block;
+	height: 24px;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 24px;
+}
+
+.rewardsIcon {
+	background: url("/sim/chinese/credit-cards/images/selectorCards/rewards.png") no-repeat scroll 0 0 transparent;
+}
+
+.lowRateIcon {
+	background: url("/sim/chinese/credit-cards/images/selectorCards/lowRate.png") no-repeat scroll 0 0 transparent;
+}
+
+.cardtravelIcon {
+	background: url("/sim/chinese/credit-cards/images/selectorCards/travel.png") no-repeat scroll 0 0 transparent;
+}
+
+.everydayIcon {
+	background: url("/sim/chinese/deposits/images/compareAllAccounts/icons/everydayBanking.png") no-repeat scroll 0 0 transparent;
+}
+
+.savingsIcon {
+	background: url("/sim/chinese/deposits/images/compareAllAccounts/icons/savingsAccount.png") no-repeat scroll 0 0 transparent;
+}
+
+.termIcon {
+	background: url("/sim/chinese/deposits/images/compareAllAccounts/icons/termDeposits.png") no-repeat scroll 0 0 transparent;
+}
+
+.grayTick {
+	background: url("/sim/chinese/images/tick_arrow.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 12px;
+	margin-bottom: 5px;
+	width: 14px;
+}
+
+.grayClose {
+	background: url("/sim/chinese/images/cross_img.png") no-repeat;
+	width: 10px;
+	height: 12px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.Compare .cardCont {
+	height: 65px;
+}
+
+.firstEqual {
+	min-height: 49px;
+}
+
+.secEqual {
+	min-height: 30px;
+}
+
+.thirdEqual {
+	min-height: 30px;
+}
+
+ul.bulLst li a.grayArrow {
+	background: url("/sim/chinese/images/grayarrow.png") no-repeat scroll 0 4px transparent;
+	display: inline-block;
+	margin: 0 0 0 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+/*Free Stay*/
+.freeStay .bannerTitle {
+	color: #004a89;
+	position: absolute;
+	padding: 25px 20px 0 0px;
+	left: 0;
+	width: 500px;
+}
+
+.smartDrive {
+	margin: 0 0 15px;
+}
+
+.smartDrive .bannerTitle {
+	color: #fff;
+	position: absolute;
+	padding: 25px 20px 0 0px;
+	left: 32%;
+	width: 50%;
+}
+
+.freeStay .largeTitle,
+.smartDrive .largeTitle {
+	font-size: 36px;
+	padding: 0 0 10px;
+}
+
+.freeStay .smallTitle {
+	font-size: 16px;
+}
+
+.freeStay .beOurGuest {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	top: 81%;
+	left: 0;
+}
+
+.freeStay .beOurGuest .left {
+	float: left;
+	width: 555px;
+}
+
+.freeStay .beOurGuest .left .citiprivileges {
+	width: 63px;
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+.freeStay .beOurGuest .left .beOurGuestText {
+	overflow: hidden;
+}
+
+.freeStay .beOurGuest .left .beOurGuestText .largeText {
+	font-size: 26px;
+	color: #fff;
+	padding: 0 0 5px;
+}
+
+.freeStay .beOurGuest .left .beOurGuestText .mediumText {
+	font-size: 14px;
+	color: #fff;
+}
+
+.freeStay .beOurGuest .right {
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.hotelDetails {
+	background: #f6f6f6;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 30px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 15px;
+}
+
+.hotelDetails .Wrapper {
+	overflow: hidden;
+}
+
+.hotelDetails .left {
+	float: left;
+	width: 507px;
+}
+
+.hotelDetails .left .promoImg {
+	width: 201px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.hotelDetails .left .promoDetails {
+	float: left;
+	width: 54%;
+}
+
+.hotelDetails .left .promoDetails ul {
+	width: 82%;
+}
+
+.hotelDetails .left .promoDetails ul {
+	width: 92%;
+	float: left;
+}
+
+.hotelDetails .left .promoDetails ul li {
+	background: url("/sim/chinese/images/green-checkmark.gif") no-repeat scroll 0 3px transparent;
+	line-height: 16px;
+	padding: 0 0 15px 25px;
+}
+
+.hotelDetails .right {
+	margin: 51px 0 0 0;
+}
+
+.hotelDetails .nightTag {
+	position: absolute;
+	left: 0;
+	left: 572px;
+	top: 0;
+	overflow: hidden;
+}
+
+.hotelContent {
+	overflow: hidden;
+	margin-top: 15px;
+	width: 100%;
+}
+
+.hotelContent .outlet {
+	width: 224px;
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+.hotelContent .info {
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+	padding: 0 0 0 18px;
+}
+
+/*Free Stay*/
+
+/* Welcome Page */
+
+.phoneLst li {
+	margin: 5px 0px;
+	clear: both;
+	overflow: hidden;
+}
+
+.phoneLst li .txtLft {
+	float: left;
+	width: 94px;
+}
+
+.phoneLst li .txtRgt {
+	float: left;
+}
+
+/* End Welcome Page */
+
+
+.dealsDetShow .thumbContWrap ol.numLst {
+	padding-bottom: 10px;
+}
+
+.dealsDetShow .thumbContWrap ol.numLst li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: decimal;
+	line-height: 15px;
+	border: none;
+	font-size: 10px;
+	width: auto;
+}
+
+ul.dealsDetails li div.dealsDetLarge {
+	height: 230px;
+}
+
+/* premierMiles */
+
+.premierMiles .premierMilesInn {
+	position: absolute;
+	z-index: 1;
+	padding: 25px 20px 0 0;
+	width: 97%;
+}
+
+.premierMiles .largeTitle {
+	font-size: 35px;
+	line-height: 30px;
+	padding: 0 0 7px;
+	color: #fff;
+}
+
+.premierMiles .smallTitle {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 4px 0 0;
+	color: #fff;
+}
+
+.premierMiles .premierMilesInn .left {
+	float: left;
+	width: 180px;
+	padding: 0 20px 0 0;
+}
+
+.premierMiles .premierMilesInn .right {
+	float: left;
+	width: 451px;
+	padding: 0 20px 0 0;
+}
+
+.premierBtn {
+	overflow: hidden;
+	width: 100%;
+	margin: 15px 0 0 0;
+}
+
+.premierBtn .btnLft {
+	float: left;
+	padding: 0 15px 0 0;
+	width: 180px;
+}
+
+.premierBtn .btnRgt {
+	float: right;
+	padding: 0 15px 0 0;
+}
+
+.cardsTabHldrInn {
+	position: relative;
+	border: 1px solid #DEDEDE;
+	background: url('/sim/chinese/images/bg-pattern.gif') repeat;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.cardsTabWrapperInn {
+	width: 692px;
+	overflow: hidden;
+	height: 275px;
+	position: relative;
+}
+
+ul.cardThumbTab {
+	overflow: hidden;
+	padding: 15px 0 12px 20px;
+}
+
+ul.cardThumbTab li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+#backgroundWrap {
+	width: 1000em;
+	position: relative;
+	height: 100%
+}
+
+#backgroundWrap .cardsTabContInn {
+	float: left;
+	width: 694px;
+	display: block;
+}
+
+.premierMilesLst {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+
+ul.premierMilesLstInn li {
+	background: none repeat scroll 0 0 #F5F5F5;
+	border: 1px solid #EDEBEC;
+	float: left;
+	margin: 0 17px 15px 0;
+	padding: 10px;
+	position: relative;
+	width: 138px;
+}
+
+ul.premierMilesLstInn li.noMarRgt {
+	margin-right: 0px;
+}
+
+ul.premierMilesLstInn li .thumPad {
+	padding: 0 0 15px 0px;
+}
+
+.cardsTabCont {
+	display: none;
+}
+
+.cardsTabCont.active_content {
+	display: block;
+}
+
+.cardsTabContInn {
+	display: none;
+	padding-top: 15px;
+}
+
+.cardsTabContInn.active_content {
+	display: block;
+}
+
+.stepBlock {
+	width: 100%;
+	background: url("/premiermiles/images/desktop/features-steps.png") no-repeat;
+	height: 167px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+.stepBlockInn {
+	padding: 15px;
+}
+
+.stepBlockInn ul {
+	overflow: hidden;
+}
+
+.stepBlockInn ul li {
+	float: left;
+	margin: 0 45px 0 0;
+	width: 167px;
+}
+
+.commInnBlock {
+	overflow: hidden;
+	width: 100%;
+}
+
+.commInnBlock .commInnBlockLft {
+	float: left;
+	width: 47%;
+	padding: 0 30px 0 0;
+}
+
+.commInnBlock .commInnBlockRgt {
+	float: left;
+	width: 47%;
+}
+
+.commonApplyProducts {
+	overflow: hidden;
+	background: #f6f6f6;
+	width: 100%;
+}
+
+.commonApplyProducts ul li {
+	float: left;
+	width: 214px;
+	border-right: 1px solid #ccc;
+}
+
+.commonApplyProducts ul li.bdrRgtNone {
+	border: none;
+}
+
+.commonApplyProducts ul li.hgt {
+	height: 105px;
+}
+
+.commonApplyProducts ul li .IconHolder {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.commonApplyProducts ul li .IconHolder .IconLeft {
+	width: 40px;
+	float: left;
+}
+
+.commonApplyProducts ul li .IconHolder .IconContent {
+	margin-left: 10px;
+	width: 134px;
+	float: left;
+}
+
+.commonApplyProducts ul li .IconHolder .IconContent a {
+	color: #000;
+	font-weight: bold;
+}
+
+.commonApplyProducts ul li .IconHolder .IconContent a.whiteClr {
+	color: #fff !important;
+}
+
+.contact-icon {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('/sim/chinese/images/contact-icon.png') 0 0 no-repeat;
+	width: 26px;
+	height: 26px;
+	margin-right: 5px;
+}
+
+.call-icon {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('/sim/chinese/images/call-icon.png') 0 0 no-repeat;
+	width: 29px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.visit-icon {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('/sim/chinese/images/visit-icon.png') 0 0 no-repeat;
+	width: 25px;
+	height: 26px;
+	margin-right: 5px;
+}
+
+.divider-line {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('/sim/chinese/images/divider.png') 0 0 no-repeat;
+	width: 1px;
+	height: 32px;
+}
+
+.commonIconSplit {
+	width: 100%;
+	overflow: hidden;
+}
+
+.commonIconSplit ul.commonIconHolder {
+	border-bottom: 1px dotted #ccc;
+	padding: 10px 0 10px;
+	overflow: hidden;
+	margin: 0 0 15px;
+	border-top: 1px dotted #ccc;
+}
+
+.commonIconSplit ul.commonIconHolder.cLsBdrNone {
+	border-top: none;
+	padding-top: 0;
+}
+
+.commonIconSplit ul.commonIconHolder li.left {
+	width: 265px;
+	float: left;
+}
+
+.commonIconSplit ul.commonIconHolder li span {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.commonIconSplit ul.commonIconHolder li.right {
+	border-left: 1px solid #ccc;
+	width: 279px;
+	float: left;
+	padding-left: 20px;
+}
+
+/* Smart Travel */
+.smartTravel {
+	height: 452px;
+	position: relative;
+	margin: 0 0 25px;
+}
+
+.smartTravel .bannerTitle {
+	color: #fff;
+	position: absolute;
+	padding: 20px 20px 25px 10px;
+	left: 0;
+	height: 150px;
+}
+
+.smartTravel .largeTitle {
+	font-size: 36px;
+	padding: 0 0 5px;
+	line-height: 37px;
+}
+
+.smartTravel .smallTitle {
+	font-size: 16px;
+}
+
+.smartTravel .mediumTitle {
+	font-size: 18px;
+	padding: 0px;
+	line-height: 30px;
+}
+
+.mythList {
+	position: relative;
+	top: -75px;
+	left: -25px;
+}
+
+.mythListInner {
+	background: url("/sim/chinese/insurances/smarttraveller/images/desktop/blackBg.png") repeat-x;
+	overflow: auto;
+	position: relative;
+	left: -4px;
+	width: 721px;
+	top: 1px;
+}
+
+.smartTravel .smartTravelBluBg {
+	background: url("/sim/chinese/insurances/smarttraveller/images/desktop/blue-opacity.png") no-repeat;
+	top: 20px;
+}
+
+.mythListContent {
+	background: #0097DC;
+	color: #fff;
+	padding: 10px 20px;
+	position: relative;
+	left: -4px;
+	width: 681px;
+	display: none;
+}
+
+.ballooPopup {
+	position: relative;
+}
+
+.popLst {
+	overflow: hidden;
+	margin: 10px 0 15px 0;
+	float: left;
+}
+
+.popLst ul {
+	float: left;
+}
+
+.popLst ul li {
+	float: left;
+	padding-left: 10px;
+}
+
+.popLst ul li h3 {
+	font-size: 13px;
+}
+
+.popLst ul li:first-child {
+	padding-left: 0px;
+}
+
+.greyBoxIcons {
+	margin-top: 10px;
+}
+
+.popup {
+	position: absolute;
+	display: none;
+	height: 185px;
+	color: #fff;
+	bottom: 20px;
+}
+
+.popupTxt {
+	padding: 15px;
+	width: 345px;
+	font-size: 13px;
+	height: 120px;
+}
+
+.popupTxt p,
+.popupTxt h2 {
+	padding-bottom: 5px;
+}
+
+.popup.current,
+.mythListContent.active {
+	display: block;
+}
+
+.popup.greyBox {
+	background: url("/sim/chinese/insurances/smarttraveller/images/desktop/grey-box.png") no-repeat;
+	color: #000;
+}
+
+.greyBoxIcons a.greyBtn,
+.greyBoxIcons a.blueBtn,
+.popup a.blueBtn {
+	width: auto;
+	padding: 6px 7px;
+	float: right;
+}
+
+.keybeneIcon {
+	background: url("/sim/chinese/insurances/smarttraveller/images/icons/key-benefits.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.citionlineIcon {
+	background: url("/sim/chinese/insurances/smarttraveller/images/icons/online.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.phoneIcon {
+	background: url("/sim/chinese/insurances/smarttraveller/images/icons/phone.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.saveTimeIcon {
+	background: url("/sim/chinese/insurances/smartdrive/images/icons/save-time.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.saveYourselfIcon {
+	background: url("/sim/chinese/insurances/smartdrive/images/icons/save-yourself.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.earnRewardPointsIcon {
+	background: url("/sim/chinese/insurances/smartdrive/images/icons/earn-reward-points.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.citiMobIcon {
+	background: url("/mobile/images/icons/citibank-mobile.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.smsBanIcon {
+	background: url("/mobile/images/icons/sms-banking.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.citiAlerIcon {
+	background: url("/mobile/images/icons/citi-alerts.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.accSumIcon {
+	background: url("/mobile/images/icons/account-summary.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.payTransIcon {
+	background: url("/mobile/images/icons/payments-transfers.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.citiWorldIcon {
+	background: url("/mobile/images/icons/citi-world-privileges.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.atmBranIcon {
+	background: url("/mobile/images/icons/branch-locator.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.citiRewIcon {
+	background: url("/mobile/images/icons/citi-rewards.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.dinShopIcon {
+	background: url("/mobile/images/icons/dining-shopping.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.mobBilPayIcon {
+	background: url("/mobile/images/icons/mobile-bill-payment.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.mobPreRedIcon {
+	background: url("/mobile/images/icons/mobile-prepaid-reload.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.accEnqIcon {
+	background: url("/mobile/images/icons/account-enquiry.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.productIcon {
+	background: url("/mobile/images/icons/products-services.png") no-repeat scroll 0 0 transparent;
+	padding: 0 10px 0 0;
+}
+
+.keybeneIcon,
+.productIcon,
+.citionlineIcon,
+.phoneIcon,
+.saveTimeIcon,
+.saveYourselfIcon,
+.earnRewardPointsIcon,
+.citiMobIcon,
+.smsBanIcon,
+.citiAlerIcon,
+.accSumIcon,
+.payTransIcon,
+.citiWorldIcon,
+.atmBranIcon,
+.citiRewIcon,
+.dinShopIcon,
+.mobBilPayIcon,
+.mobPreRedIcon,
+.accEnqIcon {
+	display: inline-block;
+	float: left;
+	height: 26px;
+	vertical-align: middle;
+	width: 24px;
+}
+
+.topBoxInnBckCont h3 {
+	margin-bottom: 10px;
+}
+
+ul.thumImgLst {
+	overflow: hidden;
+	width: 100%;
+}
+
+ul.thumImgLst li {
+	float: left;
+	padding: 0 15px 10px 0;
+}
+
+.instantRew {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.instantRewLft {
+	float: left;
+	width: 100px;
+	padding: 0 15px 0 0;
+}
+
+.instantRewRgt {
+	float: left;
+	width: 531px;
+}
+
+ul.instRewLst {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+ul.instRewLst li {
+	float: left;
+	padding: 0 20px 0 0;
+	text-align: center;
+}
+
+ul.instRewLst li span.rewCont {
+	width: 110px;
+	display: block;
+	padding: 10px 0 0 0;
+}
+
+/* Micro site */
+#microWrapper {
+	padding: 0 29px;
+}
+
+#microMain {
+	overflow: hidden;
+	width: 100%;
+	padding: 20px 0 0;
+}
+
+#microLeftSide {
+	float: left;
+	width: 600px;
+}
+
+#microSidebar {
+	float: right;
+	width: 310px;
+	background: #f3f3f3;
+}
+
+.intro {
+	font-size: 16px;
+}
+
+.blueBar {
+	background: #003b79;
+	color: #FFF;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.blueTbl {
+	background: #eeefee;
+	border-top: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	width: 100%;
+	font-size: 16px;
+	margin: 0 0 15px;
+}
+
+.blueTbl th {
+	background: #003b79;
+	border-bottom: 1px #ccc solid;
+	border-left: 1px #ccc solid;
+	color: #FFF;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+.blueTbl td {
+	border-bottom: 1px #ccc solid;
+	border-left: 1px #ccc solid;
+	padding: 10px 20px;
+	color: #2e2e2e;
+}
+
+.icon_wrap {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+
+.icon {
+	position: absolute;
+	display: inline-block;
+	left: -8px;
+}
+
+.gridWrap,
+.threeGrid {
+	padding: 15px 0;
+}
+
+.gridWrap>ul,
+.threeGrid>ul {
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px #ccc solid;
+}
+
+.gridWrap>ul.last,
+.threeGrid>ul.last {
+	border: none;
+}
+
+.gridWrap>ul>li {
+	overflow: hidden;
+	float: left;
+	min-height: 66px;
+	padding: 15px;
+	width: 269px;
+}
+
+.gridWrap>ul>li.left {
+	border-right: 1px #ccc solid;
+}
+
+.gridIcon {
+	float: left;
+	width: 25%;
+}
+
+.gridContWrap {
+	float: left;
+	width: 75%;
+	padding: 0;
+}
+
+.gridTitle {
+	font-weight: bold;
+}
+
+.threeGrid>ul>li {
+	width: 179px;
+	overflow: hidden;
+	float: left;
+	min-height: 66px;
+	padding: 15px;
+}
+
+.threeGrid>ul>li.left {
+	border-right: 1px #ccc solid;
+	padding-left: 0;
+}
+
+.threeGrid>ul>li.middle {
+	border-right: 1px #ccc solid;
+}
+
+.threeGrid>ul>li.right {
+	padding-right: 0;
+}
+
+.threeGrid>ul>li div.gridContWrap {
+	float: left;
+	width: 69%;
+	padding-left: 10px;
+}
+
+/* form */
+.form1 label {
+	font-size: 0.813em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.form-2 label {
+	float: left;
+	width: 100%;
+	color: #333333;
+	font-size: 0.75em;
+}
+
+.label-2 {
+	display: block;
+	width: 100%;
+}
+
+.list-radio-1 input {
+	margin-right: 5px;
+	margin-top: -2px;
+}
+
+.list-radio-1 label {
+	margin-right: 10px;
+}
+
+.input-1 {
+	color: #666;
+	width: 90%;
+	padding: 6px 5px;
+	background: #ffffff url("/sim/chinese/images/input-box-bg.jpg") repeat-x top;
+	margin-top: 5px;
+	font-size: 12px;
+	border: 1px solid #bfc3c6;
+}
+
+.form-2 .input-1 {
+	float: left;
+	width: 60%;
+}
+
+.input-2 {
+	color: #666;
+	width: 51.7%;
+	padding: 5px 5px;
+	background: #ffffff url("/sim/chinese/images/input-box-bg.jpg") repeat-x top;
+	margin-left: 10px;
+	font-size: 12px;
+	border: 1px solid #bfc3c6;
+}
+
+.input-3 {
+	color: #666;
+	width: 90%;
+	padding: 6px 5%;
+	background: #ffffff url("/sim/chinese/images/input-box-bg.jpg") repeat-x top;
+	margin-top: 5px;
+	font-size: 12px;
+	border: 1px solid #bfc3c6;
+}
+
+.input-4 {
+	color: #666;
+	width: 60%;
+	padding: 6px 5%;
+	background: #ffffff url("/sim/chinese/images/input-box-bg.jpg") repeat-x top;
+	margin-top: 5px;
+	font-size: 12px;
+	border: 1px solid #bfc3c6;
+}
+
+span.type-3 {
+	padding: 0 2%;
+	width: 1%;
+	color: #ffffff;
+}
+
+.list-radio-2 input {
+	margin-right: 5px;
+	margin-top: -2px;
+}
+
+.kana-thank #sidebar ul li div input {}
+
+.list-radio-2 label {}
+
+.select-1 {
+	padding: 5px 3%;
+	width: 25%;
+	background: #ffffff;
+	margin: 5px 5% 0 0;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid #bfc3c6;
+}
+
+.form-2 .select-1 {
+	padding: 0;
+	border: 1px solid #000000;
+	color: #666666;
+	font-size: 0.875em;
+	width: 20%;
+}
+
+.select-2 {
+	padding: 5px 3%;
+	width: 23%;
+	background: #ffffff;
+	margin: 5px 5% 0 0;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid #bfc3c6;
+}
+
+.radioValueDis input[type="radio"] {
+	margin-top: 0
+}
+
+.btn-1 {
+	width: 40%;
+	padding: 10px 10%;
+	margin-left: 20%;
+	background: url("/sim/chinese/images/submitBtn.jpg") repeat-x top;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-1:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.btn-3 {
+	margin: 0 6px 0 0;
+	padding: 10px 20px;
+	background: url("/sim/chinese/images/submitBtn.jpg") repeat-x top;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: bold;
+	float: right;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+#microSidebar h3 {
+	background: #002d72;
+	padding: 10px 25px;
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 18px;
+}
+
+#microSidebar h4 {
+	background: url("/sim/chinese/images/bgd-head-sidebar.jpg") repeat-x;
+	padding: 10px 25px;
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 18px;
+}
+
+#microSidebar p {
+	padding: 8px 25px;
+}
+
+#microSidebar p.note {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	padding: 10px 0;
+}
+
+#microSidebar .list-radio-2 p {
+	padding: 12px 0 8px;
+}
+
+#microSidebar>ul>li {
+	padding: 0 25px 10px;
+}
+
+.blueTitle {
+	color: #003b79;
+	font-weight: bold;
+	padding: 5px 0 0;
+}
+
+.alert-incom {
+	color: #FF0000 !important;
+	font-size: 0.75em !important;
+	padding: 10px 0 0 !important;
+}
+
+.botNote {
+	font-size: 16px;
+	color: #333333;
+	border-top: 1px #ebebeb solid;
+	padding: 15px 0 0;
+}
+
+.formWrap {
+	overflow: hidden;
+	width: 100%;
+}
+
+.formWrap li.blueTitle {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.formWrap li {
+	float: left;
+	padding: 15px 0 0;
+}
+
+.formWrap li p {
+	float: left;
+	padding: 8px 0 0;
+}
+
+.formWrap li div {
+	float: left;
+}
+
+.width-1 {
+	width: 100%;
+}
+
+.width-2 {
+	width: 360px;
+	margin-right: 50px;
+}
+
+.width-3 {
+	width: 534px;
+}
+
+.width-2 p {
+	width: 40%
+}
+
+.width-3 p {
+	width: 29%
+}
+
+.width-2 div {
+	width: 60%;
+}
+
+.width-3 div {
+	width: 70%;
+}
+
+.formWrap li p.note {
+	padding: 0;
+}
+
+/* Get Started */
+
+.mobGetList ul {
+	display: block;
+	border: 1px solid #dfdfdf;
+	overflow: hidden;
+	background: url("/sim/chinese/debit_card/images/desktop/airasia-bginner.jpg") repeat-x #EEEEEE;
+}
+
+.mobGetList ul li {
+	width: 21.8%;
+	float: left;
+}
+
+.mobGetList ul li.mobFrt {
+	border-right: 1px solid #dfdfdf;
+	padding: 10px;
+}
+
+.mobGetList ul li.mobSec {
+	border-right: 1px solid #dfdfdf;
+	padding: 10px;
+}
+
+.mobGetList ul li.mobTrd {
+	border-right: 1px solid #dfdfdf;
+	padding: 10px;
+}
+
+.mobGetList ul li.mobFor {
+	padding: 10px;
+}
+
+.mobGetList ul li h3 {
+	margin-bottom: 10px;
+}
+
+.mobGetList ul li .greyBtn,
+.mobGetList ul li .blueBtn {
+	width: auto;
+	padding: 6px 7px;
+	font-size: 11px;
+}
+
+/* Mobile Banking */
+.mobileBanking {
+	height: 452px;
+	position: relative;
+	margin: 0 0 25px;
+}
+
+.mobileBanking .bannerTitle {
+	position: absolute;
+	padding: 25px 20px 0 0px;
+	left: 0;
+	width: 640px;
+	display: none;
+}
+
+.mobileBanking .bannerTitle.first {
+	display: block;
+}
+
+.mobileBanking .largeTitle {
+	font-size: 36px;
+	padding: 0 0 5px;
+	line-height: 36px;
+}
+
+.mobileBanking .smallTitle {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.mobileBanking .mediumTitle {
+	font-size: 18px;
+	padding: 0px;
+	line-height: 30px;
+}
+
+.rotator img {
+	position: absolute;
+}
+
+.sliderContent {
+	position: absolute;
+	bottom: 15px;
+	height: 65px;
+	overflow: hidden;
+	width: 680px;
+	background: url("/mobile/images/desktop/timelinePointbg.png") no-repeat;
+	z-index: 12;
+}
+
+.absScrollBox {
+	position: absolute;
+	bottom: 15px;
+	z-index: 12;
+	width: 660px;
+	height: 65px;
+	background: url("/mobile/images/desktop/slider.png") no-repeat center 55px;
+}
+
+.timeLineTabs a {
+	text-align: center;
+	float: left;
+	display: block;
+	width: 105px;
+	height: 0;
+	padding-top: 75px;
+	outline: none;
+	outline-style: none;
+}
+
+.timeLineTabs a.current {
+	width: 135px;
+}
+
+/* Mobile Get Started  */
+.airasiaGetStart {
+	height: 503px;
+	position: relative;
+	margin: 0 0 25px;
+	background: url("/mobile/images/desktop/getstarted-bg.png") no-repeat;
+	left: -29px;
+	width: 721px;
+}
+
+.airSlider .right {
+	width: 50%;
+	float: left;
+}
+
+.airSlider .left {
+	width: 49%;
+	float: left;
+}
+
+.airSlider .airSliderImageList img {
+	display: none;
+}
+
+.airSlider .airSliderImageList img:first-child {
+	display: block;
+}
+
+.contentList>li {
+	display: none;
+}
+
+.contentList>li:first-child {
+	display: block;
+}
+
+.centerContent ul.numLst li {
+	padding: 0 0px 5px;
+	margin: 0 0 0 25px;
+	list-style: decimal;
+	line-height: 17px;
+}
+
+.contentList li .centerContent {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.contentList li h2 {
+	color: #004a89;
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.contentList li .centerContent .qrcode {
+	width: 100px;
+	padding: 10px 0;
+}
+
+.contentList li .centerContent .appstore {
+	padding: 10px 0;
+}
+
+.airSliderContentList {
+	min-height: 350px;
+}
+
+.airSliderPagination {
+	overflow: hidden;
+	padding-top: 15px;
+	width: 100%;
+}
+
+.airSliderPagination .pagination li {
+	float: left;
+}
+
+.airSliderPagination .pagination li a {
+	float: left;
+	padding: 6px 10px;
+	color: #fff;
+	background: #444;
+	margin-left: 3px;
+	border: 1px solid #444;
+}
+
+.airSliderPagination .pagination li a.active {
+	background: #999;
+	border: 1px solid #444;
+}
+
+.airSliderPagination .pageInfo {
+	width: 40%;
+	float: left;
+	margin: 0px;
+}
+
+.airSliderPagination .pages {
+	width: 60%;
+	float: left;
+}
+
+.pageInfoInner {
+	padding: 6px 10px;
+	color: #fff;
+	background: #444;
+	border: 1px solid black;
+	margin-left: 50px;
+	width: 70px;
+}
+
+.deviceSupport span {
+	font-size: 10px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+/* PremierMiles Features */
+.feaLst {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.feaLst ul {
+	float: left;
+}
+
+.feaLst ul li {
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+.feaLst ul li.clsPadTop {
+	padding-top: 68px;
+}
+
+.feaLst ul li.clsPadLeft {
+	padding-left: 20px;
+}
+
+.feaLst ul li.noPadRgt {
+	padding-right: 0px;
+}
+
+/* Premium Dining */
+.topMnuLst {
+	overflow: hidden;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: auto;
+	max-height: 180px;
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+}
+
+.topMnuLstInn {
+	padding: 15px;
+}
+
+.topMnuLstInn .left {
+	float: left;
+	width: 48.4%;
+}
+
+.topMnuLstInn .right {
+	float: left;
+	width: 48.4%;
+	padding: 0 0 0 20px;
+	border-left: 1px solid #ccc;
+}
+
+.topMnuLstInn .left ul li,
+.topMnuLstInn .right ul li {
+	padding: 0px 10px 10px 0;
+	font-size: 11px;
+	float: none;
+}
+
+.topMnuLstInn .left ul li a,
+.topMnuLstInn .right ul li a {
+	color: #555;
+	font-weight: normal
+}
+
+.CommonWrapperMic {
+	display: none;
+}
+
+.menuRhtArro {
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+.topMnuLstInn .left ul li.active a,
+.topMnuLstInn .right ul li.active a {
+	color: #3399CC;
+}
+
+.addCompareBtn,
+.CompareNowBtn {
+	display: none;
+}
+
+.topBoxBtnApp {
+	display: none;
+}
+
+/* Usage */
+.tabsRCNav {
+	overflow: hidden;
+}
+
+.tabsRCNav li {
+	float: left;
+	-moz-border-radius: 3px 0 0 0;
+	-webkit-border-radius: 3px 0 0 0;
+	-o-border-radius: 3px 0 0 0;
+	border-radius: 3px 3px 0 0;
+	background: #EAF4FF !important;
+	margin-left: 2px;
+	display: inline;
+}
+
+.tabsRCNav li a {
+	padding: 5px 20px;
+	display: block;
+	color: #01ADE5;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tabsRCNav li.active {
+	background: #01ADE5 !important;
+}
+
+.tabsRCNav li.active a {
+	color: #fff;
+}
+
+.tabsRCNav li:first-child {
+	background: #fff;
+	margin-left: 0px;
+}
+
+.tabsRCNav li:first-child>a {
+	background: #fff;
+	margin-left: 0px;
+	padding: 5px 3px;
+	font-size: 16px;
+	color: #000066;
+}
+
+.tabsRCcontent {
+	background: url('/chinese/readycredit/images/desktop/content-long-bg.png') no-repeat;
+	width: 482px;
+	height: 494px;
+	margin-top: -4px;
+	position: relative;
+}
+
+.tabsRCcontent.short {
+	background: url('/chinese/readycredit/images/desktop/content-short-bg.png') no-repeat;
+	height: 394px;
+}
+
+.usageStepContent {
+	display: none;
+	text-align: center;
+	padding: 40px 20px 0 20px;
+}
+
+.usageStepContent.v-middle {
+	padding-top: 150px !important;
+}
+
+.usageStepContent.s1_content {
+	display: block;
+}
+
+.usageStepContent h2 {
+	color: #fff;
+	margin: 10px 0;
+}
+
+.usageStepContent h2.second {
+	margin-top: 20px;
+}
+
+.usageStepContent h2.second a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.nextBtnRed {
+	position: absolute;
+	bottom: 0px;
+	right: 70px;
+}
+
+.middleText {
+	margin-top: 50px;
+}
+
+.selectCardsHldr .selectType {
+	float: left;
+	width: 20.5%;
+	border-left: 1px solid #ccc;
+	padding: 0 20px;
+}
+
+.selectCardsHldr .selectType.first {
+	border: none;
+}
+
+.selectCardsHldr .selectType.last {
+	text-align: center;
+	padding-top: 38px;
+}
+
+.selectCardsHldr .selectType span {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.selectCardsHldr .selectType span input[type="radio"] {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.selectCardsHldr .selectType.inActive {
+	color: #999;
+}
+
+.selectCardsHldr .selectType .stepDisc {
+	padding-bottom: 0;
+}
+
+#cardsList {
+	display: inline-block;
+}
+
+.productsListDetails.micPadTop {
+	padding-top: 10px;
+}
+
+.tblColumnTen {
+	width: 6%;
+}
+
+.protectWrap {
+	min-height: inherit !important;
+	padding: 0 0 10px;
+	overflow: hidden;
+}
+
+.protectDet {
+	clear: both;
+	min-height: inherit !important;
+}
+
+/*************** Error ******************/
+.contWrap {
+	padding: 20px 0;
+}
+
+.errorMessageInner {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.errorMesInnLft {
+	float: left;
+	width: 60px;
+}
+
+.errorMesInnRgt {
+	float: left;
+	padding: 0 10px 10px 10px;
+	width: 846px;
+}
+
+.errorMessageBot {
+	width: 100%;
+	border-top: 1px solid #cccccc;
+	padding-top: 10px;
+}
+
+.disclaimerTxt {
+	color: #666;
+	font-size: 11px;
+}
+
+.TermsAndConditions .disclaimerTxt {
+	color: #999;
+}
+
+.logoWrap {
+	overflow: hidden;
+}
+
+.logoWrap .airasiaLogo {
+	float: right;
+}
+
+.logoWrap .clsTableWrap {
+	float: left;
+	width: 82%;
+}
+
+.closeIconHldr .closeIcon {
+	top: 0px;
+	right: 20px;
+}
+
+.tipCloseWrap {
+	overflow: hidden;
+	padding: 0;
+}
+
+.topContentAplyBot {
+	overflow: inherit;
+	margin-bottom: 35px;
+}
+
+.protectDetWrap {
+	float: left;
+	width: 70%;
+	clear: both;
+}
+
+.addlstCards {
+	float: left;
+	width: 96%;
+	overflow: hidden;
+}
+
+.addCard .addlstCards li {
+	width: 140px;
+}
+
+.addlstCards .addCardLink a {
+	width: 90px;
+	padding: 5px 0;
+	font-size: 11px;
+}
+
+.cardLftArro {
+	float: left;
+	background: url("/sim/chinese/images/lt-arrow.png") no-repeat;
+	width: 8px;
+	height: 15px;
+	position: absolute;
+	top: 45%;
+	left: 10px;
+	cursor: pointer;
+}
+
+.cardRgtArro {
+	background: url("/sim/chinese/images/rt-arrow.png") no-repeat;
+	width: 8px;
+	height: 15px;
+	position: absolute;
+	top: 45%;
+	right: 10px;
+	cursor: pointer;
+}
+
+.addCard,
+ul.hiddenval {
+	position: relative;
+}
+
+.protectWrap .downArrow {
+	float: right;
+	text-align: right;
+	width: 24px;
+	height: 11px;
+	background: url("/sim/chinese/images/left-nav.png") no-repeat scroll right -14px transparent;
+	cursor: pointer;
+}
+
+.protectWrap .downArrow.active {
+	background: url("/sim/chinese/images/left-nav.png") no-repeat scroll right -52px transparent
+}
+
+.protectDet {
+	display: none;
+}
+
+#cardDetailsHolder ul li p.protectWrap {
+	min-height: auto;
+	overflow: hidden;
+}
+
+.selectType .blueBtn {
+	width: auto !important;
+	padding: 5px 10px;
+}
+
+span.cardsAvailable {
+	display: inline-block !important;
+}
+
+.addCard .addcloseIcon {
+	top: 10px;
+	right: 8px;
+	background: url("/sim/chinese/images/close.jpg") no-repeat;
+	width: 14px;
+	height: 15px;
+	position: absolute;
+	cursor: pointer;
+}
+
+/* Checkbox List */
+.chkbxLst li {
+	float: left;
+	margin: 3px 0;
+}
+
+.chkbxLst li input {
+	float: left;
+}
+
+.chkbxLst li label {
+	float: left;
+	margin-left: 3px
+}
+
+.openClose {
+	float: right;
+	width: 35px;
+}
+
+.clsPlatGroPad {
+	padding-top: 25px !important;
+}
+
+.clsHomeFont {
+	font-weight: normal;
+}
+
+.micKanaNoPad {
+	padding-top: 0px !important;
+}
+
+.clsCommPadTop {
+	padding-top: 20px;
+}
+
+.formSubmitMain {
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.formSubmitMainLft {
+	float: left;
+}
+
+.formSubmitMainRgt {
+	float: right;
+}
+
+.clsCommMarBtm {
+	margin-bottom: 15px;
+}
+
+/******************* What's New **********************/
+#whatnew {
+	overflow: hidden;
+	padding: 0 29px;
+}
+
+.innerWrapCont {
+	margin: 25px 0 0;
+	overflow: hidden;
+}
+
+.innerWrapLft {
+	float: left;
+	width: 310px;
+	padding-right: 70px;
+}
+
+.innerWrapRht {
+	float: left;
+	width: 540px;
+}
+
+.lineBg {
+	background: url("/whatsnew/images/middle-bg.png") no-repeat;
+	height: 9px;
+	margin: 20px 0 0;
+}
+
+.contInnerAreaPad {
+	padding: 15px 0 0;
+}
+
+.appArea {
+	overflow: hidden;
+	padding: 10px 0 0;
+}
+
+.appAreaLft {
+	background: url("/whatsnew/images/pattern.png") repeat;
+	float: left;
+	width: 44.5%;
+	padding: 20px;
+	height: 80px;
+	margin: 0 15px 0 0;
+}
+
+.appAreaMid {
+	background: url("/whatsnew/images/pattern.png") repeat;
+	float: left;
+	width: 44.5%;
+	padding: 20px 20px 20px 20px;
+	height: 80px;
+}
+
+.appAreaImg {
+	margin-right: 10px;
+	width: 10%;
+	float: left;
+}
+
+.appAreaCont {
+	float: left;
+	width: 85%;
+}
+
+/******************* What's New **********************/
+
+/* Use Credit Wisely Loans calculator */
+.usecreditwisely {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+ul.loanCalUseCre {
+	width: 100%;
+}
+
+ul.loanCalUseCre li {
+	float: left;
+	width: 235px;
+	padding: 0 0 33px 0;
+}
+
+ul.loanCalUseCre li .inputBoxMedium {
+	border: 1px solid #CCCCCC;
+	color: #555555;
+	height: 24px;
+	padding: 0 0 0 5px;
+	width: 140px;
+	font-size: 12px;
+}
+
+ul.loanCalUseCre li .inputBoxMedium .dropListLarge .sbHolder,
+.dropListLarge .sbOptions li,
+.dropListLarge .sbOptions {
+	padding-bottom: 0px;
+}
+
+.preWrapperForm {
+	overflow: hidden;
+	float: left;
+	width: 600px;
+	margin-top: 15px;
+}
+
+/* premiermiles-amex */
+.preMilesGridWrap {
+	padding: 15px 0;
+}
+
+.preMilesGridWrap>ul {
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+}
+
+.preMilesGridWrap>ul>li.left,
+.preMilesGridWrap>ul>li.mid,
+.preMilesGridWrap>ul>li.right {
+	width: 159px;
+}
+
+.preMilesGridWrap>ul>li {
+	float: left;
+	overflow: hidden;
+	padding: 15px 10px 3px;
+}
+
+.preMilesGridWrap .gridIcon {
+	float: left;
+	width: 21%;
+}
+
+.preMilesGridWrap .gridContWrap {
+	float: left;
+	padding: 0;
+	width: 72%;
+	padding-left: 10px;
+}
+
+.preMilesGridWrap>ul>li.noPadlast {
+	padding-right: 0px;
+}
+
+.preMilesGridWrap>ul>li img.prArrowAmexPad {
+	padding-top: 13px;
+}
+
+/* SiteMap */
+.siteMap {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.siteMapLft {
+	float: left;
+	width: 31%;
+	padding: 0 15px 0 0;
+}
+
+.siteMapMid {
+	float: left;
+	width: 31%;
+	padding: 0 15px 0 0;
+}
+
+.siteMapRgt {
+	float: left;
+	width: 32%;
+}
+
+.jfplan {
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 15px;
+	margin: 0 0 15px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.jfplan .fl_left {
+	float: left;
+	/*width: 50%;*/
+	width: 60%;
+	line-height: 1.5;
+	margin-left: 10px;
+}
+
+.jfplan .fl_right {
+	float: right;
+	width: 28%;
+
+	/*width: 50%;*/
+}
+
+.jfplan .fl_left img {
+	margin: 0 auto;
+}
+
+.sevlinks {
+	width: 510px;
+	margin: 0 auto 15px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.links {
+	width: 530px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.links li {
+	float: left;
+	width: 86px;
+	float: left;
+	margin-right: 20px;
+}
+
+.complist {
+	display: block !important;
+}
+
+.guanzhuMedia {
+	position: fixed;
+	right: -521px;
+	z-index: 98;
+	top: 405px;
+}
+
+.guanzhuMedia .contentWrap {
+	background-color: #f6f6f6;
+	width: 481px !important;
+	height: 100px;
+}
+
+.guanzhuMedia .contentWrap h2 {
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.guanzhu {
+	text-align: center;
+	width: 240px;
+	float: left;
+}
+
+.guanzhu ul {
+	width: auto;
+}
+
+.guanzhu img {
+	display: block;
+	margin: 0 auto 10px;
+}
+
+.guanzhu li {
+	width: 100px;
+}
+
+.wchat {
+	border-right: 2px solid #cecfd2;
+	width: 390px;
+}
+
+.sinar {
+	padding-top: 15px;
+}
+
+.footerLeft {
+	float: left;
+}
+
+.guanzhu .sinalink img {
+	width: auto;
+}
+
+.newsAdBlueTxt {
+	width: 66px;
+	height: 48px;
+	padding: 0;
+	float: right;
+}
+
+.newsAdBlueTxt img {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.bottomlogo {
+	margin: 20px 0 -70px 30px;
+	width: 175px;
+	position: relative;
+	z-index: 999;
+	clear: both;
+}
+
+/* Easy Slider */
+.rollphotos {
+	OVERFLOW: hidden;
+	ZOOM: 1;
+	POSITION: relative;
+	width: 659px;
+	height: 100px;
+}
+
+.rollphotos02 {
+	display: none;
+}
+
+.rollphotos .left-arrow {
+	BACKGROUND: url(../images/rightbtn.png) no-repeat;
+	right: -7px;
+	FLOAT: left;
+	WIDTH: 25px;
+	CURSOR: pointer;
+	POSITION: absolute;
+	TOP: 41px;
+	HEIGHT: 20px;
+	overflow: hidden;
+	zoom: 1;
+	text-indent: -9999px;
+}
+
+.rollphotos .right-arrow {
+	left: -7px;
+	BACKGROUND: url(../images/leftbtn.png) no-repeat;
+	FLOAT: right;
+	WIDTH: 25px;
+	CURSOR: pointer;
+	POSITION: absolute;
+	TOP: 41px;
+	HEIGHT: 20px;
+	overflow: hidden;
+	zoom: 1;
+	text-indent: -9999px;
+}
+
+.fl-pic ul {
+	width: 3500px;
+}
+
+.fl-pic ul li {
+	width: 660px;
+	float: left;
+}
+
+.fl-pic ul li a {
+	float: left;
+	display: inline;
+	width: 330px;
+	height: 100px;
+	text-align: center;
+	background: url(../images/line.gif) repeat-y right top;
+}
+
+
+/* // Easy Slider */
+
+
+
+.tabContent .commtable table[Attributes Style] {
+ border: 0px;
+ border-spacing: 0px;
+}
+/* .tabContent .commtable table {
+	border: 0px;
+	border-spacing: 0px;
+} */
+
+.tabContent .commtable table {
+	display: table;
+	border-collapse: collapse !important;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.commtable {
+	font-size: 11px;
+	color: #888888;
+	text-align: left;
+}
+
+.tabContent img {
+	display: block;
+	max-width: none;
+}
+
+.tabContent .globe-text12 img {
+	display: inline;
+}
+
+.tabContent .tab-head {
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.tabContent .commtable .trbgwhite {
+	background-color: #FFFFFF;
+}
+
+.tabContent .commtable .trbgwhite td li {
+	font-size: 11px;
+	margin-bottom: 2px;
+}
+
+.tabContent .commtable .trbggrey {
+	background-color: #F5F7F9;
+}
+
+.tabContent .commtable .trbggrey td {
+	padding: 5px 0;
+	vertical-align: middle;
+}
+
+.tabContent .commtable tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.bg_blue {
+	background: url(/sim/chinese/deposits/images/thumbnails/blue_mdl.gif) repeat-x;
+}
+
+.tabContent .tab_space {
+	padding: 0 10px 5px 20px;
+}
+
+.tabContent .tab_space1 {
+	padding: 0 0 0 20px;
+}
+
+.tabContent .tab-inner {
+	margin: 0;
+	width: 100%;
+}
+
+.tabContent .tab-inner strong {
+	/*color: #1388CB;*/
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.show_hide_underline {
+	text-decoration: underline !important;
+}
+
+.tabContent .tab-inner a:hover {
+	color: #1388CB;
+	text-decoration: none;
+}
+
+.tab-top {
+	background: url(../images/tab_top.gif) no-repeat left top;
+	width: 480px;
+	height: 27px;
+}
+
+.tabContent .tab-top a {
+	margin: 0 4px 0 0;
+}
+
+.tabContent .chitdr {
+	border-bottom: 1px solid #DFE9F3;
+	background-color: #ECF0F4;
+	border-right: 1px solid #ffffff;
+	padding-left: 12px;
+	font-size: 11px;
+	color: #888888;
+	vertical-align: middle
+}
+
+.tabContent .chitdwhite {
+	padding-left: 12px;
+	background-color: #f9f9f9;
+	font-size: 11px;
+	color: #888888;
+	vertical-align: middle;
+	border-bottom: 1px solid #DFE9F3;
+	border-right: 1px solid #ffffff;
+}
+
+.tabContent .chitdwhiter {
+	padding-left: 12px;
+	background-color: #ffffff;
+	font-size: 11px;
+	color: #888888;
+	vertical-align: middle;
+	border-bottom: 1px solid #DFE9F3;
+}
+
+.tabContent .chitd {
+	border-bottom: 1px solid #DFE9F3;
+	background-color: #F5F7F9;
+	padding-left: 12px;
+	font-size: 11px;
+	color: #888888;
+	vertical-align: middle
+}
+
+.tabContent .tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.bg_gray {
+	background-image: url(../images/gray_bg.gif);
+}
+
+.tab-inner-head {
+	color: #888888;
+	font-size: 11px;
+	text-align: left;
+}
+
+.disclaimertextulnum li {
+	clear: both;
+	color: #888888;
+	font-size: 11px;
+	line-height: 16px;
+	list-style-type: decimal;
+	margin-bottom: 6px;
+	margin-left: 22px;
+	text-align: left;
+}
+
+.disclaimertextulnum a:hover {
+	color: #3399cc;
+}
+
+/* Citigold */
+.bannerTitleGold {
+	background: url("/sim/chinese/images/citigold/citigold_PX2.png") no-repeat right bottom;
+	width: 310px;
+	height: 110px;
+	left: 0;
+	padding: 20px;
+	border-radius: 0 0 10px;
+	-webkit-border-radius: 0 0 10px 0;
+	border-radius: 0 0 10px 0;
+	color: #FFFFFF;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 19%;
+}
+
+.goldTxt {
+	color: #9B8768 !important;
+}
+
+.bannerProd .bannerTitleGold {
+	top: 14%;
+}
+
+/*特约商户*/
+.jjklist {
+	margin-bottom: 15px;
+}
+
+.allsel {
+	margin-bottom: 20px;
+}
+
+.allsel li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#searchbutn {
+	cursor: pointer;
+	border: 0;
+	background-color: #00bbf4;
+	text-align: center;
+	line-height: 24px;
+	padding: 0 20px;
+	color: #fff;
+}
+
+#result {
+	padding: 20px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#result ul.mb5 {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 5px;
+}
+
+.jjkphoto {
+	width: 200px;
+	float: left;
+}
+
+.jjkphoto img {
+	width: 200px;
+	height: 80px;
+}
+
+.jjkInfor {
+	width: 445px;
+	float: right;
+	border-top: 1px dotted #ccc;
+	padding: 1px 0;
+}
+
+.jjkInfor .sub {
+	background-color: #eee;
+	padding: 5px 10px;
+	overflow: hidden;
+	zoom: 1;
+	position: relative
+}
+
+.jjkName {
+	float: left;
+	width: 125px;
+}
+
+.jjkName h2 {
+	color: #00559f;
+	font-size: 14px;
+}
+
+/*.jjkName p { background: url(/sim/chinese/images/green-checkmark.gif) no-repeat left 4px; padding-left: 25px;}*/
+.jjkName p {
+	line-height: 15.5px;
+}
+
+.infordet {
+	width: 300px;
+	float: right;
+	min-height: 68px;
+}
+
+.infordet .openup {
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	background: url(/sim/chinese/images/plus.png) no-repeat left 2px;
+	color: #00559f;
+	font-weight: bold;
+	cursor: pointer;
+	padding-left: 20px;
+}
+
+.infordet ul {
+	padding-left: 30px;
+	border-left: 1px solid #ccc;
+	display: none;
+	padding-bottom: 12px;
+}
+
+.infordet ul li {
+	margin-bottom: 12px;
+}
+
+.infordet .pack {
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+	background: url(/sim/chinese/images/minus.png) no-repeat left 2px;
+	color: #00559f;
+	font-weight: bold;
+	display: none;
+	cursor: pointer;
+	padding-left: 30px;
+}
+
+.dropdowntd {
+	padding-bottom: 10px;
+}
+
+.dropdowntd select {
+	margin-right: 15px;
+}
+
+.pagepanel {
+	cursor: default;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.pagepanel a {
+	color: #333;
+	cursor: pointer;
+}
+
+.pagepanel a.cur {
+	text-decoration: none;
+	color: red;
+	font-weight: bolder;
+}
+
+.pagepanel span {
+	color: #06f;
+}
+
+/*特约商户 end*/
+
+.mobdownload {
+	padding: 40px 0 17px 95px;
+	background: url(/sim/chinese/services/images/download_bg.png) no-repeat left top;
+}
+
+.mobdownload a {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.contsA {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #00589d;
+}
+
+.detConts {
+	line-height: 20px;
+}
+
+.taletimg,
+.mobileimg {
+	display: none;
+}
+
+.threeJf {
+	overflow: hidden;
+	zoom: 1;
+	text-align: center;
+}
+
+.threeJf li img {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.threeJf li a {
+	background: url(/ICARD/minisite/images/rewards_icon01.gif) no-repeat left center;
+	padding-left: 12px;
+	display: inline-block;
+}
+
+
+.jffk .oldul {
+	padding: 20px 0 0 13px;
+	border-top: 1px dotted #ccc;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.jffk li.pullLeft,
+.jffk li.pullRight {
+	width: 45%;
+}
+
+.jffk li strong {
+	font-size: 18px;
+	color: #00559f;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.jffk .oldli {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.jffk .oldli img {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+
+.jffk .oldli p,
+.jffk .oldli div {
+	float: left;
+	width: 81%;
+}
+
+/* */
+.oldli .newrightli {
+	float: right !important;
+}
+
+.jffk .oldli div p {
+	float: none;
+	width: 100%;
+}
+
+.jffk .oldli p strong {
+	font-size: 12px;
+	color: #555;
+}
+
+.jffk .oldli li {
+	padding: 0 0 5px 25px;
+	border: 0;
+}
+
+.jffk .oldli span {
+	color: #00559f;
+	font-weight: bold;
+}
+
+.jffk .oldli p a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.jffk02 .oldul {
+	padding: 20px 0 20px 40px;
+}
+
+.jffk02 .oldli img {
+	margin-right: 44px;
+}
+
+.jffk .oldli div.last {
+	width: 78%;
+}
+
+.lastnew li {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 10px;
+}
+
+.lastnew li p {
+	line-height: 45px;
+	width: 70%;
+	padding: 0;
+}
+
+.lastulnew li div ul {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 10px;
+}
+
+.lastulnew li span {
+	color: #39c;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+.newgg {
+	padding-bottom: 0;
+}
+
+.newgg li {
+	overflow: hidden;
+	zoom: 1;
+	line-height: 20px;
+}
+
+.newgg li a {
+	display: block;
+	float: left;
+	width: 80%;
+}
+
+.newgg li span {
+	width: 80px;
+	float: right;
+	text-align: right;
+	display: block;
+}
+
+/*example*/
+.example {
+	margin-bottom: 25px;
+}
+
+.example ol {
+	position: absolute;
+	width: 110px;
+	height: 20px;
+	bottom: 10px;
+	right: 30px;
+}
+
+.example ol li {
+	float: left;
+	width: 11px;
+	height: 11px;
+	margin: 5px;
+	background: url(/sim/ICARD/images/but1.png) no-repeat left top;
+}
+
+.example ol li.seleted {
+	background: url(/sim/ICARD/images/but2.png) no-repeat left top;
+}
+
+.headPic .ptitle {
+	color: #ffffff;
+	display: block;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	left: 40%;
+	padding: 0 20px 0 30px;
+	position: absolute;
+	width: 383px;
+	height: 100%;
+	z-index: 2;
+	background: url(/sim/ICARD/images/ptit_bg.jpg) repeat-x left top;
+}
+
+.headPic .ptitle02 {
+	background: url(/sim/ICARD/images/ptitle_bg02.jpg) repeat-x left top;
+}
+
+.headPic p {
+	padding: 0;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.black_overlay02 {
+	background-color: #555;
+	height: 100%;
+	left: 0;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity=70);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+}
+
+.popupminsingle {
+	background-color: #ffffff;
+	border: 8px solid #003f84;
+	left: 35%;
+	overflow: auto;
+	padding: 20px;
+	position: fixed;
+	top: 10%;
+	width: 600px !important;
+	z-index: 9999999;
+}
+
+.popupminsingle h4 {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.fenhul01 li {
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 10px;
+}
+
+.fenhul01 li.last {
+	border: 0;
+	margin: 0;
+}
+
+.common-ol {
+	margin-left: 11px;
+	padding-bottom: 10px;
+}
+
+.common-ol li {
+	line-height: 20px;
+	list-style: inherit;
+}
+
+.decimal li {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+.zqpop {
+	width: 427px;
+	padding-top: 10px;
+	left: 40%;
+	overflow: auto;
+	position: fixed;
+	top: 10%;
+	border: 1px solid #037ec1;
+	background-color: #fff;
+	z-index: 9999999;
+}
+
+.zqpop h4 {
+	margin: 0 10px 0 52px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.zqpop h4 strong {
+	font-size: 16px;
+	color: #034f92;
+}
+
+.zqpop table {
+	margin: 0 auto;
+}
+
+.zqpop table th {
+	color: #fff;
+	background-color: #0391ca;
+	line-height: 25px;
+}
+
+.zqpop table td {
+	background-color: #eef9fd;
+	padding: 5px 0;
+	line-height: 18px;
+	padding-left: 10px;
+}
+
+.zqpop table td.boeder {
+	border-left: 1px solid #03b4ea;
+	padding-left: 15px;
+}
+
+.zqpop table .blue td {
+	background-color: #cfeafa;
+}
+
+.zqpop ol li {
+	margin-bottom: 5px;
+	line-height: 20px;
+	list-style: inherit;
+}
+
+.rewardsP .productsList {
+	width: 290px;
+	padding: 0 24px;
+}
+
+.rewardsP .productsList.right {
+	width: 320px;
+	padding: 0 0px 0 24px;
+}
+
+.shqform {
+	overflow: hidden;
+}
+
+.shqform ul {
+	margin: 0 auto;
+	width: 540px;
+}
+
+.shqform li {
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+
+.shqform li div {
+	line-height: 25px;
+	padding-bottom: 0;
+	width: 260px;
+}
+
+.shqform li input {
+	border: 1px solid #abadb3;
+	height: 19px;
+	width: 240px;
+}
+
+.shqform li select {
+	height: 23px;
+	width: 244px;
+}
+
+.shqform li div span {
+	color: #97999b;
+	display: block;
+}
+
+.tablelay {
+	margin-bottom: 10px;
+}
+
+.tablelay th,
+.tablelay td {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.tablelay th {
+	text-align: center;
+	font-weight: bold;
+}
+
+#provice_c .eachF li {
+	display: none;
+}
+
+#provice_c .eachF li.first {
+	display: block;
+}
+
+#provice_c .eachF li li {
+	display: block;
+}
+
+.rewpop {
+	width: 560px;
+	padding: 0 0 7px;
+	left: 40%;
+	position: fixed;
+	top: 10%;
+	background-color: #fff;
+	z-index: 99999999;
+}
+
+.rewpop h4 a {
+	display: block;
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	right: -50px;
+	z-index: 999999989;
+	top: 0;
+	line-height: 20px;
+}
+
+.rewpop ul {
+	width: 542px;
+	margin: 0 auto;
+}
+
+.tcbzTable {
+	margin-bottom: 10px;
+}
+
+.tcbzTable th,
+.blstyle {
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 7px 0;
+	background-color: #5187bb;
+	border: 1px solid #dcdcdc;
+	vertical-align: middle;
+}
+
+.tcbzTable td {
+	padding: 7px 0;
+	line-height: 18px;
+	vertical-align: middle;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+
+.tcbzTable td .mb {
+	display: none;
+}
+
+.tcbzTablelix td {
+	background: none !important;
+}
+
+.ftbold {
+	font-weight: bold;
+}
+
+.newsttab {
+	float: left;
+	position: inherit;
+	margin-top: -28px;
+}
+
+.xyqlq {
+	width: 652px;
+	margin: 0 auto;
+}
+
+.newtable01 {
+	border-top: 1px solid #dfe9f3;
+}
+
+.newtable01 td {
+	padding: 5px 5px 5px 8px;
+	border-bottom: 1px solid #dfe9f3;
+	font-size: 11px;
+	vertical-align: middle;
+	line-height: 15px;
+	color: #888;
+}
+
+.newtable01 td.newbg01 {
+	background-color: #ecf0f4;
+	border-right: 1px solid #fff;
+}
+
+.newbg02 {
+	background-color: #f5f7f9;
+}
+
+.newtable01 td.newbg03 {
+	background-color: #f9f9f9;
+	border-right: 1px solid #fff;
+}
+
+.newtable02 th {
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.newtable02 th.newth01 {
+	text-align: left;
+	border-right: 1px solid #fff;
+}
+
+.newtable02 th.newth02 {
+	background: url(../images/blue_rgt.gif) no-repeat right top;
+	border-left: 1px solid #fff;
+}
+
+.newtable02 td {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+	line-height: 15px;
+	padding: 5px 0;
+	color: #888;
+	border-bottom: 1px solid #dfe9f3;
+}
+
+.newtable02 .newbg02 td {
+	border-right: 1px solid #fff;
+}
+
+.InfoNew03 {
+	top: 220px !important;
+}
+
+.ul_atm {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 15px;
+}
+
+.ul_atm li {
+	float: left;
+	width: 25%;
+	margin-bottom: 10px;
+}
+
+.ul_atm li a {
+	padding-left: 17px;
+	background: url(../static/images/arrow_link.gif) no-repeat left center;
+	line-height: 17px;
+}
+
+.ul_atm li a.on {
+	color: #666;
+}
+
+.ul_atm li a:hover {
+	text-decoration: underline;
+}
+
+.fenhang li {
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 10px;
+}
+
+.fenhang li.last {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.fenhang li p {
+	padding-bottom: 2px;
+}
+
+.contenAtm .tabsWrapper {
+	display: none;
+}
+
+#tab_con_1 {
+	display: block;
+}
+
+
+/*首页弹筐样式*/
+.InfoNew {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.InfoNew h3 {
+	background: url(/sim/chinese/images/tile-diagonal-lines-dark.gif) repeat left center;
+	border-radius: 10px 10px 0 0;
+	line-height: 25px;
+	padding: 0 0 0 8px;
+}
+
+.InfoNew h3 a {
+	background: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.cS-generalInfoHolder02,
+.cS-generalInfoHolder03 {
+	background: url("/sim/chinese/images/mega-menu-tile.gif") repeat scroll left bottom transparent;
+	overflow: hidden;
+	padding: 0 0 15px 19px;
+	width: 679px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 2px 2px 24px -7px #3D3D3D;
+	z-index: 999999;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecA ul,
+.cS-generalInfoHolder03 ul li.cS-listSecA ul {
+	padding: 0 15px 0 0;
+}
+
+.cS-generalInfoHolder02 ul li,
+.cS-generalInfoHolder03 ul li {
+	float: left;
+	font-size: 12px;
+	color: #000;
+	width: 95%;
+}
+
+.cS-generalInfoHolder02 ul li a,
+.cS-generalInfoHolder02 ul li a {
+	padding: 0;
+	background: none;
+	color: #39c;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecB ul,
+.cS-generalInfoHolder02 ul li.cS-listSecB ul {
+	padding: 0 15px;
+	background: none;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecC ul,
+.cS-generalInfoHolder02 ul li.cS-listSecC ul {
+	background: none repeat scroll 0 0 transparent;
+	padding: 0 15px;
+}
+
+.cS-generalInfoHolder02 ul li ul li,
+.cS-generalInfoHolder02 ul li ul li {
+	float: none;
+	width: auto;
+	padding-bottom: 5px;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecA02,
+.cS-generalInfoHolder03 ul li.cS-listSecA03 {
+	width: auto;
+	float: none;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecB02,
+.cS-generalInfoHolder03 ul li.cS-listSecB03 {
+	width: auto;
+	float: none;
+}
+
+.cS-generalInfoHolder02 ul li.cS-listSecA02 a strong,
+.cS-generalInfoHolder03 ul li.cS-listSecA02 a strong {
+	color: #555;
+}
+
+.ratesHolder {
+	width: 93%;
+	margin: 0 auto 10px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+/*首页弹筐样式*/
+
+.ratesDiv {
+	padding: 24px 0 14px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.goldcolor {
+	color: #bca677;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.tabContentgold {
+	margin: 10px;
+}
+
+.tabContentgold p {
+	/*border-bottom: 1px dotted #ccc;*/
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.tabContentgold p.last {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.tabContentgold img {
+	float: right;
+	display: inline;
+}
+
+.tableft {
+	float: left;
+	width: 33%;
+}
+
+.goldTxt {
+	color: #9B8768 !important;
+}
+
+
+.crease {
+	margin-bottom: 15px;
+}
+
+.zhanshi {
+	width: 388px;
+	margin: 0 auto;
+}
+
+.zshbtn {
+	text-align: center;
+}
+
+.zshbtn img {
+	display: inline-block;
+}
+
+.crform {
+	display: none;
+	text-align: center;
+	font-family: "黑体", "微软雅黑", "宋体", sans-serif;
+	line-height: 20px;
+	color: #666;
+	background: url(/ICARD/images/ed_bg01.jpg) no-repeat left top;
+	background-size: 100%;
+	-moz-background-size: 100%;
+	margin-top: -55px;
+	padding: 45px 0 35px;
+}
+
+.crform img {
+	display: inline-block;
+}
+
+.crform .crelogin {
+	color: #959595;
+}
+
+.crlogindet {
+	text-align: left;
+	margin: 0 0 0 30px;
+	line-height: 18px;
+}
+
+.crform02 {
+	background: url(/ICARD/images/ed_bg02.jpg) no-repeat left top;
+	background-size: 100%;
+	-moz-background-size: 100%;
+	text-align: left;
+	padding: 43px 25px 60px 24px;
+}
+
+.crform02 h2 {
+	color: #005692;
+	text-align: center;
+	background: url(/ICARD/images/ed_bg03.jpg) repeat-x left top;
+	padding-bottom: 0;
+}
+
+.applyform {
+	border: 1px solid #ededed;
+	background-color: #edfaff;
+	padding: 10px 10px 0;
+	line-height: 15px;
+}
+
+.applyform ul.bulLst {
+	margin-bottom: 10px;
+}
+
+.applyform ul.bulLst li {
+	padding-bottom: 0;
+	line-height: 15px;
+}
+
+.newggbox .newgg {
+	padding: 0 0 10px 26px;
+	display: none;
+}
+
+.minusAp {
+	background: url(../images/plus.gif) no-repeat left center;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.plusAm {
+	background: url(../images/minus.gif) no-repeat left center;
+}
+
+.tablegery {
+	border-collapse: collapse;
+	color: #555;
+	empty-cells: show;
+	font-size: 12px;
+	margin: 10px 0;
+	table-layout: fixed;
+}
+
+.tablegery th {
+	background-image: url("../images/th_bg.gif");
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #a8bfdf;
+	border-top: 1px solid #a8bfdf;
+	color: #ffffff;
+	font-weight: 700;
+	height: 30px;
+}
+
+.tablegery td {
+	border: 1px solid #cccccc;
+	padding: 5px;
+}
+
+.tablegery,
+.tablegery td,
+tablegery tr {
+	border: 1px solid #f0f0f0;
+}
+
+.blp {
+	color: #00589d;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.dlp {
+	color: #97999b;
+	font-size: 14px;
+}
+
+.dlpudl {
+	color: #00589d;
+	text-decoration: underline;
+}
+
+ul.goldcolor02 li {
+	background: url(/sim/chinese/banking/images/bulletgold.gif) no-repeat left 6px;
+}
+
+/*额度提升*/
+.edContentWrap {
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 3px solid #e5e5e5;
+	border-bottom: 4px solid #e5e5e5;
+	padding: 21px 25px 20px 27px;
+	overflow: hidden;
+}
+
+.edContentWrap img {
+	display: inline;
+	vertical-align: middle;
+}
+
+.edTitle {
+	background: url(/sim/ICARD/images/edbg.jpg) repeat-x left;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	height: 38px;
+}
+
+.edTitle h2 {
+	color: #00589d;
+	font-weight: bold;
+	line-height: 38px;
+}
+
+.bf23 {
+	width: 20%;
+}
+
+.bf78 {
+	width: 80%;
+}
+
+.tablepop {
+	width: 600px;
+	left: 37%;
+}
+
+.tablepop .boxt {
+	margin: 0 10px 10px;
+}
+
+.blueh3 {
+	color: #3399cc;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.paddinglr {
+	padding: 0 10px 0 10px;
+}
+
+.paddinglr20 {
+	padding: 0 10px 0 20px;
+}
+
+.faxtabtd {
+	width: 100%;
+	height: 100%;
+	background-image: url(/sim/chinese/services/images/line.jpg);
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-moz-border-image: url(/sim/chinese/services/images/line.jpg) 0;
+	background-repeat: no-repeat\9;
+	background-image: none\9;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/sim/chinese/services/images/line.jpg', sizingMethod='scale')\9;
+}
+
+.sitemap {
+	margin: 0 20px;
+}
+
+.sitemap .fl {
+	float: left;
+	width: 49%;
+}
+
+.sitemap .fr {
+	float: right;
+	width: 49%;
+}
+
+.sitemap h2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #39c;
+}
+
+.sitemap h3 {
+	font-size: 13px;
+	font-weight: normal;
+	background: url(/sim/chinese/images/down_arrow.gif) no-repeat left center;
+	padding: 0 0 0 15px;
+	margin-bottom: 7px;
+	color: #39c;
+}
+
+.sitemap ul {
+	margin: 0 0 10px 15px;
+}
+
+.sitemap ul li {
+	padding-bottom: 7px;
+	font-size: 12px;
+}
+
+.sitemap ul.tj {
+	margin: 0 0 10px;
+}
+
+.sitemap ul.tj li {
+	background: url(/sim/chinese/images/blue_arrow.gif) no-repeat left center;
+	padding: 0 0 0 15px;
+	margin-bottom: 7px;
+	color: #39c;
+}
+
+
+
+/*CrazyAD Style*/
+.crazyAD {
+	background-color: #fff;
+	box-shadow: 0 0 15px 5px #333;
+	color: #111;
+	width: 420px;
+	min-width: 420px;
+	padding: 0;
+	height: 420px;
+	position: relative;
+	display: none;
+}
+
+.crazyAD .my_popup_close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 25px;
+	height: 25px;
+	background: url(/sim/chinese/images/btn_close.png) no-repeat;
+	cursor: pointer;
+}
+
+.crazyAD .close-seconds b {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-family: "microsoft yahei";
+}
+
+.crazyAD .img420 {
+	width: 100%;
+	height: auto;
+}
+
+/*网络还款支付宝*/
+.alipay_step_box_pc {
+	width: 595px;
+	height: 350px;
+	margin: 0 auto !important;
+	position: relative;
+}
+
+.alipay_step_show_pc {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	width: 525px;
+	height: 350px;
+}
+
+.alipay_step_show_pc>li {
+	list-style: none;
+	display: none;
+	float: left;
+}
+
+.alipay_step_show_pc>li:nth-child(1) {
+	display: block;
+}
+
+.alipay_left_arrow_pc {
+	position: absolute;
+	left: 0;
+	top: 43%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.alipay_right_arrow_pc {
+	position: absolute;
+	right: 0;
+	top: 43%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.alipay_step_box_mb {
+	width: 483px;
+	height: 450px;
+	margin: 0 auto !important;
+	position: relative;
+}
+
+.alipay_step_show_mb {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	width: 253px;
+	height: 450px;
+	margin-left: 115px;
+}
+
+.alipay_step_show_mb>li {
+	list-style: none;
+	display: none;
+	float: left;
+}
+
+.alipay_step_show_mb>li:nth-child(1) {
+	display: block;
+}
+
+.alipay_left_arrow_mb {
+	position: absolute;
+	left: 0;
+	top: 43%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.alipay_right_arrow_mb {
+	position: absolute;
+	right: 0;
+	top: 43%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#light_chen_table td {
+	padding: 5px 20px !important;
+	border: solid 1px #004785 !important;
+	text-align: center !important;
+	font-size: 12px;
+}
+
+/*20170428 ToolBar*/
+.hover_link {
+	font-weight: bold;
+}
+
+.hover_link:hover {
+	text-decoration: underline;
+}

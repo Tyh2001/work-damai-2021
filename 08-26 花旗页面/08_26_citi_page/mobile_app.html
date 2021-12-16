@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="/sim/chinese/VA/xfs.js"></script>
+  <script type="text/javascript" src="/sim/chinese/VA/xss.js"></script>
+  <meta charset="utf-8" />
+  <title>花旗掌上银行应用APP下载-花旗银行(中国)</title>
+  <meta name="Description" content="花旗掌上银行下载方式有哪些?花旗手机银行适用的系统是什么?花旗掌上银行应用App下载指南为您答疑解惑,在线下载花旗手机银行,时刻关注银行账户最新动态.">
+  <meta name="Keywords" content="花旗手机银行下载,花旗掌上银行下载,手机银行下载,掌上银行下载">
+  <script type="text/javascript">
+    if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+      var version = parseFloat(RegExp.$1);
+      if (version > 2.3) {
+        var phoneScale = parseInt(window.screen.width) / 640;
+        document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+      } else {
+        document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+      }
+    } else {
+      document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+    //微信去掉下方刷新栏
+    if (navigator.userAgent.indexOf('MicroMessenger') >= 0) {
+      document.addEventListener('WeixinJSBridgeReady', function () {
+        //WeixinJSBridge.call('hideToolbar');
+      });
+    }
+  </script>
+  <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
+  <script type="text/javascript">
+
+    var isweixin = navigator.userAgent.match(/MicroMessenger/i) == "MicroMessenger";
+    var isios = !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    var isandroid = navigator.userAgent.indexOf('Android') > -1 || navigator.userAgent.indexOf('Linux') > -1; //android终端或uc浏览器
+
+    //alert(isweixin);
+
+
+    $(document).ready(function () {
+      // 
+      if (isios) {
+
+        if (isweixin) {
+
+          document.querySelector('.push').addEventListener('click', function () {
+            setTimeout(function () { location.href = 'https://itunes.apple.com/cn/app/citibank-cn/id444660435?mt=8'; }, 1);
+          })
+
+        } else {
+          document.querySelector('.push').addEventListener('click', function () {
+            setTimeout(function () { location.href = 'https://itunes.apple.com/cn/app/citibank-cn/id444660435?mt=8'; }, 1);
+          })
+        }
+
+      } else if (isandroid) {
+        if (isweixin) {
+          document.querySelector('.push').addEventListener('click', function () {
+            // alert('您即将离开花旗银行（中国）官方网站，前往第三方网站。所有您在第三方网站提交的信息将由该网站依据其隐私、保密和安全条款执行并负责。花旗银行（中国）有限公司对您在第三方网站上提供的信息不负任何责任。您要继续浏览吗？');
+            setTimeout(function () { location.href = 'https://www.citibank.com.cn/chinese/mbol/app/Citibank_CN.apk'; }, 1);
+          })
+
+        } else {
+          document.querySelector('.push').addEventListener('click', function () {
+            // alert('您即将离开花旗银行（中国）官方网站，前往第三方网站。所有您在第三方网站提交的信息将由该网站依据其隐私、保密和安全条款执行并负责。花旗银行（中国）有限公司对您在第三方网站上提供的信息不负任何责任。您要继续浏览吗？');
+            setTimeout(function () { location.href = 'https://www.citibank.com.cn/chinese/mbol/app/Citibank_CN.apk'; }, 1);
+          })
+        }
+        setTimeout(function () {
+          $('body').css({ display: 'block' });
+        }, 500);
+      } else {
+        setTimeout(function () {
+          $('body').css({ display: 'block' });
+        }, 500);
+      }
+
+    });
+
+    // function conf() {
+    //   alert('您即将离开花旗银行（中国）官方网站，前往第三方网站。所有您在第三方网站提交的信息将由该网站依据其隐私、保密和安全条款执行并负责。花旗银行（中国）有限公司对您在第三方网站上提供的信息不负任何责任。您要继续浏览吗？');
+    // }
+  </script>
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (min-width: 1100px) {
+      #pc_box {
+        display: block;
+      }
+
+      #phone_box {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      #pc_box {
+        display: none;
+      }
+
+      #phone_box {
+        display: block;
+      }
+    }
+
+    #pc_box {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pc_banner,
+    #phone_box .phone_banner {
+      width: 100%;
+    }
+
+    /* 手机端点击链接 */
+    #phone_box {
+      position: relative;
+    }
+
+    #phone_box .push {
+      position: absolute;
+      bottom: 17%;
+      right: 0;
+      left: 0;
+      margin: auto;
+      display: inline-block;
+      width: 46%;
+      height: 7%;
+    }
+  </style>
+
+
+
+  <script>!function (a) { var e = "https://s.go-mpulse.net/boomerang/", t = "addEventListener"; if ("False" == "True") a.BOOMR_config = a.BOOMR_config || {}, a.BOOMR_config.PageParams = a.BOOMR_config.PageParams || {}, a.BOOMR_config.PageParams.pci = !0, e = "https://s2.go-mpulse.net/boomerang/"; if (window.BOOMR_API_key = "VCJAK-TXAH5-QCUGL-TJZZJ-SVQSH", function () { function n(e) { a.BOOMR_onload = e && e.timeStamp || (new Date).getTime() } if (!a.BOOMR || !a.BOOMR.version && !a.BOOMR.snippetExecuted) { a.BOOMR = a.BOOMR || {}, a.BOOMR.snippetExecuted = !0; var i, _, o, r = document.createElement("iframe"); if (a[t]) a[t]("load", n, !1); else if (a.attachEvent) a.attachEvent("onload", n); r.src = "javascript:void(0)", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "width:0;height:0;border:0;display:none;", o = document.getElementsByTagName("script")[0], o.parentNode.insertBefore(r, o); try { _ = r.contentWindow.document } catch (O) { i = document.domain, r.src = "javascript:var d=document.open();d.domain='" + i + "';void(0);", _ = r.contentWindow.document } _.open()._l = function () { var a = this.createElement("script"); if (i) this.domain = i; a.id = "boomr-if-as", a.src = e + "VCJAK-TXAH5-QCUGL-TJZZJ-SVQSH", BOOMR_lstart = (new Date).getTime(), this.body.appendChild(a) }, _.write("<bo" + 'dy onload="document._l();">'), _.close() } }(), "".length > 0) if (a && "performance" in a && a.performance && "function" == typeof a.performance.setResourceTimingBufferSize) a.performance.setResourceTimingBufferSize(); !function () { if (BOOMR = a.BOOMR || {}, BOOMR.plugins = BOOMR.plugins || {}, !BOOMR.plugins.AK) { var e = "" == "true" ? 1 : 0, t = "", n = "plu4uk3ily2v2yjhbkaa-f-fc8ce424d-clientnsv4-s.akamaihd.net", i = "false" == "true" ? 2 : 1, _ = { "ak.v": "32", "ak.cp": "405630", "ak.ai": parseInt("254486", 10), "ak.ol": "0", "ak.cr": 169, "ak.ipv": 4, "ak.proto": "http/1.1", "ak.rid": "3ae5704d", "ak.r": 31776, "ak.a2": e, "ak.m": "dscx", "ak.n": "essl", "ak.bpcip": "122.233.202.0", "ak.cport": 55944, "ak.gh": "23.199.34.124", "ak.quicv": "", "ak.tlsv": "tls1.2", "ak.0rtt": "", "ak.csrc": "-", "ak.acc": "reno", "ak.t": "1629948544", "ak.ak": "hOBiQwZUYzCg5VSAfCLimQ==NWRY/GZnbBjY/uqfJBk4oJEY6ZB+RxxigLIuQoOj9FPNs15fsDOSqBzXcGpYvW45wIEpF6B8TyLfpQiVP/0aLZkIsg3rLgw8g6Ya1lBjNcyHBTnIF56fmwaNUFoDgLrjf+ylTAqbVPMxEIYBBS/LOwLKpPU44H/Pd8WX9lrXlhfbLVq+s4ei6rgw4w+wzPQPR0SQNh2SmzcHYhHDdI6Yale1FiTQefRQybYXsft0eVBCyonbAp2pCdvOpH6xPJ+hBFviWKdQpGZAfTD5xfdMFur712UCQEQWsXXjYDW+agrl3TIp1ILs4RNdbGuvljo+2uoTLbd6Xk/9ew6q6/DTmDEdTOdSK3HQem5T7hSHNRZyqyhek/ePNT+I0aiGqr5EEydqun8VPAqqhpGt08xw9CA+ejm/iQHLtI3qc0yOnkM=", "ak.pv": "30", "ak.dpoabenc": "", "ak.tf": i }; if ("" !== t) _["ak.ruds"] = t; var o = { i: !1, av: function (e) { var t = "http.initiator"; if (e && (!e[t] || "spa_hard" === e[t])) _["ak.feo"] = void 0 !== a.aFeoApplied ? 1 : 0, BOOMR.addVar(_) }, rv: function () { var a = ["ak.bpcip", "ak.cport", "ak.cr", "ak.csrc", "ak.gh", "ak.ipv", "ak.m", "ak.n", "ak.ol", "ak.proto", "ak.quicv", "ak.tlsv", "ak.0rtt", "ak.r", "ak.acc", "ak.t", "ak.tf"]; BOOMR.removeVar(a) } }; BOOMR.plugins.AK = { akVars: _, akDNSPreFetchDomain: n, init: function () { if (!o.i) { var a = BOOMR.subscribe; a("before_beacon", o.av, null, null), a("onbeacon", o.rv, null, null), o.i = !0 } return this }, is_complete: function () { return !0 } } } }() }(window);</script>
+</head>
+
+<body>
+
+  <div id="pc_box">
+    <img class="pc_banner" src="./images/pc_banner.jpg" alt="">
+  </div>
+
+  <div id="phone_box">
+    <img class="phone_banner" src="./images/phone_banner.jpg" alt="">
+    <!-- <a class="push" href="https://www.infinitymcn.com/sim/land/mobileapp/mobile_app.html"></a> -->
+    <p class="push"></p>
+  </div>
+
+  <script type="text/javascript" src="/sim/chinese/js/SC_code1.js"></script>
+  <script type="text/javascript" src="/sim/chinese/js/page_code.js"></script>
+  <script type="text/javascript" src="/5CIKyrdGHg/HOx3KvlV/2y/uGa9QNh8GuOV/d2tkKgcmAQ/FTt1aExh/SAAB"></script>
+</body>
+
+</html>

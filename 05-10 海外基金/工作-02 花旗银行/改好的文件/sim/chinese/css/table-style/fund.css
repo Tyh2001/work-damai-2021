@@ -1,0 +1,87 @@
+.fundlist{margin-bottom:0; padding: 5px 0;}
+.fundlist div{padding:10px 0 0 0; }/*display: block !important;*/
+.fundlist li{background: url('../images/bulletblue.gif') no-repeat 0px 7px;font-size:12px;color:#555;padding:0 0 7px 8px;line-height:17px;}
+.fundlist a img{margin-right:7px; display: inline-block;}
+
+
+.white_content{display:none;width:100%;background-color:white;overflow:auto;}
+.white_content h4{font-size:14px;color:#06C;font-weight:bold;border:0;border-bottom:1px dotted #555;padding-bottom:6px;margin:0;}
+div.fundcontent{font-size:12px;line-height:150%;/*max-height:400px;_height:expression((document.documentElement.clientHeight||document.body.clientHeight);400?'400px':'');*/overflow-y:auto;overflow-x:hidden;}
+.fundtable{border-collapse:collapse;border-spacing:0;background-color:#f5fbfe;color:#fff; width: 100%;}
+.fundtable th, .fundtable td{border:1px solid #b1dcf7;vertical-align:middle;padding:10px;}
+.fundtable th, .fundtable td.lname{white-space:nowrap;text-align:center;}
+.fundtable th{padding:10px 30px;}
+.fundtable th.bg1{background-color:#7fbce8;}
+.fundtable th.bg2{background-color:#67aee4;}
+.fundtable th.bg3{background-color:#539bd6;}
+.fundtable th.bg4{background-color:#418ed2;}
+.fundtable th.bg5{background-color:#2280ca;}
+.fundtable th.bg6{background-color:#0e6ec4;}
+.fundtable td, .fundtable td a{color:#014d98;}
+.fundtable td a{color:#014d98; text-decoration: underline;}
+.fundtable td{text-align:left;}
+div.prompt{margin-top:10px;color:#848484;font-size:12px;text-align:left;}
+a.close{color:#000;}
+div.nofund{font-size:12px;font-weight:bold;text-align:center;}
+
+.decimal_list ul{margin-left:20px;*margin-left:25px;}
+/*
+.decimal_list ul li{background:url('../images/icon.gif') no-repeat left 6px;font-size:12px;color:#555;padding:0 0 7px 15px;line-height:17px;}*/
+.decimal_list ul li ul{margin:5px 0 0;}
+.decimal_list ul li ul li{background:url('../images/bulletblue.gif') no-repeat 0px 7px;font-size:12px;color:#555;padding:0 0 7px 8px;line-height:17px;list-style:none;}
+.decimal_list ul li ol.deci{margin:5px 0 0 20px;}
+.decimal_list ul li ol.deci li{list-style-type:decimal;background:none;padding-left:0;}
+.decimal_list ul li ol.deci li ul li{background:url('../images/bulletblue.gif') no-repeat 0px 7px;list-style:none;padding-left:8px;}
+.decimal_list ul li ul.black li{background-image:url('../images/bullet.gif');}
+.list-hide-tab{padding:5px 0;}
+.list-hide-tab .hidecontent{line-height:150%;margin-top:5px;}
+
+.fundcomptable{width:100%;border-collapse:collapse;border-spacing:0;font-size:12px;}/*width:440px;*/
+/*
+.fundcomptable th.head{background:url('../images/fundcomphead.gif') no-repeat;height:3px;border:none;padding:0;}*/
+.fundcomptable th, .fundcomptable td{border:1px solid #dfe9f3;padding:10px;text-align:left;vertical-align:top;}
+.fundcomptable th{background-color:#afc4db;color:#fff;white-space:nowrap;}
+.fundcomptable td{color:#888;background-color:#fff;}
+.fundcomptable td.bg{background-color:#f3f7f8;}
+.fundcomptable td table th,.fundcomptable td table td { border-top: 0;}
+.fundcomptable td table th { border-left: 0; width: 22%;}
+
+.tab-inner a{color:#1388CB;	text-decoration:none; font-size:12px; cursor: inherit;cursor:pointer;}
+.tab-inner a:hover{color:##3399CC;	text-decoration:none;}
+
+/*.tab-inner{margin:14px 0 20px 16px;width:442px;}*/
+.tab-inner{margin:0px 0 0 0px;width:100%;} 
+.tab-list ul li{background-image:url(../images/bullet.gif);background-repeat:no-repeat;font-size:12px;color:#555555;background-position:0px 7px;padding:0 0 7px 8px;line-height:20px;}
+/*.tab-list ul li ul li{background-image:url(../images/bullet1.gif);padding:6px 0 0px 8px;background-repeat:no-repeat;font-size:12px;line-height:17px; background-position:0px 13px;}
+.tab-list a{color:#3399CC;text-decoration:none;}*/
+.tab-list a:hover{color:#3399CC;text-decoration:underline;}	
+/*.tab-top{background-image:url(../images/tab_top.gif);background-repeat:no-repeat;background-position:0 0;width:480px;height:27px;}*/
+.tab-top a{margin:0 4px 0 0;}
+
+
+.show_hide a img{float:left;margin-right:7px;margin-top:2px;font-size:0px; font-size:12px; display: none !important;}  
+#show_hideimg img{ display:block !important;} 
+
+
+.ans{ display: block !important;}
+.bg_blue02 {
+    background: #afc4db url(/sim/chinese/deposits/images/thumbnails/blue_mdl.gif) repeat-x left bottom;
+}
+
+.bg_blue02 td td{ padding: 10px 0;}
+
+.globe-text12 { line-height: 20px;}
+
+.show_hide a{
+	color:#1388cb;
+	font-weight: bold; 
+}
+
+.qa_distance{
+	margin:10px 0 10px;
+}
+
+.graytxt{color:#999;}
+/* 资讯列表 */
+#real-time-info li {list-style: outside;}
+ 

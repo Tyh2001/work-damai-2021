@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+@media screen and (max-width: 580px) {
+  #pc {
+    display: none;
+  }
+}
+@media screen and (min-width: 581px) {
+  #phone {
+    display: none;
+  }
+}
+#phone #meunbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+  position: relative;
+}
+#phone #meunbar .logo {
+  width: 20%;
+}
+#phone #meunbar .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#phone #meunbar .right .menu {
+  width: 1rem;
+}
+#phone #meunbar .right .meun-title {
+  color: #fff;
+  margin-left: 6px;
+}
+#phone #meunbar .right .phone_meunbar_show {
+  width: 100px;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#phone #meunbar .right .phone_meunbar_show ul li {
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+}
+#phone #meunbar .right .phone_meunbar_show ul li a {
+  color: #000;
+  text-decoration: none;
+}
+#phone #meunbar .right .phone_meunbar_show ul li a:hover {
+  color: #56caf8;
+}
+#phone .img_t {
+  width: 100%;
+}
+#phone .swiper-container .swiper-wrapper img {
+  width: 100%;
+}
+#phone .swiper-pagination {
+  position: relative;
+}
+#phone .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+}
+#phone .swiper-button-next,
+#phone .swiper-button-prev {
+  color: #fff;
+}
+#phone .swiper-button-next::after,
+#phone .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: 600;
+}
+#pc #box {
+  max-width: 950px;
+  margin: auto;
+}
+#pc #box #meunbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+#pc #box #meunbar .logo {
+  width: 100px;
+}
+#pc #box #meunbar .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+#pc #box #meunbar .right .pc_meunbar_show {
+  width: 100px;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#pc #box #meunbar .right .pc_meunbar_show ul li {
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+}
+#pc #box #meunbar .right .pc_meunbar_show ul li a {
+  color: #000;
+  text-decoration: none;
+}
+#pc #box #meunbar .right .pc_meunbar_show ul li a:hover {
+  color: #56caf8;
+}
+#pc #box #meunbar .right .menu {
+  width: 20px;
+}
+#pc #box #meunbar .right .meun-title {
+  color: #fff;
+  margin-left: 6px;
+}
+#pc #box .img_t_1 {
+  width: 100%;
+}
+#pc #box .img_t {
+  width: 100%;
+}
+#pc #box .swiper-container .swiper-wrapper img {
+  width: 100%;
+}
+#pc #box .swiper-pagination {
+  position: relative;
+}
+#pc #box .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+}
+#pc #box .swiper-button-next,
+#pc #box .swiper-button-prev {
+  color: #fff;
+}
+#pc #box .swiper-button-next::after,
+#pc #box .swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,8 @@
+文件放置位置：\sim\chinese\services\images
+文件名：
+citi_01.png
+citi_02.png
+
+
+文件放置位置：\sim\chinese\services
+文件名：citimobile.htm

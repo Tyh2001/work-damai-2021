@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>花旗掌上银行</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (min-width: 1100px) {
+      #pc_box {
+        display: block;
+      }
+
+      #phone_box {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      #pc_box {
+        display: none;
+      }
+
+      #phone_box {
+        display: block;
+      }
+    }
+
+    #pc_box {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pc_banner,
+    #phone_box .phone_banner {
+      width: 100%;
+    }
+
+    /* 手机端点击链接 */
+    #phone_box {
+      position: relative;
+    }
+
+    #phone_box .push {
+      position: absolute;
+      bottom: 17%;
+      right: 0;
+      left: 0;
+      margin: auto;
+      display: inline-block;
+      width: 46%;
+      height: 7%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="pc_box">
+    <img class="pc_banner" src="./images/pc_banner.jpg" alt="">
+  </div>
+
+  <div id="phone_box">
+    <img class="phone_banner" src="./images/phone_banner.jpg" alt="">
+    <a class="push" href="https://www.citibank.com.cn/homepage/cn/mobile_app.html"></a>
+  </div>
+</body>
+
+</html>

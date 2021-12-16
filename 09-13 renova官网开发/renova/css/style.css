@@ -1,0 +1,565 @@
+/* line 1, D:/Temp/github/swipeslider/style.scss */
+/** {
+  box-sizing: border-box;
+  font-family: sans-serif; }*/
+
+/* line 6, D:/Temp/github/swipeslider/style.scss */
+/*html, body {
+  height: 100%; }*/
+
+/* line 10, D:/Temp/github/swipeslider/style.scss */
+/*body {
+  margin: 0 auto;
+  background-color: #383843;
+  max-width: 640px;
+  color: #fff8eb; }*/
+
+/* line 16, D:/Temp/github/swipeslider/style.scss */
+/*h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #fff9f0;
+  text-shadow: 1px 2px 5px black; }*/
+
+/* line 21, D:/Temp/github/swipeslider/style.scss */
+/*h1 {
+  font-size: 50px; }*/
+
+/* line 25, D:/Temp/github/swipeslider/style.scss */
+/*h2 {
+  margin-top: 80px; }*/
+
+@media screen and (max-width: 580px){
+  .pc{display: none;}
+}
+@media screen and (min-width: 581px){
+  .moblie{display: none;}
+}
+
+.pc_left{width: 30%;}
+.pc_main{width: 40%;}
+.pc_right{width: 30%;}
+.container{
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+/* line 30, D:/Temp/github/swipeslider/style.scss */
+a:link {
+  color: #fff0d5; }
+
+/* line 33, D:/Temp/github/swipeslider/style.scss */
+a:hover {
+  color: #aaa3fc; }
+
+/* line 36, D:/Temp/github/swipeslider/style.scss */
+a:active {
+  color: #9289ff; }
+
+/* line 39, D:/Temp/github/swipeslider/style.scss */
+a:visited {
+  color: #fff0d5; }
+
+/* line 44, D:/Temp/github/swipeslider/style.scss */
+.swipslider {
+  margin: 0 auto; }
+
+/* line 48, D:/Temp/github/swipeslider/style.scss */
+#content_slider {
+  background-color: #f0f0f0;
+  width: 640px; }
+  /* line 52, D:/Temp/github/swipeslider/style.scss */
+  #content_slider .wanted {
+    padding: 25px; }
+    /* line 54, D:/Temp/github/swipeslider/style.scss */
+    #content_slider .wanted:after {
+      display: table;
+      content: "";
+      clear: both; }
+    /* line 60, D:/Temp/github/swipeslider/style.scss */
+    #content_slider .wanted img {
+      float: left;
+      position: relative;
+      height: 225px;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.33);
+      margin-right: 15px; }
+    /* line 68, D:/Temp/github/swipeslider/style.scss */
+    #content_slider .wanted .description {
+      float: left;
+      padding: 10px;
+      display: block;
+      font-size: 16px;
+      color: #343332;
+      background: #e5e5e5;
+      height: 225px;
+      width: 349px;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.58);
+      white-space: normal; }
+      /* line 80, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description h1 {
+        font-size: 18px;
+        margin: 0;
+        text-align: left;
+        color: #515f6c;
+        text-shadow: none; }
+      /* line 88, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description::after {
+        display: table;
+        content: "";
+        clear: both; }
+      /* line 94, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description p {
+        margin-bottom: 1px;
+        margin-top: 6px;
+        font-size: 14px; }
+      /* line 100, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description p.award {
+        color: #be9a02; }
+      /* line 104, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description ul {
+        list-style: square;
+        padding-left: 20px;
+        font-size: 14px; }
+      /* line 110, D:/Temp/github/swipeslider/style.scss */
+      #content_slider .wanted .description strong {
+        color: #515f6c; }
+
+/* line 120, D:/Temp/github/swipeslider/style.scss */
+#customizability .sw-next-prev {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(82, 82, 82, 0);
+  color: rgba(255, 254, 235, 0.28);
+  border-radius: 3px;
+  font-size: 25px; }
+  /* line 128, D:/Temp/github/swipeslider/style.scss */
+  #customizability .sw-next-prev:hover {
+    color: #fffeeb;
+    /*background-color: #525252;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+/* line 135, D:/Temp/github/swipeslider/style.scss */
+#customizability .sw-prev {
+  left: 0%; }
+  /* line 138, D:/Temp/github/swipeslider/style.scss */
+  #customizability .sw-prev::after {
+    line-height: 60px;
+    content: '< '; }
+
+/* line 144, D:/Temp/github/swipeslider/style.scss */
+#customizability .sw-next {
+  right: 0%; }
+  /* line 147, D:/Temp/github/swipeslider/style.scss */
+  #customizability .sw-next::after {
+    line-height: 60px;
+    content: ' >'; }
+
+/* line 153, D:/Temp/github/swipeslider/style.scss */
+#customizability .sw-bullet {
+  bottom: 4%; }
+  /* line 156, D:/Temp/github/swipeslider/style.scss */
+  #customizability .sw-bullet li {
+    width: 20px;
+    height: 3px;
+    background-color: rgba(255, 254, 235, 0.28);
+    border-radius: 0;
+    vertical-align: middle; }
+    /* line 163, D:/Temp/github/swipeslider/style.scss */
+    #customizability .sw-bullet li.active {
+
+      /*border-top: 10px solid #fffeeb;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      background-color: transparent;
+      width: 0;
+      height: 0;*/
+      width: 20px;
+      height: 3px;
+      background-color: #fff;
+      vertical-align: middle; }
+    /* line 174, D:/Temp/github/swipeslider/style.scss */
+    #customizability .sw-bullet li:hover {
+      height: 3px;
+      background-color: #fffeeb; }
+
+/* line 183, D:/Temp/github/swipeslider/style.scss */
+.slide-number {
+  font-size: 60px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+/*pc*/
+  /*pc_1*/
+    /* line 120, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc .sw-next-prev {
+      width: 60px;
+      height: 60px;
+      background-color: rgba(82, 82, 82, 0);
+      color: rgba(255, 254, 235, 0.28);
+      border-radius: 3px;
+      font-size: 25px; }
+      /* line 128, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc .sw-next-prev:hover {
+        color: #fffeeb;
+        /*background-color: #525252;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+    /* line 135, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc .sw-prev {
+      left: 0%; }
+      /* line 138, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc .sw-prev::after {
+        line-height: 60px;
+        content: '< '; }
+
+    /* line 144, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc .sw-next {
+      right: 0%; }
+      /* line 147, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc .sw-next::after {
+        line-height: 60px;
+        content: ' >'; }
+
+    /* line 153, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc .sw-bullet {
+      bottom: 4%; }
+      /* line 156, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc .sw-bullet li {
+        width: 20px;
+        height: 3px;
+        background-color: rgba(255, 254, 235, 0.28);
+        border-radius: 0;
+        vertical-align: middle; }
+        /* line 163, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc .sw-bullet li.active {
+
+          /*border-top: 10px solid #fffeeb;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          background-color: transparent;
+          width: 0;
+          height: 0;*/
+          width: 20px;
+          height: 3px;
+          background-color: #fff;
+          vertical-align: middle; }
+        /* line 174, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc .sw-bullet li:hover {
+          height: 3px;
+          background-color: #fffeeb; }
+  /*pc_1*/
+  /*pc_2*/
+    /* line 120, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc2 .sw-next-prev {
+      width: 60px;
+      height: 60px;
+      background-color: rgba(82, 82, 82, 0);
+      color: rgba(255, 254, 235, 0.28);
+      border-radius: 3px;
+      font-size: 25px; }
+      /* line 128, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc2 .sw-next-prev:hover {
+        color: #fffeeb;
+        /*background-color: #525252;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+    /* line 135, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc2 .sw-prev {
+      left: 0%; }
+      /* line 138, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc2 .sw-prev::after {
+        line-height: 60px;
+        content: '< '; }
+
+    /* line 144, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc2 .sw-next {
+      right: 0%; }
+      /* line 147, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc2 .sw-next::after {
+        line-height: 60px;
+        content: ' >'; }
+
+    /* line 153, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc2 .sw-bullet {
+      bottom: 4%; }
+      /* line 156, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc2 .sw-bullet li {
+        width: 20px;
+        height: 3px;
+        background-color: rgba(255, 254, 235, 0.28);
+        border-radius: 0;
+        vertical-align: middle; }
+        /* line 163, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc2 .sw-bullet li.active {
+
+          /*border-top: 10px solid #fffeeb;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          background-color: transparent;
+          width: 0;
+          height: 0;*/
+          width: 20px;
+          height: 3px;
+          background-color: #fff;
+          vertical-align: middle; }
+        /* line 174, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc2 .sw-bullet li:hover {
+          height: 3px;
+          background-color: #fffeeb; }
+  /*pc_2*/
+  /*pc_3*/
+    /* line 120, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc3 .sw-next-prev {
+      width: 60px;
+      height: 60px;
+      background-color: rgba(82, 82, 82, 0);
+      color: rgba(255, 254, 235, 0.28);
+      border-radius: 3px;
+      font-size: 25px; }
+      /* line 128, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc3 .sw-next-prev:hover {
+        color: #fffeeb;
+        /*background-color: #525252;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+    /* line 135, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc3 .sw-prev {
+      left: 0%; }
+      /* line 138, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc3 .sw-prev::after {
+        line-height: 60px;
+        content: '< '; }
+
+    /* line 144, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc3 .sw-next {
+      right: 0%; }
+      /* line 147, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc3 .sw-next::after {
+        line-height: 60px;
+        content: ' >'; }
+
+    /* line 153, D:/Temp/github/swipeslider/style.scss */
+    #customizability_pc3 .sw-bullet {
+      bottom: 4%; }
+      /* line 156, D:/Temp/github/swipeslider/style.scss */
+      #customizability_pc3 .sw-bullet li {
+        width: 20px;
+        height: 3px;
+        background-color: rgba(255, 254, 235, 0.28);
+        border-radius: 0;
+        vertical-align: middle; }
+        /* line 163, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc3 .sw-bullet li.active {
+
+          /*border-top: 10px solid #fffeeb;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          background-color: transparent;
+          width: 0;
+          height: 0;*/
+          width: 20px;
+          height: 3px;
+          background-color: #fff;
+          vertical-align: middle; }
+        /* line 174, D:/Temp/github/swipeslider/style.scss */
+        #customizability_pc3 .sw-bullet li:hover {
+          height: 3px;
+          background-color: #fffeeb; }
+  /*pc_2*/
+/*pc*/
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.54); }
+body{margin:0;padding:0;}
+.logo{display: flex;}
+.logo_left{margin-left:8%;margin-top: 5%;width: 50%;}
+.logo_left img{width: 40%;display: inline-flex;}
+.logo_right{width:50px;display: inline-flex;margin-left:8%;margin-top: 5%;margin-right: 5%;}
+.main_01 img{width: 100%;}
+.main_02 img{width: 100%;}
+.main_03 img{width: 100%;}
+.main_04 img{width: 100%;}
+
+.main_06 img{width: 100%;}
+/*main_07*/
+  /* line 120, D:/Temp/github/swipeslider/style.scss */
+  #customizability_2 .sw-next-prev {
+    width: 60px; 
+    height: 60px;
+    background-color: rgba(82, 82, 82, 0);
+    color: rgba(255, 254, 235, 0.28);
+    border-radius: 3px;
+    font-size: 25px; }
+    /* line 128, D:/Temp/github/swipeslider/style.scss */
+    #customizability_2 .sw-next-prev:hover {
+      color: #fffeeb;
+      /*background-color: #525252;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+  /* line 135, D:/Temp/github/swipeslider/style.scss */
+  #customizability_2 .sw-prev {
+    left: 0%; }
+    /* line 138, D:/Temp/github/swipeslider/style.scss */
+    #customizability_2 .sw-prev::after {
+      line-height: 60px;
+      content: '< '; }
+
+  /* line 144, D:/Temp/github/swipeslider/style.scss */
+  #customizability_2 .sw-next {
+    right: 0%; }
+    /* line 147, D:/Temp/github/swipeslider/style.scss */
+    #customizability_2 .sw-next::after {
+      line-height: 60px;
+      content: ' >'; }
+
+  /* line 153, D:/Temp/github/swipeslider/style.scss */
+  #customizability_2 .sw-bullet {
+    bottom: 4%; }
+    /* line 156, D:/Temp/github/swipeslider/style.scss */
+    #customizability_2 .sw-bullet li {
+      width: 20px;
+      height: 3px;
+      background-color: rgba(255, 254, 235, 0.28);
+      border-radius: 0;
+      vertical-align: middle; }
+      /* line 163, D:/Temp/github/swipeslider/style.scss */
+      #customizability_2 .sw-bullet li.active {
+
+        /*border-top: 10px solid #fffeeb;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        background-color: transparent;
+        width: 0;
+        height: 0;*/
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+        vertical-align: middle; }
+      /* line 174, D:/Temp/github/swipeslider/style.scss */
+      #customizability_2 .sw-bullet li:hover {
+        height: 3px;
+        background-color: #fffeeb; }
+/*main_07*/
+.main_08 img{width: 100%;}
+/*main_09 */
+  /* line 120, D:/Temp/github/swipeslider/style.scss */
+  #customizability_3 .sw-next-prev {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(82, 82, 82, 0);
+    color: rgba(255, 254, 235, 0.28);
+    border-radius: 3px;
+    font-size: 25px; }
+    /* line 128, D:/Temp/github/swipeslider/style.scss */
+    #customizability_3 .sw-next-prev:hover {
+      color: #fffeeb;
+      /*background-color: #525252;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.57);*/ }
+
+  /* line 135, D:/Temp/github/swipeslider/style.scss */
+  #customizability_3 .sw-prev {
+    left: 0%; }
+    /* line 138, D:/Temp/github/swipeslider/style.scss */
+    #customizability_3 .sw-prev::after {
+      line-height: 60px;
+      content: '< '; }
+
+  /* line 144, D:/Temp/github/swipeslider/style.scss */
+  #customizability_3 .sw-next {
+    right: 0%; }
+    /* line 147, D:/Temp/github/swipeslider/style.scss */
+    #customizability_3 .sw-next::after {
+      line-height: 60px;
+      content: ' >'; }
+
+  /* line 153, D:/Temp/github/swipeslider/style.scss */
+  #customizability_3 .sw-bullet {
+    bottom: 4%; }
+    /* line 156, D:/Temp/github/swipeslider/style.scss */
+    #customizability_3 .sw-bullet li {
+      width: 20px;
+      height: 3px;
+      background-color: rgba(255, 254, 235, 0.28);
+      border-radius: 0;
+      vertical-align: middle; }
+      /* line 163, D:/Temp/github/swipeslider/style.scss */
+      #customizability_3 .sw-bullet li.active {
+
+        /*border-top: 10px solid #fffeeb;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        background-color: transparent;
+        width: 0;
+        height: 0;*/
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+        vertical-align: middle; }
+      /* line 174, D:/Temp/github/swipeslider/style.scss */
+      #customizability_3 .sw-bullet li:hover {
+        height: 3px;
+        background-color: #fffeeb; }
+/*main_09*/
+.main_10 img{width: 100%;}
+
+/*下拉框动画特效*/
+.album-nav-left .change-down{
+  animation: turndown 0.5s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes turndown
+{
+  0% {
+    transform:rotate(0);
+    -webkit-transform:rotate(0);
+  }
+  100% {
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+  }
+}
+.shows-down{
+  animation: shows 0.5s linear;
+  -webkit-animation:shows 0.5s linear;
+  -o-animation:shows 0.5s linear;
+  -moz-animation:shows 0.5s linear;
+}
+@keyframes shows
+{
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 138px;
+  }
+}
+@-webkit-keyframes  shows
+{
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 138px;
+  }
+}
+/*下拉框动画特效*/
+.btn.focus,.btn:focus{
+   box-shadow: 0 0 0 0 transparent;
+  }
+
+.btn-default{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.btn-default img{
+  width: 1rem;
+}
+a:link{text-decoration:none; }  /* 指正常的未被访问过的链接*/
+
+a:visited{text-decoration:none; }/*指已经访问过的链接*/
+
+a:hover{text-decoration:none;}/*指鼠标在链接*/}
+
+a:active{text-decoration:none;}/* 指正在点的链接*/ 
+

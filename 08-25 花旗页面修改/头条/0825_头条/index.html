@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+    }
+
+    #main {
+      width: 780px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    #main .pc {
+      width: 100%;
+    }
+
+    @media (max-width: 800px) {
+      #main {
+        width: 100% !important;
+      }
+
+      #main img {
+        width: 100%;
+      }
+
+      .click_a {
+        width: 57%;
+        height: 5%;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 17%;
+        cursor: pointer;
+      }
+
+      .click_b {
+        width: 39%;
+        height: 5%;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 21%;
+        cursor: pointer;
+      }
+
+      .click_c {
+        width: 42%;
+        height: 5%;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 31%;
+        cursor: pointer;
+      }
+
+      #show #showImg {
+        width: 91% !important;
+      }
+    }
+
+    @media (min-width: 800px) {
+      .click_a {
+        width: 442px;
+        height: 100px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 370px;
+        cursor: pointer;
+      }
+
+      .click_b {
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 432px;
+        cursor: pointer;
+      }
+
+      .click_c {
+        width: 327px;
+        height: 100px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 630px;
+        cursor: pointer;
+      }
+    }
+
+    /* 遮罩层 */
+    #show {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+    }
+
+    #show #showImg {
+      width: 780px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <img class="pc" src="./images/toutiao_1.png" alt="">
+    <img class="pc" style="margin-top: -2px;" src="./images/toutiao_2.png" alt="">
+    <p class="click_a showClick"></p>
+    <p class="click_b showClick"></p>
+    <p class="click_c showClick"></p>
+  </div>
+
+  <div id="show">
+    <img id="showImg" src="" alt="">
+  </div>
+
+
+  <script>
+    const showItem = document.querySelectorAll('.showClick')
+    const showImg = document.getElementById('showImg')
+    const show = document.getElementById('show')
+
+    for (let i = 0; i < showItem.length; i++) {
+      showItem[i].addEventListener('click', function () {
+        show.style.visibility = 'visible'
+        showImg.setAttribute('src', `./images/banner_${i + 1}.png`)
+      })
+    }
+
+    show.addEventListener('click', function () {
+      show.style.visibility = 'hidden'
+    })
+
+  </script>
+</body>
+
+</html>

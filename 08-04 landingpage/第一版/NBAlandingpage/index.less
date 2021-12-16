@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+// 手机端
+#phone {
+
+  // 点击跳转的热区
+  #phone_router_6,
+  #phone_router_7 {
+    position: absolute;
+    display: inline-block;
+    width: 41%;
+    height: 9%;
+    bottom: 2%;
+    left: 8%;
+  }
+
+  .img {
+    width: 100% !important;
+  }
+
+  .scrollbar {
+    position: relative;
+
+    .list {
+      position: absolute;
+      top: 17%;
+      right: 0;
+      left: 0;
+      margin: auto;
+      display: flex;
+      width: 87%;
+      height: 70%;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+
+      img {
+        margin-right: 2%;
+        height: 90%;
+      }
+
+      // 滚动条
+      &::-webkit-scrollbar {
+        height: 7px;
+        background: #8699af;
+        border-radius: 10px;
+      }
+
+      // 滚动滑块
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: #ffffff;
+      }
+    }
+  }
+}
+
+// 电脑端
+#pc {
+
+  // 点击跳转的热区
+  #pc_router_6,
+  #pc_router_7 {
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    bottom: 5%;
+    left: 16%;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .scrollbar {
+    position: relative;
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      width: 74%;
+      margin: auto;
+      right: 0;
+      left: 0;
+      top: 52%;
+
+      .swiper-container {
+        position: absolute;
+        width: 90%;
+        right: 5%;
+
+        .swiper-wrapper {
+
+          .swiper-slide {
+            width: 30%;
+            margin-left: 1%;
+          }
+        }
+      }
+    }
+
+    .right,
+    .left {
+      height: 21px;
+      width: 14px;
+      margin-top: -2%;
+    }
+  }
+}
+
+// 手机端
+@media screen and (min-width:1100px) {
+  #pc {
+    display: block;
+  }
+
+  #phone {
+    display: none;
+  }
+}
+
+// 电脑端
+@media screen and (max-width:1100px) {
+  #pc {
+    display: none;
+  }
+
+  #phone {
+    display: block;
+  }
+}

@@ -1,0 +1,10 @@
+路径：sim/chinese/investments/js/
+更改文件：dropdownlist_ch.js
+
+
+路径：sim/chinese/investments/js/
+更改文件：fund.js
+
+
+路径：sim/chinese/investments/
+新增文件：zhongouwenjian.htm

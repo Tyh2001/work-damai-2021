@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>旗开得胜 点球成金</title>
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/swiper-bundle.css">
+</head>
+
+<body style="margin:0 0 0 0;padding: 0;">
+  <div id="pc">
+    <img class="img" src="./pc/NBAlandingpage_01.jpg" alt="">
+    <img class="img" src="./pc/NBAlandingpage_02.jpg" alt="">
+    <img class="img" src="./pc/NBAlandingpage_03.jpg" alt="">
+    <div class="scrollbar">
+      <img class="img" src="./pc/NBAlandingpage_04.jpg" alt="">
+
+      <!-- 滚动部分 -->
+      <div class="list">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <img class="swiper-slide" src="./pc/banner_1.png" alt="">
+            <img class="swiper-slide" src="./pc/banner_2.png" alt="">
+            <img class="swiper-slide" src="./pc/banner_3.png" alt="">
+            <img class="swiper-slide" src="./pc/banner_4.png" alt="">
+          </div>
+        </div>
+        <img class="swiper-button-next right" src="./pc/right.png" alt="">
+        <img class="swiper-button-prev left" src="./pc/left.png" alt="">
+      </div>
+    </div>
+
+    <!-- 立即预约 -->
+    <a target="_blank"
+      href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBAEXTAL">
+      <img class="img" src="./pc/NBAlandingpage_05.jpg" alt="">
+    </a>
+    <!-- 查看详情 -->
+    <div style="position: relative;">
+      <img class="img" src="./pc/NBAlandingpage_06.jpg" alt="">
+      <a id="pc_router_6" target="_blank"
+        href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBAEXTAL"></a>
+    </div>
+    <div style="position: relative;">
+      <img class="img" src="./pc/NBAlandingpage_07.jpg" alt="">
+      <a id="pc_router_7" target="_blank" href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html"></a>
+    </div>
+    <img class="img" src="./pc/NBAlandingpage_08.jpg" alt="">
+    <img class="img" src="./pc/NBAlandingpage_09.jpg" alt="">
+  </div>
+
+  <!-- 手机端 -->
+  <div id="phone">
+    <img class="img" style="margin-top: -2px;" src="./phone/NBAlandingpage_01.jpg" alt="">
+    <img class="img" style="margin-top: -2px;" src="./phone/NBAlandingpage_02.jpg" alt="">
+    <img class="img" style="margin-top: -2px;" src="./phone/NBAlandingpage_03.jpg" alt="">
+    <div class="scrollbar" style="margin-top: -2px;">
+      <img class="img" src="./phone/NBAlandingpage_04.jpg" alt="">
+
+      <div class="list">
+        <img src="./phone/banner_1.png" alt="">
+        <img src="./phone/banner_2.png" alt="">
+        <img src="./phone/banner_3.png" alt="">
+        <img src="./phone/banner_4.png" alt="">
+      </div>
+    </div>
+    <!-- 立即预约 -->
+    <a target="_blank"
+      href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBAEXTAL">
+      <img style="margin-top: -2px;" class="img" src="./phone/NBAlandingpage_05.jpg" alt="">
+    </a>
+    <!-- 查看详情 -->
+    <div style="position: relative; margin-top: -2px;">
+      <img class="img" src="./phone/NBAlandingpage_06.jpg" alt="">
+      <a id="phone_router_6" target="_blank"
+        href="https://webservice.citibank.com.cn/CitiWeb/act.do?action=collectCustomerInfo&code=DIAIRNBAEXTAL"></a>
+    </div>
+    <div style="position: relative;margin-top: -2px;">
+      <img class="img" src="./phone/NBAlandingpage_07.jpg" alt="">
+      <a id="phone_router_7" target="_blank" href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html"></a>
+    </div>
+    <img style="margin-top: -2px;" class="img" src="./phone/NBAlandingpage_08.jpg" alt="">
+    <img style="margin-top: -2px;" class="img" src="./phone/NBAlandingpage_09.jpg" alt="">
+  </div>
+
+  <script src="./src/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+  </script>
+</body>
+
+</html>

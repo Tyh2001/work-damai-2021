@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 780px;
+  margin: 0 auto;
+}
+#main .pc {
+  width: 100%;
+}
+@media (max-width: 800px) {
+  #main {
+    width: 100% !important;
+  }
+  #main img {
+    width: 100%;
+  }
+}

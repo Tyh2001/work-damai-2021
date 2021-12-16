@@ -1,0 +1,3297 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <script type="text/javascript" src="/sim/chinese/VA/xfs.js"></script>
+  <script type="text/javascript" src="/sim/chinese/VA/xss.js"></script>
+  <title>即刻成为花旗客户，尊享丰富优先礼遇！</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no" />
+  <meta name="keywords" content="花旗财富管理、投资理财；花旗借记卡" />
+  <meta name="description" content="花旗财富管理为您提供一站式的卓越理财方案，并根据您的需求、目标和财务状况度身定制理财方案，以达致您各个财务目标。" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="icon" href="/views/land/banking/images/favicon.ico" />
+  <link rel="stylesheet" href="/views/land/banking/css/style.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="/views/land/banking/js/plugins/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="/views/land/banking/js/plugins/jquery-ui.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var url = location.href;
+      var value1 = url.search('iframe');
+      var value2 = url.search('script');
+      var value3 = url.search('<');
+      var value4 = url.search('>');
+      var value5 = url.search('%');
+      var value6 = url.search(';');
+      if ((value1 != -1) || (value2 != -1) || (value3 != -1) || (value4 != -1) || (value5 != -1) || (value6 != -1)) {
+        //top.location.href="https://" +location.host+location.pathname;
+      }
+      else {
+
+      }
+    });
+	//-->
+  </script>
+  <script type="text/javascript">
+    if (location.protocol == "http:") {
+      var x = location.host;
+      //top.location.href="https://"+location.host+location.pathname+location.search;
+    }
+  </script>
+  <style type="text/css">
+    html {
+      display: none;
+      visibility: hidden;
+    }
+
+    .submit-row {
+      padding: 40px 20px 70px;
+    }
+
+    @media (max-width: 767px) {
+      .submit-row {
+        padding: 0px 20px 1px;
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    function redirect() {
+      var loc = location.href.split(':');
+      if (loc[0] == 'http') {
+        //location.href='https:'+loc[1];
+      }
+    }
+    window.onload = redirect();
+
+    if (self == top) {
+      document.documentElement.style.display = 'block';
+      document.documentElement.style.visibility = 'visible';
+    } else {
+      top.location = self.location;
+    }
+  </script>
+
+  <script type="text/javascript">
+    function gup(name) {
+      name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+      var regexS = "[\\?&]" + name + "=([^&#]*)";
+      var regex = new RegExp(regexS);
+      var results = regex.exec(window.location.href);
+      if (results == null)
+        return "";
+      else
+        return results[1];
+    }
+    $(function () {
+      var code = gup('code');
+      var carForm = $('#haiForm').remove();
+
+      $(".tabPANBA").hide();
+      $(".tabPANBA").hide();
+      //添加顺序从查询字符串长度从大到小添加
+      if (code.indexOf('PATVXCSAITTK') == 0) {
+        $('.tabSMCSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('#landing-form .row.form-section').addClass('northLine');
+        $('.subHeading').html('立即填表');
+        $('.subHeading').addClass('topHeader');
+        $('#submitBtn').html('现在提交');
+      } else if (code.indexOf('PATVXCSALG') == 0) {
+        $('.tabSMCSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('#landing-form .row.form-section').addClass('northLine');
+        $('.subHeading').html('立即填表');
+        $('.subHeading').addClass('topHeader');
+        $('#submitBtn').html('现在提交');
+      } else if (code.indexOf('PATVRNCEA') == 0) {
+        $('.tabRNCEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.selectSARN').remove();
+      } else if (code.indexOf('PATVXSCEA') == 0) {
+        $('.tabEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.TabXSCSA').remove();
+      } else if (code.indexOf('PATVRNCSA') == 0) {
+        $('.tabSARN').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.selectSARN').remove();
+      } else if (code.indexOf('PATVXSCSA') == 0) {
+        $('.tabSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.TabXSCSA').remove();
+      } else if (code.indexOf('PATVXXCSA') == 0) {
+        $('.tabXXCSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.likeXXCSA').remove();
+      } else if (code.indexOf('PATVRNJYA') == 0) {
+        $('.tabRNJYA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“吉祥航空会员卡号”（选填）');
+        $('.switchInfo #idname').attr("placeholder", "您的“吉祥航空会员卡号”（选填）");
+        $('.switchInfo #idname').attr("data_min_length", "10");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo .tips').html('（10位数字）可至吉祥航空APP、官网或吉祥航空客服95520查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.selectSARN').remove();
+      } else if (code.indexOf('Telestaff') == 0) {
+        $('.tabTELE').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVXXCEA') == 0) {
+        $('.tabXXCEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.likeXXCEA').remove();
+      } else if (code.indexOf('PATVX5CEA') == 0) {
+        $('.tabX5CEA').show();
+        $('.tabX5CEADesc').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.likeXXCEA').remove();
+
+      } else if (code.indexOf('PATVXCSA') == 0) {
+        $('.tabXCSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.TtabXCSA').show();
+      } else if (code.indexOf('PATVSCA') == 0) {
+        $("#idname").keyup(function () {
+          $(this).val($(this).val().replace(/[^0-9]/g, ''));
+        }).bind("paste", function () {
+          $(this).val($(this).val().replace(/[^0-9]/g, ''));
+        })
+        $('.tabJXM').show();
+        $('.tab_title').hide();
+        $('.XM_inf').remove();// 请选择你感兴趣的产品
+        $('.switchInfo .inputBox-lable').html('您的金熊猫俱乐部会员卡号');
+        // $('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        // $('.switchInfo #idname').attr("data_inner_error","idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的金熊猫俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的金熊猫俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "9");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的金熊猫俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的金熊猫俱乐部会员卡号");
+        $('.switchInfo #idname').attr("type", "number");
+        $('.switchInfo #idname').attr("type", "tel");
+        $('.switchInfo #idname').attr("onkeyup", "this.value=this.value.replace(/[^0-9]/g,'')");
+        $('.switchInfo .tips').html('（9位数字）可至四川航空APP,官方微信公众号或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.tabSCHKTK').show();
+      } else if (code.indexOf('PATVXHNA') == 0) {
+        $('.tabXHNA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的金鹏俱乐部会员卡号');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo .tips').html('（10位数字）可于海南航空微信公众号、海南航空APP或金鹏会员服务热线950717查询');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.JPhide').hide();
+        $('.likeXXCSA').remove();
+      } else if (code.indexOf('PAEDBBCX') == 0) {
+        $('.tabBBCX').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PAEDJSXY') == 0) {
+        $('.tabJSXY').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVQUNA') == 0) {
+        $('.tabQUNA').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('Migush01') == 0) {
+        $('.tabMIG').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVYHZC') == 0) {
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('#applyTitle').after(carForm);
+        $('.tabHZC').show();
+        $('.other_form').remove();
+      } else if (code.indexOf('PATVXCEA') == 0) {
+        $('.tabCEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVHBGJ') == 0) {
+        $('.tabBGJ').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVDCQC') == 0) {
+        $('.tabCQC').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVCEA') == 0) {
+        $('.tabEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVCSA') == 0) {
+        $('.tabSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "12");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVJYA') == 0) {
+        $('.tabJYA1').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“吉祥航空会员卡号”');
+        $('.switchInfo #idname').attr("placeholder", "您的“吉祥航空会员卡号”");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo .tips').html('（10位数字）可至吉祥航空APP、官网或吉祥航空客服95520查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $(".likePATVJYA").remove();
+      } else if (code.indexOf('PATVJYB') == 0) {
+        $('.tabJYB1').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“吉祥航空会员卡号”');
+        $('.switchInfo #idname').attr("placeholder", "您的“吉祥航空会员卡号”");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo .tips').html('（10位数字）可至吉祥航空APP、官网或吉祥航空客服95520查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $(".likePATVJYB").remove();
+      } else if (code.indexOf('PATVHNA') == 0) {
+        $('.tabHNA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的金鹏俱乐部会员卡号（必填）');
+        $('.switchInfo #idname').attr("data_field_type", "AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error", "idErr")
+        $('.switchInfo #idname').attr("placeholder", "您的金鹏俱乐部会员卡号（必填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "1");
+        $('.switchInfo #idname').attr("maxlength", "30");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo .tips').html('（仅限本人会员号）可于海南航空微信公众号、海南航空APP或金鹏会员服务热线950717查询');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.JPhide').hide();
+      } else if (code.indexOf('PATVHBC') == 0) {
+        $('.tabHBC').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PAECHVB') == 0) {
+        $('.tabHVB').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVIGL') == 0) {
+        $('.tabIGL').show();
+        $('.tab_title').hide();
+        $('.innerBanner').addClass('IGL_banner');
+        $('.landing_form').addClass('IGL_landing_form');
+      } else if (code.indexOf('PATVLMM') == 0) {
+        $('.tabLMM').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('Unstaff') == 0) {
+        $('.tabUNS').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVZZC') == 0) {
+        $('.tabZZC').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PATVFCZ') == 0) {
+        $('.tabFCZ').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PALSXSD') == 0) {
+        $('.tabSXSD').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('PACQDY') == 0) {
+        $('.tabPACQDY').show();
+        $('.tab_title').hide();
+        $(".likeDIJD2").remove();
+      }
+      else if (code.indexOf('DICSA') == 0) {
+        $('.tabDICSA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的南航明珠俱乐部会员卡号（选填）');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的南航明珠俱乐部会员卡号（选填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的南航明珠俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的南航明珠俱乐部会员卡号")
+        $('.switchInfo .tips').html('（12位数字）可至南方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.likeXXCSA').remove();
+      }
+
+
+      else if (code.indexOf('DIJD2') == 0) {
+        $('.tabDIJD2').show();
+        $('.tab_title').hide();
+        $(".likeDIJD2").remove();
+      }
+      // ttt_07-19
+      else if (code.indexOf('RSJD2') == 0) {
+        $('.tabDIJD2').show();
+        $('.tab_title').hide();
+        $(".likeDIJD2").remove();
+        $('.tabRSJD2-huiyuan').show();
+      }
+
+      // ttt_07-19
+      else if (code.indexOf('RSNBA') == 0) {
+        $('.tabRSNBA').show();
+        $('.tab_title').hide();
+        $('.notabRSNBA').hide();
+        $(".likeDIJD2").remove();
+        $('.tabRSNBA-huiyuan').show();
+        document.querySelectorAll('.bannerImg img')[0].setAttribute('src', '/views/land/banking/images/banners/banners_1.jpg')
+        document.querySelectorAll('.bannerImg img')[1].setAttribute('src', '/views/land/banking/images/banners/banners_2.jpg')
+        document.querySelectorAll('.bannerImg img')[2].setAttribute('src', '/views/land/banking/images/banners/banners_3.jpg')
+      }
+
+      // ttt_07-19
+      else if (code.indexOf('PANBA') == 0) {
+        $('.tabPANBA').show();
+        $('.tab_title').hide();
+        $('.notabPANBA').hide();
+        $(".likeDIJD2").remove();
+        document.querySelectorAll('.bannerImg img')[0].setAttribute('src', '/views/land/banking/images/banners/banners_1.jpg')
+        document.querySelectorAll('.bannerImg img')[1].setAttribute('src', '/views/land/banking/images/banners/banners_2.jpg')
+        document.querySelectorAll('.bannerImg img')[2].setAttribute('src', '/views/land/banking/images/banners/banners_3.jpg')
+      }
+      else if (code.indexOf('DICEA') == 0) {
+        $('.tabDICEA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“东方万里行”会员号（选填）');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        /*$('.switchInfo #idname').attr("data_field_type","AlphaNumber");
+        $('.switchInfo #idname').attr("data_inner_error","idErr")*/
+        $('.switchInfo #idname').attr("placeholder", "您的“东方万里行”会员号（选填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的“东方万里行”会员号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "12");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的“东方万里行”会员卡号")
+        $('.switchInfo .tips').html('（以6开头的12位数字）可至东方航空APP或官网查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.likeXXCEA').remove();
+      }
+      else if (code.indexOf('DIJYA') == 0) {
+        $('.tabJYA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的“吉祥航空会员卡号”（选填）');
+        $('.switchInfo #idname').attr("placeholder", "您的“吉祥航空会员卡号”（选填）");
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的吉祥航空会员卡号")
+        $('.switchInfo .tips').html('（10位数字）可至吉祥航空APP、官网或吉祥航空客服95520查询。');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $(".likeDIJYA").remove();
+      }
+      else if (code.indexOf('DIAIR') == 0) {
+        $('.tabAIR').show();
+        $('.tab_title').hide();
+        $('.tabHZC_W').show();
+        $(".likeAIR").remove();
+      }
+      else if (code.indexOf('DIHNA') == 0) {
+        $('.tabDIHNA').show();
+        $('.tab_title').hide();
+        $('.switchInfo .inputBox-lable').html('您的金鹏俱乐部会员卡号（选填）');
+        $('.switchInfo #idname').attr("data_field_type", "Non_mandy_alpha");
+        $('.switchInfo #idname').attr("placeholder", "您的金鹏俱乐部会员卡号（选填）");
+        $('.switchInfo #idname').attr("data_missing", "请填写您的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_min_length", "0");
+        $('.switchInfo #idname').attr("maxlength", "10");
+        $('.switchInfo #idname').attr("data-length-error", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo #idname').attr("data_invalid", "请填写正确的金鹏俱乐部会员卡号");
+        $('.switchInfo .tips').html('（10位数字）可于海南航空微信公众号、海南航空APP或金鹏会员服务热线950717查询');
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+        $('.JPhide').hide();
+        $('.likeXXCSA').remove();
+      }
+
+      else if (code.indexOf('DIHTL') == 0) {
+        $('.tabDIHTL').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('DIDLX') == 0) {
+        $('.tabDIDLX').show();
+        $('.tab_title').hide();
+        $('.tabDIDLXInput').remove();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('DIFLY') == 0) {
+        $('.tabDIFLY').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('DIACN') == 0) {
+        $('.tabDIACN').show();
+        $('.tab_title').hide();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('DIWMG') == 0) {
+        $('.tabDIWMG').show();
+        $('.tab_title').hide();
+        $('.tabDIWMGINPUT').remove();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      }
+      else if (code.indexOf('DIHMO') == 0) {
+        $('.tabDIHMO').show();
+        $('.tab_title').hide();
+      }
+      else if (code.indexOf('CRSL') == 0) {
+        $('.tabCRSL').show();
+        $('.tab_title').hide();
+        $(".TtabCRS").show();
+        $('.innerBanner').removeClass('IGL_banner');
+        $('.landing_form').removeClass('IGL_landing_form');
+      } else if (code.indexOf('PAHM') == 0) {
+        $('.tabHM').show();
+        $('.tab_title').hide();
+      } else if (code.indexOf('CPC') == 0) {
+        $('.tab_title,.logoWrapper,.imgAlter').hide();
+        $('.private').remove();
+        $('.proxyCPC').remove();
+        $('.tab_CPC').show();
+        $(' .tab_CPC[class^="col"]').css('display', 'inline-table');
+        $('#homeImg').find('a.full-width').addClass('noneHref');
+        $('.noneHref').attr('href', 'javascript:;');
+      }
+    })
+
+  </script>
+  <style type="text/css">
+    .tabPANBA-huiyuan,
+    .tabRSJD2-huiyuan,
+    .tabEA,
+    .tabRNCEA.tabSA,
+    .tabSARN,
+    .tabHBC,
+    .tabBBCX,
+    .tabHVB,
+    .tabJSXY,
+    .tabIGL,
+    .tabLMM,
+    .tabUNS,
+    .tabTELE,
+    .tabQUNA,
+    .tabZZC,
+    .tabJYA1,
+    .tabJYA,
+    .tabRNJYA,
+    .tabMIG,
+    .tabHZC,
+    .tabFCZ,
+    .tabCRSL,
+    .tabHM,
+    .tabXCSA,
+    .tabXXCSA,
+    .tabDICSA,
+    .tabDIHMO,
+    .tabHNA,
+    .tabXHNA,
+    .tabDIHNA,
+    .tab_CPC,
+    .tabBGJ,
+    .tabCEA,
+    .tabXXCEA,
+    .tabX5CEA,
+    .tabDICEA,
+    .tabDIJD2,
+    .tabPACQDY,
+    .tabSMCSA,
+    .tabCQC,
+    .tabSXSD,
+    .tabDIHTL,
+    .tabDIDLX,
+    .tabDIFLY,
+    .tabDIACN,
+    .tabDIWMG,
+    .tabAIR,
+    .tabJXM,
+    .tabSCHKTK,
+    .tabHZC_W,
+    .tabJYB1 {
+      display: none;
+    }
+
+    .little_font {
+      font-size: 18px;
+    }
+
+    .tabSMCSA h1.mainHeading {
+      line-height: 35px;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .tab_CPC[class^="col"] {
+      display: none;
+    }
+
+    .chinese .landing_form .inner_width {
+      position: relative;
+      width: 750px;
+    }
+
+    .chinese .tab_CPC .landing_form .innerBanner {
+      width: 570px;
+    }
+
+    .chinese .landing_form .innerBanner .Tel_txt {
+      position: absolute;
+      font-size: 18px;
+      right: 4%;
+      bottom: 11%;
+    }
+
+    .switchInfo .tips {
+      font-size: 12px;
+      margin: 1% 0 0 6%;
+    }
+
+    .chinese .landing_form .innerBanner .title_txt {
+      bottom: 19%;
+    }
+
+    h1 span.lineHeight {
+      line-height: 30px;
+    }
+
+    .p_font {
+      font-size: 12px;
+      margin-top: 2%;
+    }
+
+    .tabHZC input[type=radio] {
+      opacity: 1;
+    }
+
+    #Title {
+      padding-left: 6%;
+    }
+
+    .noneHref {
+      cursor: default;
+    }
+
+    #landing-form .northLine {
+      margin: -130px 0 0;
+    }
+
+    .homebanner_cta h1.mainHeading.listTitle {
+      line-height: 35px;
+    }
+
+    .homebanner_cta h1.mainHeading.listTitle .banner_tips {
+      font-size: 20px;
+      display: block;
+      line-height: 30px;
+    }
+
+    .CRSLBanner {
+      width: auto !important;
+    }
+
+    .tabDIWMG .banner_tips sup {
+      vertical-align: 8px;
+    }
+
+    .tabX5CEADesc {
+      display: none;
+    }
+
+    .small_text {
+      font-size: 22px;
+    }
+
+    .mainHeading_span,
+    .mainHeading_span {
+      font-size: 14px !important;
+    }
+
+    .chinese .landing_form .inner_width_NBA {
+      position: relative;
+      /* width: 750px; */
+      width: 475px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .CRSLBanner {
+        width: 100% !important;
+      }
+
+      .mainHeading_span,
+      .mainHeading_span {
+        font-size: 12px !important;
+      }
+
+      .CRSLBanner .h2_title {
+        font-size: 17px !important;
+      }
+
+      .CRSL_landing_form {
+        margin-top: -42px !important;
+      }
+
+      .chinese .tab_CPC .landing_form .innerBanner {
+        width: 100%;
+      }
+
+      .chinese .landing_form .innerBanner {
+        width: 100%;
+      }
+
+      .chinese .landing_form .MIG_inner {
+        height: auto;
+      }
+
+      /*.chinese .landing_form .inner_height{height: 190px;}*/
+      h1.mainHeading {
+        font-size: 19px;
+        line-height: 20px;
+      }
+
+      /*.tabBBCX h1.mainHeading{font-size: 18px;}*/
+      h1.titleHeading {
+        line-height: 29px;
+      }
+
+      h1 span.lineHeight {
+        line-height: 10px
+      }
+
+      .chinese .landing_form .innerBanner .Tel_txt {
+        position: static;
+        font-size: 16px;
+        margin-left: 10px;
+        padding-top: 80px;
+      }
+
+      .tabBBCX .landing_form .innerBanner {
+        height: 190px;
+      }
+
+      .chinese .landing_form .innerBanner .title_txt {
+        bottom: 11%;
+      }
+
+      .chinese .landing_form .IGL_banner {
+        height: 300px;
+      }
+
+      .IGL_landing_form {
+        top: -90px !important;
+      }
+
+      .h1_title {
+        font-size: 17px !important;
+      }
+
+      .h2_title {
+        font-size: 18px !important;
+      }
+
+      .h_title {
+        font-size: 16px !important;
+      }
+
+      .pageBanner .mainHeading sup {
+        vertical-align: 8px;
+        font-size: small;
+      }
+
+      .little_font {
+        font-size: 16px;
+      }
+
+      .tabSMCSA h1.mainHeading,
+      .tabRSNBA h1.mainHeading,
+      .tabPANBA h1.mainHeading {
+        line-height: 24px;
+        font-size: 19px;
+        margin-bottom: 10px;
+      }
+
+      #landing-form .northLine {
+        margin: 0 0 40px;
+      }
+
+      .homebanner_cta h1.mainHeading.listTitle {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      .homebanner_cta h1.mainHeading.listTitle .banner_tips {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .tabDIWMG .banner_tips {
+        line-height: 18px !important;
+      }
+
+      .tabDIWMG .landing_form {
+        top: -62px !important;
+      }
+
+      .small_text {
+        font-size: 14px;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      .homebanner_cta h1.mainHeading {
+        font-size: 28px;
+      }
+
+      .mainHeading_h2 {
+        position: relative;
+        left: -20px;
+      }
+
+      .chinese .landing_form .inner_width {
+        width: 614px;
+      }
+
+      .chinese .landing_form .innerBanner .title_txt {
+        bottom: 24%;
+      }
+
+      .little_font {
+        font-size: 14px;
+      }
+
+      .tabSMCSA h1.mainHeading,
+      .tabRSNBA h1.mainHeading,
+      .tabPANBA h1.mainHeading {
+        line-height: 24px;
+        font-size: 18px;
+        float: left;
+        margin-left: 3%;
+      }
+
+
+      .homebanner_cta h1.mainHeading.listTitle {
+        font-size: 22px;
+        line-height: 25px;
+      }
+
+      .homebanner_cta h1.mainHeading.listTitle .banner_tips {
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+    }
+
+    @media screen and (min-width: 993px) and (max-width: 1630px) {
+      .chinese .landing_form .innerBanner {
+        width: 84%;
+      }
+
+
+      .chinese .landing_form .innerBanner .Tel_txt {
+        right: 4%;
+        bottom: 10%;
+      }
+
+      .chinese .landing_form .innerBanner .title_txt {
+        bottom: 18%;
+      }
+
+      .little_font {
+        font-size: 16px;
+      }
+
+      .tabSMCSA h1.mainHeading {
+        line-height: 24px;
+        font-size: 19px;
+        margin-bottom: 10px;
+      }
+
+      #landing-form .northLine {
+        margin: -50px 0 0;
+      }
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1200px) {
+      #landing-form .northLine {
+        margin: -6px 0 0;
+      }
+    }
+
+    @media (max-width: 992px) {
+      #landing-form .northLine {
+        margin: 40px 0 0;
+      }
+    }
+  </style>
+
+  <div style="display:none"><img src="/CNGCB/JPS/portal/KeepAlive.do"></div>
+
+</head>
+
+<body>
+  <div id="pageLoader"></div>
+  <div id="pageWrappper">
+    <header role="header">
+      <section class="topMenu" style="background:#163c6a;" role="language switch">
+        <div class="container">
+          <div class="row">
+            <div class="col12 col-md-12 col-sm-12">
+              <ul class="pull-right text-right lang-switch">
+                <li><a onclick="javascript:langSwitch('zh','en');" href="javascript:;" class="inter-light"
+                    title="English">English</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner" style="background:#064880">
+        <div class="container">
+          <div class="row">
+            <div class="col12 col-md-12 col-sm-12">
+              <figure class="logoWrapper">
+                <a href="/sim/chinese/citigold.htm"><img src="/views/land/banking/images/citigold_logo.png"
+                    alt="Citigold" title="Citigold" /></a>
+              </figure>
+              <figure class="logoWrapper tab_CPC">
+                <a href="/sim/chinese/citigold.htm"><img src="/views/land/banking/images/citigoldPrivateClient_logo.png"
+                    alt="Citigold" title="Citigold" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="pageBanner">
+      <div class="bannerImg">
+        <div id="homeImg" class="mastHeadImage">
+          <!-- <a href="/sim/land/mile/index.html" target="_blank" class="full-width"> -->
+          <img src="/views/land/banking/images/banners/contactus-banner-bigger.jpg" class="visibleBigscreen"
+            alt="成为合格花旗财富管理客户，最高可享10万礼程！" />
+          <img src="/views/land/banking/images/banners/contactus.jpg" class="visibleDesktop hideBigscreen"
+            alt="成为合格花旗财富管理客户 最高可享10万礼程 1" />
+          <img src="/views/land/banking/images/banners/contactus-mob.jpg" class="visibleMobile"
+            alt="成为合格花旗财富管理客户 最高可享10万礼程 1" />
+          <!-- </a> -->
+        </div>
+      </div>
+      <div class="mobContainer tab_title">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享10,000万里程1">
+            <div class="container">
+              <div class="innerBanner">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br> 最高可享<span class="inter-light">10</span>万礼程<sup>1</sup></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabEA tabRNCEA">
+        <div class="landing_form bannerTxt homebanner_cta IGL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享160,000东方万里行里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">160,000</span>东方万里行里程<sup>3</sup>
+                  </h1>
+                </div>
+                <!--<div class="Tel_txt">东航东方万里行会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabCEA tabRNCEA">
+        <div class="landing_form bannerTxt homebanner_cta IGL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享160,000东方万里行里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>东方万里行里程</h1>
+                </div>
+                <!--<div class="Tel_txt">东航东方万里行会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabXXCEA tabRNCEA">
+        <div class="landing_form bannerTxt homebanner_cta IGL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享160,000东方万里行里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>东方万里行里程</h1>
+                </div>
+                <!--<div class="Tel_txt">东航东方万里行会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer  tabX5CEA tabRNCEA">
+        <div class="landing_form bannerTxt homebanner_cta IGL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享160,000东方万里行里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>东方万里行积分</h1>
+                </div>
+                <!--<div class="Tel_txt">东航东方万里行会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabDICEA tabRNCEA">
+        <div class="landing_form bannerTxt homebanner_cta IGL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享160,000东方万里行里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>东方万里行里程</h1>
+                </div>
+                <!--<div class="Tel_txt">东航东方万里行会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- ttt_07-19 -->
+      <div class="mobContainer tabRSNBA tabPANBA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <div class="container">
+            <div class="innerBanner inner_width inner_width_NBA">
+              <div class="col12 col-md-12 col-sm-12">
+                <h1 class="mainHeading">
+                  <h2 class="mainHeading_h2" style="font-size: 21px;">成为合格花旗财富管理客户</h2><br>
+                  <span class="mainHeading_span">最高享13万礼程(可兑换13张上海至北京的机票*)</span><br>
+                  <span class="mainHeading_span">及限量版花旗和NBA联名纪念金球1个</span>
+                </h1>
+                <p style="font-size: 12px;transform:scale(0.85);margin-top: 20px;text-align: right;">*以亚洲万里通积分兑换为例</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDIJD2">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元机酒大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>可获价值<span class="inter-light">2,000</span>元京东礼券<br><span
+                      class="lineHeight">及最高10万花旗礼程<sup>3</sup></span></h1>
+                </div>
+                <!-- <div class="Tel_txt title_txt">飞常准会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabPACQDY">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元机酒大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>获价值<span class="inter-light">3,000</span>元人民币神马东东代金券<br><span
+                      class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabBGJ">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元机酒大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>有机会获得<span
+                      class="inter-light">4,000</span>元出行权益<br><span class="lineHeight">及最高10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <!-- <div class="Tel_txt title_txt">飞常准会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabSA tabSARN">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享160,000南航明珠里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">160,000</span>南航明珠里程<sup>3</sup>
+                  </h1>
+                </div>
+                <!--<div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabXCSA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享138,000南航明珠里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>南航明珠里程<sup>3</sup>
+                  </h1>
+                </div>
+                <!-- <div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabJXM">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享138,000南航明珠里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>享<span class="inter-light">50,000</span>金熊猫里程<br>及最高<span
+                      class="inter-light">10</span>万花旗礼程</h1>
+                </div>
+                <!-- <div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="mobContainer tabXXCSA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享138,000南航明珠里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>南航明珠里程<sup>3</sup>
+                  </h1>
+                </div>
+                <!--<div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDICSA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享138,000南航明珠里程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>最高享<span class="inter-light">138,000</span>南航明珠里程<sup>3</sup>
+                  </h1>
+                </div>
+                <!--<div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabSMCSA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 南航明珠会员专享双重豪礼 ">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading">成为合格花旗财富管理客户<br>南航明珠会员专享双重豪礼 </h1>
+                  <h1 class="mainHeading">3万8南航明珠里程<br> <span class="little_font">持续4个月满足合格花旗财富管理账户标准</span></h1>
+                  <h1 class="mainHeading">最高<span class="inter-light">10</span>万花旗礼程<sup>3</sup>，可兑<span
+                      class="inter-light">10</span>万南航明珠里程 <br>
+                    <span class="little_font">持续满足合格花旗财富管理账户标准且持有花旗礼程信用卡</span>
+                  </h1>
+                </div>
+                <!--<div class="Tel_txt">南航明珠俱乐部会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabHBC">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享4,000元皇包车消费兑换券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元皇包车消费券<br>
+                    <span class="lineHeight">及10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">皇包车会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabBBCX">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享3500元 “乐高精品课程”12节及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>最高享价值<span
+                      class="inter-light">3500</span>元12节“乐高精品课程”<br><span
+                      class="lineHeight">及10万花旗礼程<sup>3</sup></span></h1>
+                </div>
+                <div class="Tel_txt title_txt">百变创享会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabHVB">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享4000元丰巢商城抵用券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元丰巢商城抵用券<br><span class="lineHeight">及10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">丰巢商城会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabJSXY">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享4000元丰巢商城抵用券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>享<span
+                      class="inter-light">4000</span>元集思学院优惠券<br><span class="lineHeight">及最高10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">集思学院会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabIGL">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享4000元丰巢商城抵用券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元机+酒抵用券<br><span class="lineHeight">及10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">
+                  <span style="font-size: 16px; display: block; margin-bottom: 10px; line-height: 140%;">机+酒抵用券包括：<br>
+                    1000元机票抵用券*2张<br>
+                    国际酒店抵用券1000元*1张<br>
+                    国内酒店抵用券500元*2张<br>
+                    iGola飞行米200米</span>
+
+                  骑鹅旅行会员专享
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabLMM">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元驴妈妈消费抵用券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元驴妈妈消费抵用券<br><span class="lineHeight">及最高10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">驴妈妈会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabUNS">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会享价值4088元中石油加油卡及最高10万礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h1_title">成为合格花旗财富管理客户<br>有机会享价值<span
+                      class="inter-light">4088</span>元中石油加油卡<br><span class="lineHeight">及最高10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">联通员工专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabTELE">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会享价值4088元中石油加油卡及最高10万礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h1_title">成为合格花旗财富管理客户<br>有机会享价值<span
+                      class="inter-light">4088</span>元中石油加油卡<br><span class="lineHeight">及最高10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">电信员工专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabQUNA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享3000元去哪儿电子券及10万礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">3000</span>元去哪儿电子券<br><span class="lineHeight">及10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">去哪儿会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabZZC">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元租租车旅行商城电子抵扣券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width inner_height">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元租租车旅行商城电子抵扣券<br><span
+                      class="lineHeight">及最高10万花旗礼程<sup>3</sup></span></h1>
+                </div>
+                <div class="Tel_txt title_txt">租租车用户专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabJYA1 tabRNJYA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000吉祥航空积分及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>享<span
+                      class="inter-light">3000</span>吉祥航空积分+<span class="inter-light">4</span>瓶吉祥航空定制酒<br><span
+                      class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+                <!--   <div class="Tel_txt title_txt">吉祥航空会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabJYB1 tabRNJYB">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000吉祥航空积分及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>享<span
+                      class="inter-light">3000</span>吉祥航空积分<br>有机会再获<span class="inter-light">1000</span>吉祥航空积分<br><span
+                      class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+                <!--   <div class="Tel_txt title_txt">吉祥航空会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabJYA tabRNJYA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000吉祥航空积分及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>享<span
+                      class="inter-light">3000</span>吉祥航空积分 <span class="small_text">(等值 <span
+                        class="inter-light">3000</span> 元人民币)</span><br><span class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+                <!--   <div class="Tel_txt title_txt">吉祥航空会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabAIR">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高可享10万礼程">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br><span class="small_text">最高享10万礼程,
+                      1:1兑换东航、南航等航空里程<br>境外留学免费取现，享优惠费率转账</span></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabHNA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享14万金鹏俱乐部会员积分">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享14万金鹏俱乐部会员积分</h1>
+                </div>
+                <!--<div class="Tel_txt title_txt">金鹏会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabXHNA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享14万金鹏俱乐部会员积分">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享14万金鹏俱乐部会员积分</h1>
+                </div>
+                <!--<div class="Tel_txt title_txt">金鹏会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDIHNA">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width" title="成为合格花旗财富管理客户 最高享14万金鹏俱乐部会员积分">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享14万金鹏俱乐部会员积分</h1>
+                </div>
+                <!--<div class="Tel_txt title_txt">金鹏会员专享</div>-->
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabMIG">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000吉祥航空积分及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width MIG_inner">
+                <div class="col12 col-md-12 col-sm-12">
+
+                  <h1 class="mainHeading titleHeading h1_title">成为合格花旗财富管理客户</h1>
+                  <h1 class="mainHeading titleHeading h1_title">有机会获咪咕高清盒子<br><span
+                      class="inter-light">1500</span>元话费<span class="lineHeight">及最高10万礼程<sup>3</sup></span></h1>
+                </div>
+                <div class="Tel_txt title_txt"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabHZC">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元一嗨租车礼券及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>最高享<span
+                      class="inter-light">4000</span>元一嗨租车礼券<br><span class="lineHeight">及10万花旗礼程<sup>3</sup></span>
+                  </h1>
+                </div>
+                <div class="Tel_txt title_txt">一嗨租车会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabFCZ">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 最高享4000元机酒大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>有机会获得<span
+                      class="inter-light">3,598</span>元出行权益<br><span
+                      class="lineHeight">及最高10万花旗礼程<sup>3</sup></span></span></h1>
+                </div>
+                <div class="Tel_txt title_txt">飞常准会员专享</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabCRSL ">
+        <div class="landing_form bannerTxt homebanner_cta CRSL_landing_form">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理新客户,即可获赠30,000花旗礼程或等值积分或价值2,000元京东券,还可额外享最高10万花旗礼程">
+            <div class="container">
+              <div class="innerBanner inner_width CRSLBanner">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理新客户<br>即可获赠<span
+                      class="inter-light">30,000</span>花旗礼程/等值积分或<span
+                      class="inter-light">2,000</span>元京东券<br>还可额外享最高10万花旗礼程/等值积分</h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabCQC">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获4000元汽车保养礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>有机会获<span
+                      class="inter-light">4,000</span>元汽车保养礼包<br><span
+                      class="lineHeight">及最高10万花旗礼程<sup>3</sup></span></span></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabSXSD">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户<br>
+                    有机会免费享受以下权益<sup>3</sup><br>
+                    <span class="banner_tips">
+                      •&nbsp;五星级酒店游泳健身<br>
+                      •&nbsp;五星级酒店瑜伽<br>
+                      •&nbsp;马术1对1私教运动<br>
+                      •&nbsp;最高10万花旗礼程<br>
+
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mobContainer tabDIHTL">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户<br>
+                    有机会免费享受以下权益<sup>3</sup><br>
+                    <span class="banner_tips">
+                      •&nbsp;五星级酒店游泳健身<br>
+                      •&nbsp;五星级酒店瑜伽<br>
+                      •&nbsp;马术1对1私教运动<br>
+                      •&nbsp;最高10万花旗礼程<br>
+
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDIDLX">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户
+                  </h1>
+                  <h1 class="mainHeading titleHeading h2_title listTitle" style="padding-top:8px;">
+                    享价值2000元全球奢华酒店兑换<br>
+                    及最高10万礼程<sup>3</sup><br></h1>
+
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDIFLY">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户
+                  </h1>
+                  <h1 class="mainHeading titleHeading h2_title listTitle" style="padding-top:8px;">
+                    享最高3晚国内奢华酒店住宿<br>
+                    及最高10万花旗礼程<br></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="mobContainer tabDIACN">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户<br><br>
+                    <span class="banner_tips">
+                      最高享十万花旗礼程<br>
+                      可兑换100,000国航凤凰知音里程
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mobContainer tabDIWMG">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 有机会获全年高端健身大礼包及10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner ">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title listTitle">成为合格花旗财富管理客户<br><br>
+                    <span class="banner_tips">
+                      多种投资，实现您的梦想<br>
+                      最高还可享10万礼程<sup>1</sup>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="mobContainer tabHM">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享价值4000元华贸购物中心礼券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width inner_height">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>享价值<span
+                      class="inter-light">4000</span>元华贸购物中心礼券<br><span class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="mobContainer tabDIHMO">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <a href="/sim/land/mile/index.html" target="_blank" class="full-width"
+            title="成为合格花旗财富管理客户 享价值4000元华贸购物中心礼券及最高10万花旗礼程3">
+            <div class="container">
+              <div class="innerBanner inner_width inner_height">
+                <div class="col12 col-md-12 col-sm-12">
+                  <h1 class="mainHeading titleHeading h2_title">成为合格花旗财富管理客户<br>享价值<span
+                      class="inter-light">4000</span>元华贸购物中心礼券<br><span class="lineHeight">及最高10万花旗礼程</span></h1>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="mobContainer tab_CPC">
+        <div class="landing_form bannerTxt homebanner_cta">
+          <div class="container">
+            <div class="innerBanner">
+              <div class="col12 col-md-12 col-sm-12">
+                <h1 class="mainHeading">即刻成为合格花旗私享家客户<sup>1</sup></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col11 col-md-12 innerContainer" id="landing-form">
+          <div class="row form-section">
+            <form autocomplete="off" action="/CNGCB/apfa/genfm/ProcessForm.do" method="post" name="CG_NonCustomer"
+              id="CG_NonCustomer">
+              <input type="hidden" name="action_url" value="/CNGCB/apfa/genfm/ProcessForm.do" />
+              <input type="hidden" name="hasRecap" value="false" />
+              <input type="hidden" name="isFullScreen" value="false" />
+              <input type="hidden" id="isThankYouPage" name="isThankYouPage" value="true" />
+              <input type="hidden" name="subject" value="RB Leads" />
+              <input type="hidden" name="_paramOrder"
+                value="code,icid,ecid,lid,city,service,name,title,contactNo,specific_job,idname,AgentCode,workNum" />
+              <input type="hidden" name="_paramAlias"
+                value="Code,icid,ecid,lid,city,Product,name,title,phone,specific_job,CGA Number,agent_code,workNum" />
+              <input name="secure" value="false" type="hidden">
+              <script type="text/javascript" src="/views/land/banking/js/commonkana.js"></script>
+              <script type="text/javascript">
+                var code = getCategory2("code");
+                var icid = getCategory2("icid");
+                var ecid = getCategory2("ecid");
+                var lid = getCategory2("lid");
+                var AgentCode = getCategory2("AgentCode");
+                var specific_job = getCategory2("specific_job");
+                var scode = getCategory2("s");
+
+                document.write("<input type='hidden' name='code' value='" + code + "'><input type='hidden' name='icid' value='" + icid + "'><input type='hidden' name='ecid' value='" + ecid + "'><input type='hidden' name='lid' value='" + lid + "'><input type='hidden' name='AgentCode' value='" + AgentCode + "'><input type='hidden' name='specific_job' value='" + specific_job + "'><input type='hidden' name='s' id='scode' value='" + scode.toUpperCase() + "'>");
+              </script>
+              <div class="col12 col-sm-12 col-md-12 " id="applyTitle">
+                <h3 class="subHeading form-toplable citiGold">立即申请 <br><span
+                    class="tabX5CEADesc">前500名成功提交此申请的客户，可享500东方万里行积分</span></h3>
+                <!--      <h3 class=" subHeading form-toplable citiGold tabX5CEADesc"></h3>-->
+              </div>
+              <!--   <div class="col12 col-sm-12 col-md-12 tabX5CEADesc" >
+                                <h3 class="subHeading form-toplable citiGold">立即申请 <br>前500名成功提交此申请的客户，可享500东方万里行积分</h3>
+                            </div>-->
+              <!--其他form-->
+              <div class="col12 col-md-12 col-sm-12 full-width other_form">
+                <div class="row">
+                  <div class="col4 col-md-4 col-sm-12 inputField TabXSCSA">
+                    <label class="inputBox-lable">请选择您所在的城市</label>
+                    <select id="city" name="city" class="req step_1" data_inner_error="cityErr"
+                      data_field_type="drop_down" data_value="city" data_missing="请选择您所在的城市" data_invalid="请选择您所在的城市">
+                      <option value="" hidden="">请选择您所在的城市</option>
+                      <option value="BJ">北京</option>
+                      <option value="SH">上海</option>
+                      <option value="GZ">广州</option>
+                      <option value="SZ">深圳</option>
+                      <option value="CQ">重庆</option>
+                      <option value="DL">大连</option>
+                      <option value="HZ">杭州</option>
+                      <option value="CD">成都</option>
+                      <!--<option value="CS">长沙</option>
+											<option value="GY">贵阳</option>
+											<option value="NJ">南京</option>
+											<option value="TJ">天津</option>
+											<option value="WX">无锡</option>-->
+                    </select>
+                    <div id="cityErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField TabXSCSA">
+                    <label class="inputBox-lable">请填写您的姓名</label>
+                    <input type="text" id="name" name="name" value="" class="input-box alpha req step_1 form-control"
+                      placeholder="请填写您的姓名" maxlength="50" data_invalid="请填写您的姓名" data_inner_error="nameErr"
+                      data_min_length="1" data_regex="alpha" data_field_type="Alpha" data_missing="请填写您的姓名"
+                      data-length-error="The alphabet seems too short" data_value="" />
+                    <div id="nameErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField TabXSCSA">
+                    <label class="inputBox-lable">请选择您的称谓</label>
+                    <select id="Title" name="title" class="req step_1" data_inner_error="titleErr"
+                      data_field_type="drop_down" data_value="" data_missing="请选择您的称谓" data_invalid="请选择您的称谓">
+                      <option value="" hidden="">请选择您的称谓</option>
+                      <option value="先生">先生</option>
+                      <option value="女士">女士</option>
+                    </select>
+                    <div id="titleErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField">
+                    <label class="inputBox-lable">请填写您的手机号</label>
+                    <input type="tel" id="contactNo" name="contactNo" value=""
+                      class="input-box number req step_1 form-control" placeholder="请填写您的手机号" maxlength="11"
+                      data_invalid="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。"
+                      new_invalid="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。" data_inner_error="contactNoErr"
+                      data_min_length="11" data_regex="phone_number" data_field_type="Number"
+                      data_missing="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。" data-length-error="号码过短" data_value="" />
+                    <div id="contactNoErr" class="errorCode"></div>
+                  </div>
+                  <div
+                    class="col4 col-md-4 col-sm-12 inputField selectSARN TabXSCSA likeXXCSA likeXXCEA tabDIDLXInput tabDIWMGINPUT likeDIJD2 likePATVJYA likePATVJYB likeAIR likeDIJYA XM_inf">
+                    <label class="inputBox-lable">请选择您感兴趣的产品/服务</label>
+                    <select id="service" name="service" class="req step_1" data_inner_error="serviceErr"
+                      data_field_type="drop_down" data_value="service" data_missing="请选择您感兴趣的产品/服务"
+                      data_invalid="请选择您感兴趣的产品/服务">
+                      <option selected="selected" value="">请选择您感兴趣的产品/服务</option>
+                      <option class="tabHNA" value="财富管理">财富管理</option>
+                      <option class="JPhide" value="借记卡">借记卡</option>
+                      <option value="信用卡">信用卡</option>
+                      <option class="JPhide" value="财富管理">财富管理</option>
+                      <option class="JPhide" value="外汇服务">外汇服务</option>
+                      <option class="JPhide" value="贷款服务">贷款服务</option>
+                      <option class="JPhide" value="保险服务">保险服务</option>
+                      <option class="JPhide" value="海外留学一站式服务">海外留学一站式服务</option>
+                      <option class="proxyCPC JPhide" value="环球旅行家俱乐部">环球旅行家俱乐部</option>
+                      <option class="proxyCPC JPhide" value="小小银行家">小小银行家</option>
+                      <option class="proxyCPC JPhide" value="花旗未来领袖计划">花旗未来领袖计划</option>
+                      <option class="tab_CPC JPhide" value="高端附加权益">高端附加权益</option>
+                    </select>
+                    <div id="serviceErr" class="errorCode"></div>
+                  </div>
+
+                  <div class="col4 col-md-4 col-sm-12 inputField tabSARN tabRNCEA tabRNJYA >
+										<label class=" inputBox-lable">您的客户服务专员工号（选填）</label>
+                    <input type="text" id="workNum" name="workNum" value="" data-mandy="true" data-predefined="false"
+                      class="input-box req alphanumeric step_1 form-control" placeholder="您的客户服务专员工号（选填）"
+                      data_invalid="您的客户服务专员工号" data_inner_error="saleErr" data_regex="alphanumeric"
+                      data_field_type="Non_mandy_alpha_number" data-length-error="資料填寫不全，請輸入完整資料"
+                      data_missing="您的客户服务专员工号" data_value="" />
+                    <div id="saleErr" class="errorCode"></div>
+
+                  </div>
+
+                  <!-- ttt 7-22 -->
+                  <div class="col4 col-md-4 col-sm-12 inputField switchInfo tabRSNBA tabRSNBA-huiyuan tabRSJD2-huiyuan">
+                    <label class="inputBox-lable">代理号码/会员号（选填）</label>
+                    <input type="text" id="idname" name="idname" value="" data-mandy="true" data-predefined="false"
+                      class="input-box req alphanumeric step_1 form-control" placeholder="代理号码/会员号（选填）" maxlength="10"
+                      data_invalid="请填写代理号码" data_inner_error="idErr" data_min_length="5" data_regex="alphanumeric"
+                      data_field_type="Non_mandy_alpha_number" data-length-error="資料填寫不全，請輸入完整資料" data_missing="请填写代理号码"
+                      data_value="" />
+                    <div class="tips"></div>
+                    <div id="idErr" class="errorCode"></div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <!--一嗨租车form-->
+              <div class="col12 col-md-12 col-sm-12 full-width tabHZC" id="haiForm">
+                <div class="row">
+                  <div class="col4 col-md-4 col-sm-12 inputField">
+                    <label class="inputBox-lable">请选择您的称谓</label>
+                    <!--<select id="Title" name="title" class="req step_1" data_inner_error="titleErr" data_field_type="drop_down"  data_value="" data_missing="请选择您的称谓" data_invalid="请选择您的称谓">	
+											<option value="" hidden="">请选择您的称谓</option>
+											<option value="先生">先生</option>
+                                            <option value="女士">女士</option>
+										</select>-->
+                    <div id="Title">
+                      <label style="font-size: 16px;">请选择您的称谓</label>
+                      <label><input type="radio" value="先生" name="title" class="req step_1" data_inner_error="titleErr"
+                          checked>先生</label>
+                      <label><input type="radio" value="女士" name="title" class="req step_1"
+                          data_inner_error="titleErr">女士</label>
+                    </div>
+                    <div id="titleErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField">
+                    <label class="inputBox-lable">请填写您所在的城市</label>
+                    <input type="text" id="city" name="city" value="" class="input-box alpha req step_1 form-control"
+                      placeholder="请填写您所在的城市" maxlength="50" data_invalid="请填写您所在的城市" data_inner_error="cityErr"
+                      data_min_length="1" data_regex="alpha" data_field_type="Alpha" data_missing="请填写您所在的城市"
+                      data-length-error="The alphabet seems too short" data_value="city" />
+                    <div id="cityErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField">
+                    <label class="inputBox-lable">请填写您的姓名</label>
+                    <input type="text" id="name" name="name" value="" class="input-box alpha req step_1 form-control"
+                      placeholder="请填写您的姓名" maxlength="50" data_invalid="请填写您的姓名" data_inner_error="nameErr"
+                      data_min_length="1" data_regex="alpha" data_field_type="Alpha" data_missing="请填写您的姓名"
+                      data-length-error="The alphabet seems too short" data_value="" />
+                    <div id="nameErr" class="errorCode"></div>
+                  </div>
+                  <div class="col4 col-md-4 col-sm-12 inputField">
+                    <label class="inputBox-lable">请填写您的手机号</label>
+                    <input type="tel" id="contactNo" name="contactNo" value=""
+                      class="input-box number req step_1 form-control" placeholder="请填写您的手机号" maxlength="11"
+                      data_invalid="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。"
+                      new_invalid="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。" data_inner_error="contactNoErr"
+                      data_min_length="11" data_regex="phone_number" data_field_type="Number"
+                      data_missing="请填写您的手机号，我们将于5个工作日内与您联系, 请保持手机畅通并注意来电。" data-length-error="号码过短" data_value="" />
+                    <div id="contactNoErr" class="errorCode"></div>
+                  </div>
+
+                  <div class="col4 col-md-4 col-sm-12 inputField switchInfo">
+                    <label class="inputBox-lable">代理号码/会员号（选填）</label>
+                    <input type="text" id="idname" name="idname" value="" data-mandy="true" data-predefined="false"
+                      class="input-box req alphanumeric step_1 form-control" placeholder="代理号码/会员号（选填）" maxlength="10"
+                      data_invalid="请填写代理号码" data_inner_error="idErr" data_min_length="5" data_regex="alphanumeric"
+                      data_field_type="Non_mandy_alpha_number" data-length-error="資料填寫不全，請輸入完整資料" data_missing="请填写代理号码"
+                      data_value="" />
+                    <div class="tips"></div>
+                    <div id="idErr" class="errorCode"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col8 col-md-8 col-sm-12 inputField">
+                <div class="disclimer">
+                  <div class="check-btn uncheck">
+                    <input type="checkbox" class="step_1 req" data_value="" name="termsandcondition" class=""
+                      id="termsandcondition" value="yes" data_field_type="check_box"
+                      data_missing='请勾选"我同意并确认在线申请的相关条款及细则。"' data_inner_error="termsErr" placeholder=""
+                      data_value="termsandcondition">
+                    <label for="termsandcondition">我同意并确认：</label>
+                  </div>
+                  <div class="tac-content">
+                    <ol>
+                      <li>填写上述个人联络信息即授权花旗银行（中国）有限公司（"银行"）有权致电本人以核实其信息真实性，且授权银行可以通过此联络信息向本人提供银行的金融产品和服务
+                        <!-- (包括各类存款、贷款产品、银行卡、理财产品、银行代销的产品) -->以及银行的市场活动信息。
+                      </li>
+                      <li class="proxyCPC">
+                        为本人申请参与合作商户优惠活动之目的，授权银行将上述个人联络信息披露给活动合作商户以享受相关活动优惠。银行将遵循银行信息保护政策保护客户信息。花旗<span
+                          class="inter-light">24</span>小时服务热线 <a class="visibleTabPhone inter-light"
+                          href="tel:+4008211880" title="400-821-1880"> 400-821-1880</a><span
+                          class="visibleDesktopOnly citiGold inter-light"> 400-821-1880</span>。</li>
+
+                      <li class="tabHZC_W">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabEA tabRNCEA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/EastAirline_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-东方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/EastAirline_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-东方航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabCEA tabRNCEA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/East_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/East_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabXXCEA tabRNCEA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/East_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/East_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+                      <li class="tabX5CEA tabRNCEA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/East_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/East_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabDICEA tabRNCEA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/East_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/East_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-东方航空活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabBGJ">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/BGJ_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>航班管家活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/BGJ_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>航班管家活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabSA tabSCHKTK">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/SCA_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-四川航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/SCA_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-四川航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabSA tabSARN">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/SouthAirline_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/SouthAirline_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabXCSA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/South_lineTC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/South_lineTC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabXXCSA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/South_lineTC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/South_lineTC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <!-- ttt_07-19 -->
+                      <li class="tabRSNBA tabPANBA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>活动规则与条款细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light"
+                          href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>活动规则与条款细则</u></a>以及<a
+                          class="visibleTabPhone inter-light"
+                          href="https://www.citibank.com.cn/sim/chinese/pdf/NBA_TC.pdf" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗银行与NBA(中国)合作活动条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light"
+                          href="https://www.citibank.com.cn/sim/chinese/pdf/NBA_TC.pdf" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗银行与NBA(中国)合作活动条款</u></a></li>
+
+                      <li class="tabDIJD2">我已阅读并知晓：
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/JD_coupon_TC.pdf" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>活动规则与条款细则</u></a>
+
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JD_coupon_TC.pdf"
+                          target="_blank" title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>活动规则与条款细则</u></a>
+                        以及
+
+                        <a class="visibleTabPhone inter-light"
+                          href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗礼程活动规则</u></a>
+
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗礼程活动规则</u>
+                        </a>
+                      </li>
+
+                      <li class="tabPACQDY">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/PACQDY_TC.pdf" target="_blank" title="点击查看花旗-东原地产活动条款"
+                          style="padding-top:12px"><u>花旗-东原地产活动条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/PACQDY_TC.pdf"
+                          target="_blank" title="点击查看花旗-东原地产活动条款" style="padding-top:12px"><u>花旗-东原地产活动条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" target="_blank"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗礼程活动规则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/land/mile/index.html"
+                          target="_blank" title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+
+                      <li class="tabDICSA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/South_lineTC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/South_lineTC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabSMCSA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/S_AirineTC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/S_AirineTC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-南方航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabHBC">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/HBC_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-皇包车活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/HBC_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-皇包车活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabBBCX">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/BBCX_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-百变创享活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/BBCX_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-百变创享活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabHVB">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/honeycomb_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-丰巢活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/honeycomb_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-丰巢活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+                      <li class="tabJSXY">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JSXY_TC.pdf" title="花旗财富管理-集思学院活动条款及细则"
+                          style="padding-top:12px"><u>花旗财富管理-集思学院活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JSXY_TC.pdf"
+                          title="花旗财富管理-集思学院活动条款及细则" style="padding-top:12px"><u>花旗财富管理-集思学院活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+                      <li class="tabIGL">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/IGL_TC.pdf" title="花旗财富管理-骑鹅旅行活动条款及细则"
+                          style="padding-top:12px"><u>花旗财富管理-骑鹅旅行活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/IGL_TC.pdf"
+                          title="花旗财富管理-骑鹅旅行活动条款及细则" style="padding-top:12px"><u>花旗财富管理-骑鹅旅行活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+                      <li class="tabLMM">我已阅读并知晓：
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/LMM_TC.pdf"
+                          title="花旗财富管理-驴妈妈活动条款及细则" style="padding-top:12px">
+                          <u>花旗财富管理-驴妈妈活动条款及细则</u>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/LMM_TC.pdf"
+                          title="花旗财富管理-驴妈妈活动条款及细则" style="padding-top:12px">
+                          <u>花旗财富管理-驴妈妈活动条款及细则</u>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/LMM_consumption.pdf"
+                          title="驴妈妈消费抵用券使用规则" style="padding-top:12px">
+                          <u>、驴妈妈消费抵用券使用规则</u>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/LMM_consumption.pdf"
+                          title="驴妈妈消费抵用券使用规则" style="padding-top:12px">
+                          <u>、驴妈妈消费抵用券使用规则</u>
+                        </a>
+                        以及
+                        <a class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>花旗礼程活动规则</u>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/land/mile/index.html"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗礼程活动规则</u>
+                        </a>
+                      </li>
+
+                      <li class="tabUNS">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/Unstaff_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>联通活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/Unstaff_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>联通活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabTELE">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/Telestaff_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>电信活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/Telestaff_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>电信活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabQUNA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/qunar_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-去哪儿活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/qunar_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-去哪儿活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabZZC">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/zuzuche_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-租租车活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/zuzuche_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-租租车活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabJYA tabRNJYA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JiXiang_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JiXiang_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabJYA1 tabRNJYA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JiXiang_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JiXiang_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a>，<a
+                          class="visibleTabPhone inter-light" href="/sim/chinese/pdf/JiXiang2_TC.pdf"
+                          title="点击查看吉祥航空额外礼品定制酒条款与规则" style="padding-top:12px"><u>吉祥航空额外礼品定制酒条款与规则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JiXiang2_TC.pdf"
+                          title="点击查看吉祥航空额外礼品定制酒条款与规则" style="padding-top:12px"><u>吉祥航空额外礼品定制酒条款与规则</u></a>及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabJYB1 tabRNJYB">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JiXiang_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JiXiang_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-吉祥航空活动条款及细则</u></a>，<a
+                          class="visibleTabPhone inter-light" href="/sim/chinese/pdf/JiXiang3_TC.pdf"
+                          title="点击查看吉祥航空额外礼品定制酒条款与规则" style="padding-top:12px"><u>吉祥航空额外礼品条款与规则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JiXiang3_TC.pdf"
+                          title="点击查看吉祥航空额外礼品定制酒条款与规则" style="padding-top:12px"><u>吉祥航空额外礼品条款与规则</u></a>及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabHNA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JP_airline_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JP_airline_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabXHNA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JP_airline_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JP_airline_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabDIHNA">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/JP_airline_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/JP_airline_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-金鹏俱乐部活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabMIG">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/Migush_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>咪咕活动规则与条款细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/Migush_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>咪咕活动规则与条款细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabHZC">我已阅读并知晓：
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/YHZC_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-一嗨租车活动条款及细则</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/YHZC_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-一嗨租车活动条款及细则</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a>
+                      </li>
+
+                      <li class="tabFCZ">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/FCZ_TC.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗财富管理-飞常准活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/FCZ_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗财富管理-飞常准活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabCQC">我已阅读并知晓：<a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/CQC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗-东昌汽车活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/CQC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗-东昌汽车活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabSXSD">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/SXSD.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗-新赛点活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/SXSD.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗-新赛点活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabDIHTL">我已阅读并知晓：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/SXSD.pdf" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗-新赛点活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/SXSD.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>花旗-新赛点活动规则与条款</u></a>以及<a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a></li>
+
+                      <li class="tabDIDLX">点击查看：<a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/DLUX.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/DLUX.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px"><u>活动规则与条款</u></a> 以及 <a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看花旗礼程活动规则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看花旗礼程活动规则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a>。</li>
+
+                      <li class="tabDIFLY">点击查看：<a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/pdf/flyertea.pdf" title="点击查看花旗-飞客活动规则与条款"
+                          style="padding-top:12px"><u>花旗-飞客活动规则与条款</u></a><a
+                          class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/flyertea.pdf"
+                          title="点击查看花旗-飞客活动规则与条款" style="padding-top:12px"><u>花旗-飞客活动规则与条款</u></a> 以及 <a
+                          class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看花旗礼程活动规则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a><a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/land/mile/index.html" title="点击查看花旗礼程活动规则"
+                          style="padding-top:12px"><u>花旗礼程活动规则</u></a>。</li>
+
+
+                      <li class="tabHM">我已阅读并知晓：
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/huamao_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗财富管理-华贸活动条款及细则</u><span style="color: #000;">。</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/huamao_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗财富管理-华贸活动条款及细则</u><span style="color: #000;">。</span>
+                        </a>
+                      </li>
+                      <li class="tabHM">合格花旗财富管理客户更多尊享权益：
+                        <a class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>花旗礼程活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/land/mile/index.html"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗礼程活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/delivery_service.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>海外接送机活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/delivery_service.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>海外接送机活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/Agoda_booking.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>Agoda全球酒店预订最高立减10%活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/Agoda_booking.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>Agoda全球酒店预订最高立减10%活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/deposits/certificate_of_deposit.htm"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>大额存单产品介绍</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/deposits/certificate_of_deposit.htm" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>大额存单产品介绍</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/land/GB/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>境外预约开户简介</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/land/GB/index.html"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>境外预约开户简介</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/citigold/card_gift_detail.htm"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>礼程/至享信用卡年费优惠活动规则</u><span style="color: #000;">。</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/card_gift_detail.htm" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>礼程/至享信用卡年费优惠活动规则</u><span style="color: #000;">。</span>
+                        </a>
+
+
+                      <li class="tab_CPC">为本人申请参与合作商户优惠活动之目的，授权银行将上述个人联络信息披露给活动合作商户以享受相关活动优惠。银行将遵循银行信息保护政策保护客户信息。花旗<span
+                          class="inter-light">24</span>小时服务热线
+                        <span class="citiGold inter-light"> 8008308880</span> / <span
+                          class="citiGold inter-light">020-38806530</span> (境外拨打)。
+                      </li>
+
+                      <li class="tabDIHMO">我已阅读并知晓：
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/pdf/huamao_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗财富管理-华贸活动条款及细则</u><span style="color: #000;">。</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/chinese/pdf/huamao_TC.pdf"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗财富管理-华贸活动条款及细则</u><span style="color: #000;">。</span>
+                        </a>
+                      </li>
+                      <li class="tabDIHMO">合格花旗财富管理客户更多尊享权益：
+                        <a class="visibleTabPhone inter-light" href="/sim/land/mile/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>花旗礼程活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/land/mile/index.html"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>花旗礼程活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/delivery_service.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>海外接送机活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/delivery_service.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>海外接送机活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/Agoda_booking.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>Agoda全球酒店预订最高立减10%活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/citihero/Landingpage/Agoda_booking.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>Agoda全球酒店预订最高立减10%活动规则</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/deposits/certificate_of_deposit.htm"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>大额存单产品介绍</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/deposits/certificate_of_deposit.htm" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>大额存单产品介绍</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/land/GB/index.html" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>境外预约开户简介</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light" href="/sim/land/GB/index.html"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>境外预约开户简介</u><span style="color: #000;">、</span>
+                        </a>
+                        <a class="visibleTabPhone inter-light" href="/sim/chinese/citigold/card_gift_detail.htm"
+                          title="点击查看活动规则与条款细则" style="padding-top:12px">
+                          <u>礼程/至享信用卡年费优惠活动规则</u><span style="color: #000;">。</span>
+                        </a>
+                        <a class="visibleDesktopOnly citiGold inter-light"
+                          href="/sim/chinese/citigold/card_gift_detail.htm" title="点击查看活动规则与条款细则"
+                          style="padding-top:12px">
+                          <u>礼程/至享信用卡年费优惠活动规则</u><span style="color: #000;">。</span>
+                        </a>
+
+
+                      <li class="tab_CPC">为本人申请参与合作商户优惠活动之目的，授权银行将上述个人联络信息披露给活动合作商户以享受相关活动优惠。银行将遵循银行信息保护政策保护客户信息。花旗<span
+                          class="inter-light">24</span>小时服务热线
+                        <span class="citiGold inter-light"> 8008308880</span> / <span
+                          class="citiGold inter-light">020-38806530</span> (境外拨打)。
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div id="termsErr" class="errorCode"></div>
+              </div>
+              <div class="col4 col-md-4 col-sm-12">
+                <div id="pageErr" class="errorCode2">请检查资料</div>
+                <a href="javascript:;" id="submitBtn" class="submit-box btnStyle" alt="提交" title="提交">提交</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col10 col-md-12 col-sm-12 innerContainer cont_Landing">
+
+        <style>
+          .befave-initial::before {
+            content: "·";
+            display: inline-block;
+            font-size: 28px;
+            color: rgb(102, 102, 102);
+            position: relative;
+            top: 5px;
+            padding-right: 15px;
+          }
+
+          .befave-initial {
+            /* padding: 0 !important; */
+            padding: 0 0 7px 0 !important;
+          }
+        </style>
+
+        <!--  ttt_07-19 -->
+        <div class="row center-row imgAlter tabRSNBA tabPANBA">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg1">
+                <img src="/views/land/banking/images/thumb4.jpg" alt="环球ATM免费取现" title="环球ATM免费取现" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">一重礼：限量联名好礼</h2>
+            <div class="clearfix landingPara">
+              成为合格花旗财富管理客户，满足条件可获得30,000花旗礼程，及限量款花旗和NBA联名纪念金球1个（金球为镀金材质）</div>
+          </article>
+        </div>
+
+        <!-- ttt_07-19 -->
+        <div class="row imgAlter center-row tabRSNBA tabPANBA">
+          <article class="col6 col-push-6 col-sm-12 col-md-6 col-md-push-6 text-right mobtext-center rgtImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg2">
+                <img src="/views/land/banking/images/thumb5.jpg" alt="专属个人理财服务" title="专属个人理财服务" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-pull-6 col-sm-12 col-md-6 col-md-pull-6 text-left mobtext-center lftTxt center">
+            <h2 class="landingHeading mainHeading pull-right citiGold">二重礼 ：花旗礼程大放送 </h2>
+            <div class="clearfix landingPara">
+              <ul class="overlayBulList">
+                <li class="befave-initial">成为合格花旗财富管理客户并成功申请花旗信用卡礼程卡，享首年年费减免（人民币2,000元/年）</li>
+                <li class="befave-initial">满足条件，还可获赠最高达10万花旗礼程。礼程长期有效，可兑换全球80多家航空公司里程</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- ttt_07-19 -->
+        <div class="row center-row imgAlter tabRSNBA tabPANBA">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg3">
+                <img src="/views/land/banking/images/thumb3.jpg" alt="环球银行服务" title="环球银行服务" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">三重礼 ：甄选银行产品
+            </h2>
+            <div class="clearfix landingPara">
+              <ul class="overlayBulList">
+                <li class="sup befave-initial">
+                  7月31日前新户可享存期三年年化利率达3.55%大额存单</li>
+                <li class="sup befave-initial">本地基金线上下单，费率一折起</li>
+                <li class="sup befave-initial">代客境外理财产品 </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="row center-row imgAlter tabBBCX">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg1">
+                <img src="/views/land/banking/images/thumb01.jpg" alt="小小银行家" title="小小银行家" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">小小银行家</h2>
+            <div class="clearfix landingPara">花旗小小银行家亲子财商活动，通过活泼有趣的互动课程，帮助儿童树立正确理财观，实现幸福人生计划。</div>
+          </article>
+        </div>
+        <div class="row imgAlter center-row tabBBCX">
+          <article class="col6 col-push-6 col-sm-12 col-md-6 col-md-push-6 text-right mobtext-center rgtImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg2">
+                <img src="/views/land/banking/images/thumb02.jpg" alt="花旗海外留学一站式服务*" title="花旗海外留学一站式服务*" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-pull-6 col-sm-12 col-md-6 col-md-pull-6 text-left mobtext-center lftTxt center">
+            <h2 class="landingHeading mainHeading pull-right citiGold">花旗海外留学一站式服务*</h2>
+            <div class="clearfix landingPara">
+              <ul class="overlayBulList">
+                <li>为财富管理客户的子女量身定制</li>
+                <li>提供完善的金融理财知识，提升海外生活工作经验，拓宽视野</li>
+                <li>培养领导能力、团队协作能力和沟通技巧</li>
+              </ul>
+              <p class="p_font">
+                *申请人需年满18周岁；如海外留学的申请者未年满18岁，需由父母或法定监护人向花旗银行（中国）有限公司代为提出本服务的申请。花旗海外留学一站式服务为花旗财富管理客户和花旗私人业务客户专享。</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="row center-row imgAlter notabRSNBA notabPANBA">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg1">
+                <img src="/views/land/banking/images/thumb1.jpg" alt="环球ATM免费取现" title="环球ATM免费取现" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">环球<span class="inter-light">ATM</span>免费取现</h2>
+            <div class="clearfix landingPara">持花旗借记卡在境内外超过<span
+                class="inter-light">140</span>万台带有“银联”标识的自动柜员机提取现金，手续费全免<sup>2</sup></div>
+          </article>
+        </div>
+
+        <div class="row imgAlter center-row notabRSNBA notabPANBA">
+          <article class="col6 col-push-6 col-sm-12 col-md-6 col-md-push-6 text-right mobtext-center rgtImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg2">
+                <img src="/views/land/banking/images/thumb2.jpg" alt="专属个人理财服务" title="专属个人理财服务" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-pull-6 col-sm-12 col-md-6 col-md-pull-6 text-left mobtext-center lftTxt center">
+            <h2 class="landingHeading mainHeading pull-right citiGold">专属个人理财服务</h2>
+            <div class="clearfix landingPara">
+              <ul class="overlayBulList">
+                <li>客户经理为您提供专业的理财建议，找出合适的投资方案和策略</li>
+                <li>花旗<span class="inter-light">24</span>小时服务热线将会随时随地为您处理相关银行业务</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="row center-row imgAlter notabRSNBA notabPANBA">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg3">
+                <img src="/views/land/banking/images/thumb3.jpg" alt="环球银行服务" title="环球银行服务" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">环球银行服务</h2>
+            <div class="clearfix landingPara">
+              <ul class="overlayBulList">
+                <li class="sup">全球账户通<sup>3</sup></li>
+                <li class="sup">全球速汇通<sup>4</sup></li>
+                <!-- <li class="sup">海外紧急现金援助<sup>5</sup></li> -->
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="row center-row imgAlter tab_CPC">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg4">
+                <img src="/views/land/banking/images/thumb_cpc2.jpg" alt="传承运筹帷幄LEGACY" title="传承运筹帷幄LEGACY" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">传承 运筹帷幄<br><span class="inter-light">LEGACY</span></h2>
+            <div class="clearfix landingPara">以花旗的专业，传承您的伟业</div>
+          </article>
+        </div>
+        <div class="row imgAlter center-row tab_CPC">
+          <article class="col6 col-push-6 col-sm-12 col-md-6 col-md-push-6 text-right mobtext-center rgtImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg5">
+                <img src="/views/land/banking/images/thumb_cpc1.jpg" alt="尊享独一无二 ENJOYMENT" title="尊享独一无二 ENJOYMENT" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-pull-6 col-sm-12 col-md-6 col-md-pull-6 text-left mobtext-center lftTxt center">
+            <h2 class="landingHeading mainHeading pull-right citiGold">尊享 独一无二<br><span
+                class="inter-light">ENJOYMENT</span></h2>
+            <div class="clearfix landingPara">量身定制的行程安排，为您创造独一无二体验</div>
+          </article>
+        </div>
+        <div class="row center-row imgAlter tab_CPC">
+          <article class="col6 col-sm-12 col-md-6 text-right mobtext-center lftImg center">
+            <div class="citigoldHomeWrap sidephoto-wrapper">
+              <div id="citigoldhomeImg6">
+                <img src="/views/land/banking/images/thumb_cpc3.jpg" alt="共创 佐雍得偿 SHARING" title="共创 佐雍得偿 SHARING" />
+              </div>
+            </div>
+          </article>
+          <article class="col6 col-sm-12 col-md-6 text-left mobtext-center rgtTxt mobIpadFix center">
+            <h2 class="landingHeading mainHeading citiGold">共创 佐雍得偿<br><span class="inter-light">SHARING</span></h2>
+            <div class="clearfix landingPara">与志同道合者碰撞交流，鸿儒谈笑，胜友如云</div>
+          </article>
+        </div>
+      </div>
+      <div class="submit-row">
+        <!-- ttt_07-19 -->
+        <a href="javascript:;" class="submit-box btnStyle" alt="提交" title="提交" style="margin-bottom: 30px;">提交</a>
+      </div>
+      <div class="footer-bar" title="了解更多 有关财富管理">
+        <a href="javascript:;" title="了解更多" class="fontIntBold">了解更多</a> 有关财富管理 <br />
+        <img src="/views/land/banking/images/icons/carat_down_footer.png" alt="down_arrow" class="segment-open" />
+      </div>
+    </div>
+    <div id="segment-comparison">
+      <section class="pageBanner">
+        <div class="col10 col-md-10 col-sm-12 bannerGoldTxt text-center">
+          <h5 class="pagetitle-subTxt">财富管理</h5>
+          <h1 class="pagetitle">满足不同理财需求</h1>
+          <img src="/views/land/banking/images/icons/carat_up_footer.png" alt="up_arrow" class="segment-close" />
+        </div>
+      </section>
+      <section class="contentWrapper">
+        <div class="container rowtable">
+          <div class="row text-center">
+            <div class="col10 col-md-12 col-sm-12 text-left tableSection">
+              <div class="tableTr visibleDesktop visibleTablet tableHeader">
+                <div class="row">
+                  <div class="col2by5 pull-left tab visibleDesktop visibleTablet">&nbsp;</div>
+                  <div class="dropDown">
+                    <div class="col2by5 color2">花旗智富管理</div>
+                    <div class="col2by5 color3">花旗财富管理</div>
+                    <div class="col2by5 color3 private">花旗私人客户业务</div>
+                    <div class="col2by5 color3 tab_CPC">花旗私享家</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tableTr headerFirst ">
+                <div class="row">
+                  <div class="col2by5 tab pull-left dropMenu tab-accordiant-header "><a
+                      href="javascript:;">合格账户标准（人民币）</a></div>
+                  <div class="dropDown priceItem tab-accordiant-content tableSpacing">
+                    <div class="tableTd colMob">
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color2 visibleMobile">花旗智富管理</div>
+                      <div class="col2by5 mobTxtRight">&ge; ￥<span class="inter-light">150,000</span></div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color3 visibleMobile">花旗财富管理</div>
+                      <div class="col2by5 mobTxtRight">&ge; ￥<span class="inter-light">1,000,000</span></div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color4 visibleMobile private">花旗私人客户业务</div>
+                      <div class="col2by5 color4 visibleMobile tab_CPC">花旗私享家</div>
+                      <div class="col2by5 mobTxtRight">&ge; ￥<span class="inter-light">8,000,000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tableTr">
+                <div class="row">
+                  <div class="col2by5 tab pull-left dropMenu tab-accordiant-header"><a href="javascript:;">专业咨询服务</a>
+                  </div>
+                  <div class="dropDown tab-accordiant-content">
+                    <div class="tableTd colMob">
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color2 visibleMobile">花旗智富管理</div>
+                      <div class="col2by5">
+                        <p class="step1">专属花旗智富管理客户经理<span class="divider"></span></p>
+                        <p class="step2">根据您的财务需求提供投资与保险方案<span class="divider"></span></p>
+                        <p class="visibleDesktop visibleTablet">&nbsp;</p>
+                      </div><span class="dividerSegment"></span>
+                      <div class="col2by5 color3 visibleMobile">花旗财富管理</div>
+                      <div class="col2by5">
+                        <p class="step1">专属花旗财富管理客户经理及云集不同领域的精英顾问<span class="divider"></span></p>
+                        <p class="step2">以您的目标为己任，通过全方位财富规划平台，为您提供适合的产品组合策略<span class="divider"></span></p>
+                        <p class="step3">多元化的投资与保险产品</p>
+                      </div>
+                      <span class="dividerSegment"></span>
+
+                      <div class="col2by5 color4 visibleMobile private">花旗私人客户业务</div>
+                      <div class="col2by5 colTab3 private">
+                        <p class="step1">专属资深私人客户业务经理和经验丰富的专家团队<span class="divider"></span></p>
+                        <p class="step2">以您的目标为己任，通过全方位财富规划平台，为您量身定制适合的产品组合策略<span class="divider"></span></p>
+                        <p class="step3">度身定制的私人财富理财方案</p>
+                      </div>
+
+                      <div class="col2by5 color4 visibleMobile tab_CPC">花旗私享家</div>
+                      <div class="col2by5 colTab3 tab_CPC">
+                        <p class="step1">专属资深花旗私享家客户经理，全部经过“花旗-沃顿全球财富学院”专业培训。经验丰富的专家顾问团队涵盖保险、房贷等多个领域，满足您的不同投资需求。<span
+                            class="divider"></span></p>
+                        <p class="step2">根据您的财富目标，度身定制投资、保险方案，涵盖短、中、长期策略及灵活多样的投资风格和主题，满足您不同人生阶段的投资需求。<span
+                            class="divider"></span></p>
+                        <p class="step3">专属优惠费率及产品，灵活选择产品结构。</p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tableTr">
+                <div class="row">
+                  <div class="col2by5 tab pull-left dropMenu tab-accordiant-header"><a href="javascript:;">最新市场瞭望</a>
+                  </div>
+                  <div class="dropDown tab-accordiant-content">
+                    <div class="tableTd noBorder colMob">
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color2 visibleMobile">花旗智富管理</div>
+                      <div class="col2by5">
+                        <p class="step9">由花旗全球研究和咨询团队为您提供最新市场资讯及投资策略<span class="divider"></span></p>
+                        <p class="visibleDesktop visibleTablet">&nbsp;</p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color3 visibleMobile">花旗财富管理</div>
+                      <div class="col2by5">
+                        <p class="step9">由花旗全球研究和咨询团队为您提供最新市场资讯及投资策略<span class="divider"></span></p>
+                        <p>从花旗财富论坛及定期市场分析讲座中聆听投资专家的独到见解</p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color4 visibleMobile private">花旗私人客户业务</div>
+                      <div class="col2by5 colTab3 private">
+                        <p class="step9">由花旗全球研究和咨询团队为您提供最新市场资讯及投资策略<span class="divider"></span></p>
+                        <p>从花旗财富论坛及定期市场分析讲座中聆听投资专家的独到见解</p>
+                      </div>
+
+                      <div class="col2by5 color4 visibleMobile tab_CPC">花旗私享家</div>
+                      <div class="col2by5 colTab3 tab_CPC">
+                        <p class="step9">由花旗全球研究和咨询团队为您提供最新市场资讯及投资策略<span class="divider"></span></p>
+                        <p>花旗私享家专属财富圆桌会，近距离接触财经领袖和投资专家，把脉全球市场动态。</p>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tableTr">
+                <div class="row">
+                  <div class="col2by5 tab pull-left dropMenu tab-accordiant-header"><a href="javascript:;">贵宾专属礼遇</a>
+                  </div>
+                  <div class="dropDown tab-accordiant-content">
+                    <div class="tableTd colMob ">
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color2 visibleMobile">花旗智富管理</div>
+                      <div class="col2by5">
+                        <p class="step6">乐享生活商户优惠<span class="divider"></span></p>
+                        <p class="step7 visibleDesktop visibleTablet">&nbsp;</p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color3 visibleMobile">花旗财富管理</div>
+                      <div class="col2by5">
+                        <p class="step6 private"><span
+                            class="inter-light">Citigold</span>财富管理为您带来精彩生活礼遇与银行优享权益，例如免费银行服务，缤纷活动，优惠利率等<span
+                            class="divider"></span></p>
+                        <p class="step6 tab_CPC">花旗荟50多项丰富礼遇，涵盖旅游、生活、教育、医疗四大板块。专属礼宾团队，<span
+                            class="inter-light">24</span>小时为您服务。<span class="divider"></span></p>
+                        <p class="step7">环球贵宾礼遇服务，包含免费使用全球花旗<span class="inter-light">Citigold</span>财富管理中心的的商务设施<span
+                            class="divider"></span></p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color4 visibleMobile private">花旗私人客户业务</div>
+                      <div class="col2by5 colTab3 private">
+                        <p class="step6"><span
+                            class="inter-light">Citigold</span>财富管理为您带来精彩生活礼遇与银行优享权益，例如免费银行服务，缤纷活动，优惠利率等<span
+                            class="divider"></span></p>
+                        <p class="step7">环球贵宾礼遇服务，包含免费使用全球花旗<span class="inter-light">Citigold</span>财富管理中心和<span
+                            class="inter-light">CPC</span>私人客户业务中心的商务设施，<span
+                            class="inter-light">24</span>小时花旗私人客户业务专属热线<span class="divider"></span></p>
+                      </div>
+
+                      <div class="col2by5 color4 visibleMobile tab_CPC">花旗私享家</div>
+                      <div class="col2by5 colTab3 tab_CPC">
+                        <p class="step6">尽享花旗荟<span
+                            class="inter-light">50</span>多项丰富礼遇，此外可额外尊享花旗私享家臻选权益，如量身定制的行程安排，受邀参与奢华私享活动与环球赛事，带您领略环球礼遇。<span
+                            class="divider"></span></p>
+                        <p class="step7">环球贵宾礼遇服务，创造私人专属体验，包含免费使用全球花旗私享家业务中心的商务设施，<span
+                            class="inter-light">24</span>小时花旗私享家专属热线<span class="divider"></span></p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tableTr">
+                <div class="row">
+                  <div class="col2by5 tab pull-left dropMenu tab-accordiant-header"><a href="javascript:;">环球银行服务</a>
+                  </div>
+                  <div class="dropDown tab-accordiant-content">
+                    <div class="tableTd colMob">
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color2 visibleMobile">花旗智富管理</div>
+                      <div class="col2by5">
+                        <p>海外紧急援助现金 <br class="visibleDesktopOnly" />最高5,000美元<span class="divider"></span></p>
+                        <p class="step5">即日起至<span class="inter-light">2021</span>年<span
+                            class="inter-light">12</span>月<span
+                            class="inter-light">31</span>日，无论您身处境内还是境外，需要同行或跨行取款，使用花旗借记卡在全球带有“银联”标示的<span
+                            class="inter-light">ATM</span>机上取现或查询，均可享手续费全免优惠。不包括某些海外<span
+                            class="inter-light">ATM</span>机在花旗和银联网络以外另收的费用，详情请见取款时的提示<span class="divider"></span></p>
+                        <p class="text-center dispInlineBlk">
+                          <a href="/sim/chinese/banking/citipriority.htm" target="_blank"
+                            class="segment-box btnStyle col11" title="了解更多">了解更多</a>
+                        </p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color3 visibleMobile">花旗财富管理</div>
+                      <div class="col2by5">
+                        <p>海外紧急援助现金 <br class="visibleDesktopOnly" />最高<span class="inter-light">10,000</span>美元<span
+                            class="divider"></span></p>
+                        <p class="step5">即日起至<span class="inter-light">2021</span>年<span
+                            class="inter-light">12</span>月<span
+                            class="inter-light">31</span>日，无论您身处境内还是境外，需要同行或跨行取款，使用花旗借记卡在全球带有“银联”标示的<span
+                            class="inter-light">ATM</span>机上取现或查询，均可享手续费全免优惠。不包括某些海外<span
+                            class="inter-light">ATM</span>机在花旗和银联网络以外另收的费用，详情请见取款时的提示<span class="divider"></span></p>
+                        <p class="text-center dispInlineBlk">
+                          <a href="javascript:;" class="submit-box segment-box btnStyle col11 private"
+                            title="即刻申请">即刻申请</a>
+                          <a href="/sim/chinese/citigold.htm" class="submit-box segment-box btnStyle col11 tab_CPC"
+                            title="了解更多" target="_blank">了解更多</a>
+                        </p>
+                      </div>
+                      <span class="dividerSegment"></span>
+                      <div class="col2by5 color4 visibleMobile">花旗私人客户业务</div>
+                      <div class="col2by5 colTab3">
+                        <p>海外紧急援助现金 <br class="visibleDesktopOnly" />最高<span class="inter-light">10,000</span>美元<span
+                            class="divider"></span></p>
+                        <p class="step5">即日起至<span class="inter-light">2021</span>年<span
+                            class="inter-light">12</span>月<span
+                            class="inter-light">31</span>日，无论您身处境内还是境外，需要同行或跨行取款，使用花旗借记卡在全球带有“银联”标示的<span
+                            class="inter-light">ATM</span>机上取现或查询，均可享手续费全免优惠。不包括某些海外<span
+                            class="inter-light">ATM</span>机在花旗和银联网络以外另收的费用，详情请见取款时的提示<span class="divider"></span></p>
+                        <p class="text-center dispInlineBlk">
+                          <a href="/sim/chinese/banking/cpc/index.htm" target="_blank"
+                            class="segment-box btnStyle col11 private" title="了解更多">了解更多</a>
+                          <a href="#pageWrappper" class="segment-box btnStyle col11 tab_CPC" title="即刻申请">即刻申请</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="submit-row">
+            <!--	<a href="#landing-form" class="submit-box btnStyle" alt="提交" title="提交">提交</a>-->
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="pagefooter">
+      <div class="container">
+        <div class="col8 col-md-7 col-sm-2 footer-logo">
+          <a href="/sim/index.htm" target="_blank" title="Citi"><img src="/views/land/banking/images/citi.png"
+              alt="Citi" /></a>
+        </div>
+        <div class="clearfix footnote">
+          <ol class="numLst proxyCPC">
+            <li>即日起至2021年12月31日，新开户的财富管理客户，满足合格账户标准，并持有花旗礼程卡/至享卡信用卡，最高可享10万花旗礼程。1花旗礼程 = 1航空公司里程。<br>
+              *以东方航空万里行积分兑换为例，1个花旗礼程可兑换1个“东方万里行”积分。10万花旗礼程即可兑换16张上海-青岛经济舱机票。<br>
+              <table style="text-align:center;">
+                <tbody>
+                  <tr>
+                    <td style="padding:5px; border:1px solid #ccc;">花旗礼程</td>
+                    <td style="padding:5px; border:1px solid #ccc;">12,000</td>
+                    <td style="padding:5px; border:1px solid #ccc;">23,000</td>
+                    <td style="padding:5px; border:1px solid #ccc;">30,000</td>
+                    <td style="padding:5px; border:1px solid #ccc;">48,000</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:5px; border:1px solid #ccc;">往返经济舱机票</td>
+                    <td style="padding:5px; border:1px solid #ccc;">上海-青岛</td>
+                    <td style="padding:5px; border:1px solid #ccc;">上海-北京</td>
+                    <td style="padding:5px; border:1px solid #ccc;">上海-成都</td>
+                    <td style="padding:5px; border:1px solid #ccc;">上海-乌鲁木齐</td>
+                  </tr>
+                </tbody>
+              </table>
+              *以上航空里程兑换仅供参考。实际兑换要求请参考亚洲万里通有限公司官方网站。<br>更多活动详情，请点击<a
+                href="https://www.citibank.com.cn/sim/land/mile/NSZ/index.html">此处</a>
+            </li>
+            <li>您可在全球带有"银联"标识的<span class="inter-light">ATM</span>机上使用花旗借记卡，即日起至<span
+                class="inter-light">2021</span>年<span class="inter-light">12</span>月<span
+                class="inter-light">31</span>日，所有境内外<span class="inter-light">ATM</span>取现/查询手续费全免。不包括某些海外<span
+                class="inter-light">ATM</span>机在花旗和银联网络以外另收的费用，请详见取款时的提示。（花旗中国基本银行账户不适用）</li>
+            <li>仅适用于提供全球账户通服务的海外花旗银行，服务详情及适用国家和地区请登陆花旗网上银行查询或致电花旗<span class="inter-light">24</span>小时服务热线<a
+                class="visibleTabPhone inter-light" href="tel:+4008211880" title="400-821-1880"> 400-821-1880</a><span
+                class="visibleDesktopOnly citiGold inter-light">400-821-1880</span>。</li>
+            <li>
+              目前花旗全球速汇通仅支持外币账户间转账，支持的账户币种为美元，英镑，欧元，澳元，加拿大元，瑞士法郎，港币，日元，新西兰元，新加坡币。若您所选择的汇款金额与收款金额为不同币种，在汇款过程中将涉及外币兑换，请务必在交易确认页面中确认兑换汇率后方才提交汇款申请。一旦点击“确认”后，交易即被执行，不可撤回。不支持人民币和外币账户间的转账。
+              花旗全球速汇通单日转账限额：花旗睿智理财客户为<span class="inter-light">10,000</span>美元或等值外币；花旗智富管理客户为<span
+                class="inter-light">25,000</span>美元或等值外币；花旗财富管理客户以及花旗私人业务客户为<span
+                class="inter-light">50,000</span>美元或等值外币。同时须符合个人跨境汇款相关法律法规要求。</li>
+            <!-- <li>花旗客户在海外不幸遗失现金和银行卡，并满足以下条件，则海外花旗银行可提供给财富管理客户高达<span class="inter-light">10,000</span>美金 / 智富管理客户高达<span class="inter-light">5,000</span>美金的紧急现金援助：<span class="inter-light">a</span>. 在花旗（中国）已开立外币活期存款账户，并且账户中有足够余额；<span class="inter-light">b</span>. 如您还遗失了身份证明（如护照），海外花旗将联系花旗中国电话银行，要求您回答若干问题并提供签名以确认身份。（仅适用于提供紧急现金援助服务的海外花旗银行，服务详情及适用国家和地区请致电花旗<span class="inter-light">24</span>小时服务热线<a class="visibleTabPhone inter-light" href="tel:+4008211880" title="400-821-1880"> 400-821-1880</a><span class="visibleDesktopOnly citiGold inter-light"> 400-821-1880</span>）</li> -->
+            <!-- <li>大额存单是银行个人存款类金融产品，属一般性存款，保本保息。更多信息，请阅读《花旗银行（中国）有限公司个人大额存单产品介绍》及各期产品说明书，或查询 <a href="/sim/chinese/deposits/certificate_of_deposit.htm">https://www.citibank.com.cn/s/CDE</a></li> -->
+            <!-- <li><a href="/sim/chinese/deposits/HRTD/index.html">美元定存优惠利率活动具体办理条件详见citibank.com.cn/s/hrtd</a></li> -->
+
+            <!-- ttt_07-19 -->
+            <li>大额存单是银行个人存款类金融产品，属一般性存款，保本保息。更多信息，请阅读《花旗银行（中国）有限公司个人大额存单产品介绍》及各期产品说明书，或查询
+              https://www.citibank.com.cn/s/CDE
+            </li>
+
+
+            <li class="TtabXCSA" style="display: none">花旗银行大额存单的活动条款与细则，请点击<a
+                href="/sim/chinese/deposits/certificate_of_deposit.htm">此处</a>了解详情。</li>
+            <li class="TtabCRS" style="display: none">有关获赠<span class="inter-light">30,000</span>花旗礼程/等值积分或<span
+                class="inter-light">2,000</span>元京东券的具体活动详情，请点击<a href="/sim/chinese/pdf/CRSL.pdf">此处</a>参考。</li>
+            <li class="TtabCRS" style="display: none">有关结构性存款类产品的具体信息，请点击<a
+                href="/sim/chinese/investments/stru_invest_account.htm">此处</a>参考。</li>
+          </ol>
+
+          <ol class="numLst tab_CPC">
+            <li>合格花旗私享家账户标准 ：指综合账户总额日平均余额不低于人民币<span class="inter-light">8,000,000</span>（或等值外币）。即日起至<span
+                class="inter-light">2021</span>年<span class="inter-light">12</span>月<span
+                class="inter-light">31</span>日，为配合银行业务的持续发展，花旗私享家账户将享受免收账户管理费的优惠。综合账户总额当月日均余额的计算为同一客户号码项下的所有个人及联名账户当月内每日存款、投资及指定保险产品的累积余额*的总和，除以当月实际天数得到的平均数。指定保险产品包含非投资连结及投资连结的保险产品。**非投资连结保险产品的累积余额为已缴保费及应缴保费；投资连结的保险产品的累积余额为保单当月的余额。
+            </li>
+          </ol>
+        </div>
+        <div class="col12 col-sm-12 col-md-12 footer-divider"></div>
+        <div class="row">
+          <div class="col5 col-md-8 col-sm-12 footerTc">
+            <div class="pull-left col-sm-3">
+              <div class="row">
+                <ul>
+                  <li><a href="/sim/chinese/footer/privacy.htm" target="_blank" title="隐私保护">隐私保护</a></li>
+                  <li><a href="/sim/chinese/services/citibankonline_internetsecurity.htm" target="_blank"
+                      title="网络安全提示">网络安全提示</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3 pull-left">
+              <div class="row">
+                <ul>
+                  <li><a href="http://www.citi.com.cn/html/cn/HR/HR.html" target="_blank" class="clearfix"
+                      title="职业发展">职业发展</a></li>
+                  <li><a href="/sim/chinese/footer/sitemap.htm" target="_blank" title="网站导航">网站导航</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="pull-left col-sm-6">
+              <div class="row">
+                <ul>
+                  <li><a href="/sim/chinese/footer/terms.htm" target="_blank" title="条款与条件">条款与条件</a></li>
+                  <li><a href="http://www.citigroup.com/citi/" target="_blank" class="inter-light"
+                      title="Citigroup.com">Citigroup.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col7 col-md-4 col-sm-12 copyright text-right pull-right">
+            <p>Citigroup.com is the global source of information and access to financial services provided by the
+              Citigroup family of companies.</p>
+            <p>Copyright &copy; 2020 Citigroup Inc.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="/views/land/banking/js/script.js"></script>
+  <script type="text/javascript" src="/views/land/banking/js/global_validation_landing.js"></script>
+
+  <script>
+    $(window).bind("pageshow", function (event) {
+      if (event.originalEvent.persisted) {
+        window.location.reload()
+      }
+    });
+    setTimeout(function () {
+      jumpPosition("jump");
+    }, 1000);
+  </script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('#idname').blur(function () {
+        var idname_val = $(this).val();
+        if (idname_val != '') {
+          $('input[name=AgentCode]').val(idname_val);
+        }
+      });
+    })
+  </script>
+
+  <script type="text/javascript" src="/sim/chinese/js/SC_code1.js"></script>
+  <script type="text/javascript" src="/sim/chinese/js/page_code.js"></script>
+
+</body>
+
+</html>

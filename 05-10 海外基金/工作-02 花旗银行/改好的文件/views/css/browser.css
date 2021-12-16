@@ -1,0 +1,6 @@
+.browser_error_box{background:#ED8800;color:#fff;width:100%;padding:8px 0 8px 0;}
+.browser_error_box a{color:#fff;}
+.browser_error_box.botLine{border-bottom:1px solid #D7B369;}
+.browser_error_box .be_close{background:url('/views/images/close.jpg') no-repeat 0 0;width:14px;height:15px;right:22px;cursor:pointer;position:absolute;}
+.browser_error_content{padding: 0 22px !important;background:url('/views/images/dialog-warning.png') no-repeat 0 0;margin:0 auto 0 20px;}
+.browser_error_content img{margin:0 6px 0 0;}

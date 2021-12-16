@@ -1,0 +1,269 @@
+* {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  outline: none;
+  font-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+}
+
+body {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-family: "Arial", "SourceHanSansCN_N";
+}
+
+img {
+  border: none;
+  outline: none;
+  vertical-align: middle;
+}
+
+
+.rule {
+  text-align: center;
+}
+
+.on {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+
+
+}
+
+.on>span {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-top: -9%;
+  left: 18%;
+}
+
+
+@media (max-width:768px) {
+  .hd {
+    margin-top: -75px;
+  }
+
+  .hd_a {
+    width: 64px;
+    margin: 0 auto;
+    height: 22px;
+    position: relative;
+    top: -20px;
+  }
+
+  .hd_a span {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rule {
+    font-size: 1rem;
+    margin-top: -50px;
+  }
+
+  .main img {
+    width: 100%;
+    background-size: 100%;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .Underline {
+    height: 0.05px;
+    margin: 0 auto;
+    border: 0.5px solid #000;
+    width: 80px;
+    margin-top: 5px;
+    z-index: 9999;
+  }
+
+  /*寮圭獥*/
+
+  .masking .layer {
+    font-size: 16px;
+  }
+
+  .masking table {
+    border-collapse: collapse;
+    border: none;
+  }
+
+  .masking td {
+    border: solid #666666 1px;
+    text-align: center;
+  }
+
+  .masking {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(91, 91, 91, 0.9);
+    display: none;
+    top: 0;
+    left: 0;
+  }
+
+  .layer {
+    font-family: "SourceHanSansCN_N";
+    font-family: "Arial", "SourceHanSansCN_N";
+    width: 80%;
+    height: 70%;
+    padding-left: 4%;
+    padding-right: 2%;
+    margin: auto;
+    margin-top: 20%;
+    background: #fff;
+    border: 5px solid #003F84;
+    border-radius: 10px;
+    overflow: auto;
+    color: rgb(160, 160, 160);
+    font-size: 8px;
+    text-align: justify;
+    padding-left: 26px;
+    box-sizing: border-box;
+  }
+
+  .list-paddingleft-2 {
+    padding: 1% 2% 2% 2%;
+  }
+
+  .close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+
+}
+
+
+
+@media (min-width:769px) {
+  .hd {
+    margin-top: -180px;
+  }
+
+  .hd_a {
+    width: 100px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    height: 25px;
+    margin-top: 11px;
+  }
+
+  .hd_a span {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .main {
+    width: 780px;
+  }
+
+  .main {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .rule {
+    font-size: 1.25rem;
+    margin-top: -70px;
+  }
+
+  .main img {
+    width: 100%;
+    background-size: 100%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .Underline {
+    height: 0.1px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 80px;
+    margin-top: 5px;
+    z-index: 9999;
+  }
+
+  /*寮圭獥*/
+  .masking .layer {
+    font-size: 18px;
+  }
+
+  .masking table {
+    border-collapse: collapse;
+    border: none;
+  }
+
+  .masking td {
+    border: solid #666666 1px;
+    text-align: center;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .masking {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(91, 91, 91, 0.9);
+    display: none;
+    top: 0;
+    left: 0;
+  }
+
+  .layer {
+    font-family: "SourceHanSansCN_N";
+    font-family: "Arial", "SourceHanSansCN_N";
+    padding: 40px;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background: #fff;
+    border: 8px solid #003F84;
+    border-radius: 10px;
+    top: 35%;
+    margin-top: -150px;
+    overflow: auto;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+}
