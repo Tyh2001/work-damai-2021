@@ -12,25 +12,8 @@
       padding: 0;
     }
 
-    img {
-      margin-top: 10px;
-    }
-
     #app {
-      width: 640px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-
-    .img1,
-    .img7,
-    .img11,
-    .img14 {
-      width: 350px;
-      height: 83px;
+      width: 100%;
     }
 
     .banner {
@@ -40,13 +23,7 @@
     }
 
     .banner img {
-      width: 188px;
-    }
-
-    .img8,
-    .img9,
-    .img10 {
-      width: 100%;
+      width: 30%;
     }
 
     .video {
@@ -55,16 +32,21 @@
       justify-content: space-around;
     }
 
-    .img12,
-    .img13 {
-      width: 277px;
+    .video img {
+      width: 45%;
+    }
+
+    img {
+      margin-top: 10px;
     }
   </style>
 </head>
 
 <body>
   <div id="app">
-    <img class="img1" src="./images/1.png" alt="">
+    <div style="width: 55%;margin: auto;">
+      <img class="img1" style="width: 100%;" src="./images/1.png" alt="">
+    </div>
     <div class="banner">
       <img class="img2" src="./images/2.png" alt="">
       <img class="img3" src="./images/3.png" alt="">
@@ -73,17 +55,24 @@
     <div class="banner">
       <img class="img5" src="./images/5.png" alt="">
       <img class="img6" src="./images/6.png" alt="">
+      <img class="img6" src="./images/6.png" alt="">
     </div>
-    <img class="img7" src="./images/7.png" alt="">
-    <img class="img8" src="./images/8.png" alt="">
-    <img class="img9" src="./images/9.png" alt="">
-    <img class="img10" src="./images/10.png" alt="">
-    <img class="img11" src="./images/11.png" alt="">
+    <div style="width: 55%;margin: auto;margin-top: 25px;">
+      <img class="img7" style="width: 100%;" src="./images/7.png" alt="">
+    </div>
+    <img style="width: 100%;" class="img8" src="./images/8.png" alt="">
+    <img style="width: 100%;" class="img9" src="./images/9.png" alt="">
+    <img style="width: 100%;" class="img10" src="./images/10.png" alt="">
+    <div style="width: 55%;margin: auto;margin-top: 25px;">
+      <img class="img11" style="width: 100%;" src="./images/11.png" alt="">
+    </div>
     <div class="video">
       <img class="img12" src="./images/12.png" alt="">
       <img class="img13" src="./images/13.png" alt="">
     </div>
-    <img class="img14" src="./images/14.png" alt="">
+    <div style="width: 55%;margin: auto;margin-top: 25px;">
+      <img class="img14" style="width: 100%;" src="./images/14.png" alt="">
+    </div>
   </div>
 </body>
 
