@@ -1,0 +1,209 @@
+<section style="font-size: 16px;" data-mpa-powered-by="yiban.io">
+  <section style="text-align: center;justify-content: center;margin-right: 0%;margin-bottom: 10px;margin-left: 0%;" powered-by="xiumi.us">
+    <section style="display: inline-block;width: 100%;vertical-align: top;overflow: hidden;align-self: flex-start;font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;letter-spacing: 0.034em;">
+      <section style="height: 0px;overflow: visible;" powered-by="xiumi.us">
+        <section style="display: inline-block;width: 100%;vertical-align: top;">
+          <section style="margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.7906667" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYYehht9wrPpZO6Arkx5JRCIlPULibvxRThcGTEFqvchHS9NRohYVaEnQ/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="margin-top: -1px;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.404" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYONpcE9Jm59bibHUU1mauYUqSYIkb7P8Cx5gtr4jclpZIbJe8IVGnicZQ/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="margin-top: -1px;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.604" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYssuj4rzYAsPtbus2Q3l1E8SvLDOJknBgda1X2wTtcEUecS1nDakPeg/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="margin-top: -1px;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.5" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWY1sicCd5OB5k8BtChogibFOph9Z4eWP9XntN2E9fNIGupodnibONmWZOibQ/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="margin-top: -1px;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.676" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYuYBZWics4Y5vxG8MicSyoSFvUmYcDCP4icfvIQZygsicFebD0jrfVd9YVg/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="margin-top: -1px;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="0.52" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYbFwjjlK56nZBD0INdFibbqJaaJYv24BDQYDMq3kFpRPWTlmtQpGsudg/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="text-align: justify;" powered-by="xiumi.us">
+            <p style="white-space: normal;">
+              <br>
+            </p>
+          </section>
+          <section style="margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+            <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+              <img data-ratio="3.0706667" src="https://mmbiz.qpic.cn/mmbiz_png/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYWRq0De92tic4myZ9Nx0qeiaHQkeAUQ3RssibMZBIIcLn97eiaqYSanWxPA/640?wx_fmt=png" data-type="png" data-w="750" style="vertical-align: middle;box-sizing: border-box;">
+            </section>
+          </section>
+          <section style="text-align: justify;" powered-by="xiumi.us">
+            <p style="white-space: normal;">
+              <br>
+            </p>
+          </section>
+        </section>
+      </section>
+      <section style="overflow: visible;" powered-by="xiumi.us">
+        <section style="width: 100%;vertical-align: top;height: auto;">
+          <section>
+            <svg width="100%" xmlns="http://www.w3.org/2000/svg" style="transform: rotateZ(0deg);display: block;pointer-events: none;width: 100%;max-width: none !important;" opacity="1" viewBox="0 0 1000 1463">
+              <svg width="100%" height="100%">
+                <svg width="100%" height="100%">
+                  <rect fill="transparent" width="100%" height="100%" x="0%" y="0%">
+                  </rect>
+                </svg>
+                <svg>
+                  <foreignObject width="100%" height="100%" x="0" y="0">
+                    <svg space="default" style="width: 100%;background-position: 50% 50%;background-repeat: no-repeat;background-size: cover;background-attachment: scroll;-webkit-tap-highlight-color: transparent;visibility: visible;pointer-events: none;background-image: url(&quot;https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYGKlWLPcveyroqZUw2nv6XyXaUtHsShliayGZoiaURkhfnv30icGJ8xib6A/640?wx_fmt=gif&quot;);user-select: none;" viewBox="0 0 500 731" xlink="http://www.w3.org/1999/xlink" xml="" xmlns="http://www.w3.org/2000/svg">
+                    </svg>
+                  </foreignObject>
+                </svg>
+                <rect style="pointer-events: auto;opacity: 0;" width="100%" height="100%">
+                  <animate from="0" to="0" dur="0" begin="click + 0.1s" fill="freeze" attributeName="width">
+                  </animate>
+                </rect>
+              </svg>
+              <animate fill="freeze" attributeName="opacity" begin="click" from="1" to="0" dur="1" restart="never">
+              </animate>
+              <animate fill="freeze" attributeName="width" begin="click + 1s" dur="4" restart="never" from="100%" to="457.0671378091873%">
+              </animate>
+            </svg>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section style="margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+    <section>
+      <p>
+        <br>
+      </p>
+    </section>
+  </section>
+  <section style="margin-top: 10px;margin-right: 0%;margin-left: 0%;text-align: left;justify-content: flex-start;" powered-by="xiumi.us">
+    <section style="display: inline-block;width: auto;vertical-align: top;border-style: solid;border-width: 1px;border-color: rgb(0, 143, 201);min-width: 10%;height: auto;padding-right: 20px;padding-left: 20px;">
+      <section style="" powered-by="xiumi.us">
+        <section style="display: flex;flex-flow: row nowrap;text-align: right;justify-content: flex-end;margin-top: -4px;margin-right: 0%;margin-left: 0%;">
+          <section style="display: inline-block;width: 45px;vertical-align: top;background-color: rgb(0, 143, 201);flex: 0 0 auto;height: auto;line-height: 0;letter-spacing: 0px;align-self: flex-start;">
+            <section style="text-align: center;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+              <section style="vertical-align: middle;display: inline-block;line-height: 0;width: 100%;height: auto;">
+                <img data-ratio="0.1503268" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYX0gycK3upSw01ANsKbw0nAZnUXv6ngsHpVQVZOeh1wJDZYalxrk8Sw/640?wx_fmt=gif" data-type="gif" data-w="306" style="vertical-align: middle;width: 100%;box-sizing: border-box;">
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section style="margin-right: 0%;margin-bottom: 3px;margin-left: 0%;" powered-by="xiumi.us">
+        <section style="font-size: 15px;color: rgb(62, 62, 62);line-height: 2;letter-spacing: 1px;">
+          <p style="text-align: center;">
+            <strong>免责声明：<mpchecktext contenteditable="false" id="1640935593094_0.643902197596788">
+              </mpchecktext></strong>
+          </p>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section style="text-align: left;" powered-by="xiumi.us">
+    <section style="display: inline-block;width: 100%;height: 160px;vertical-align: top;overflow-y: auto;background-color: rgb(246, 246, 246);">
+      <section style="overflow-x: hidden;">
+        <section style="margin: 20px 0%;" powered-by="xiumi.us">
+          <section style="display: inline-block;border-width: 2px;border-style: solid;border-color: transparent;padding-right: 10px;padding-left: 10px;background-color: rgb(245, 246, 246);color: rgb(160, 160, 160);text-align: justify;font-size: 12px;line-height: 1.6;">
+            <p style="white-space: normal;">本公众号由花旗银行（中国）有限公司（“花旗银行”）管理，请您在使用本公众号之前仔细阅读以下重要声明：
+              <mpchecktext contenteditable="false" id="1640935593095_0.8622302096583694">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">本公众号的内容仅供参考且可能不时进行修改和更新，其应不构成花旗银行对提供相关产品或服务的要约邀请、要约或承诺，亦不构成花旗银行对相关产品或服务详情的任何确认或承诺。
+              <mpchecktext contenteditable="false" id="1640935593096_0.7748775175782274">
+              </mpchecktext>本公众号的内容对花旗银行或您均无法律约束力，双方就有关产品和服务的权利和义务应根据双方最终签署的正式合同、协议或其他文件进行确定。
+              <mpchecktext contenteditable="false" id="1640935593097_0.8751966929588639">
+              </mpchecktext>&nbsp; &nbsp; &nbsp;
+              <mpchecktext contenteditable="false" id="1640935593098_0.6981697775953442">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">本公众号中关于金融工具、服务或产品的任何信息，系仅供浏览和参考的一般信息发布，不应作为对任何证券买卖、货币交易、投资产品、金融服务或存款吸收的推荐、要约或要约邀请。
+              <mpchecktext contenteditable="false" id="1640935593099_0.4735303127941106">
+              </mpchecktext>本公众号显示的信息或所提供的产品和服务对某些人士或实体可能会存在限制，特别是信贷和投资相关的产品，将受限于花旗银行的风险信贷审查。
+              <mpchecktext contenteditable="false" id="1640935593100_0.5556793537751628">
+              </mpchecktext>任何人士或实体若开展与本公众号内容相关的业务，应向与其财务顾问和法律顾问就其自身的实际情况寻求准确的建议，而不应依赖本公众号的内容行事。
+              <mpchecktext contenteditable="false" id="1640935593101_0.8407848031595151">
+              </mpchecktext>花旗银行及其关联机构、董事、职员、代理或雇员不对因使用本公众号信息或参考本公众号的内容使用或投资的任何金融产品或服务而产生的任何直接或间接损失承担责任。
+              <mpchecktext contenteditable="false" id="1640935593102_0.22540800309950626">
+              </mpchecktext>&nbsp; &nbsp; &nbsp;&nbsp;
+              <mpchecktext contenteditable="false" id="1640935593103_0.8130071454956016">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">花旗银行系基于其信赖的信息源提供本公众号的内容，但是花旗银行不对任何人士或实体保证该等内容的时效性、准确性、可信性和完整性；
+              <mpchecktext contenteditable="false" id="1640935593106_0.38931576597267026">
+              </mpchecktext>对于链接到其他公众号及/或网站的超文本链接，特别是有关这些公众号和网站的内容，花旗银行不承担任何责任。
+              <mpchecktext contenteditable="false" id="1640935593104_0.8610581410963516">
+              </mpchecktext>在法律允许的范围内，花旗银行及其关联机构、董事、职员、代理或雇员不保证并在任何情况下都不对本公众号所载信息的、准确性和完整性承担责任。
+              <mpchecktext contenteditable="false" id="1640935593105_0.9006632468056766">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">互联网不是一个无风险的环境，花旗银行对于任何其控制以外的因素，包括本公众号可能因黑客攻击或病毒导致内容被篡改及任何人士或实体使用的技术所产生的损失或损害，该等技术包括您的计算机、手机、软件、网络设备及任何连结或使用服务和/或信息的设备，均不承担任何责任。
+              <mpchecktext contenteditable="false" id="1640935593107_0.8391498717995436">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">本公众号的内容及形式（选择、编排、主题、访问数据方法、数据呈现方式等）均受有关著作权、商标法等知识产权法律的管辖。
+              <mpchecktext contenteditable="false" id="1640935593108_0.5067948348689764">
+              </mpchecktext>除部分图片、视频系来自第三方外，其他内容均由花旗银行准备和提供，花旗银行对此享有有关权利。
+              <mpchecktext contenteditable="false" id="1640935593109_0.9904379448320528">
+              </mpchecktext>未经花旗银行同意，任何人士或实体不得全部或部分转载、复制、再传播本公众号全部或部分内容。
+              <mpchecktext contenteditable="false" id="1640935593110_0.6238498555116567">
+              </mpchecktext>如果任何单位或个人认为本公众号某部分内容有侵权嫌疑，敬请通过ccb@citi.com书面通知花旗银行，我们将及时审查有关内容，并在查证属实的情况下予以更改或删除。
+              <mpchecktext contenteditable="false" id="1640935593111_0.09766083733431219">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">本公众号中使用的花旗（CITI）、花旗（CITI）及弧线设计图案、花旗银行（CITIBANK）和花旗集团（CITIGROUP）是Citigroup Inc.及/或其关联实体的商标和服务标志，在全球范围内使用和注册，版权归Citigroup Inc.及/或其关联实体所有。
+              <mpchecktext contenteditable="false" id="1640935593112_0.06594557610037022">
+              </mpchecktext>
+            </p>
+            <p style="white-space: normal;">本公众号不支持私信交流，请勿私信任何讯息。
+              <mpchecktext contenteditable="false" id="1640935593113_0.6534289934908801">
+              </mpchecktext>若您希望与花旗银行进行联系，请发送邮件至ccb@citi.com进行咨询。
+              <mpchecktext contenteditable="false" id="1640935593114_0.4409454796828385">
+              </mpchecktext>
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section powered-by="xiumi.us">
+    <p>
+      <br>
+    </p>
+  </section>
+  <section style="text-align: center;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+    <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+      <img class="rich_pages wxw-img" data-ratio="0.176" src="https://mmbiz.qpic.cn/mmbiz_png/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYficxJ2Q5h0IQlYuFWhBMcUyvuSAzE3icRCVqbH7JicBTkzWrmeSNLBLsw/640?wx_fmt=png" data-type="png" data-w="750" style="vertical-align: middle;box-sizing: border-box;" data-imgqrcoded="1">
+    </section>
+  </section>
+  <section powered-by="xiumi.us">
+    <p>
+      <br>
+    </p>
+  </section>
+  <section style="text-align: center;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+    <section style="vertical-align: middle;display: inline-block;line-height: 0;width: 65%;height: auto;box-shadow: rgb(0, 0, 0) 0px 0px 0px;">
+      <img data-ratio="1.128" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYXx4icbSw78avw8LE6oQLUg0rwcGKib3CIh2y4EZ8UjEXxAbxibfARYQlQ/640?wx_fmt=gif" data-type="gif" data-w="500" style="vertical-align: middle;width: 100%;box-sizing: border-box;" data-imgqrcoded="1" class="rich_pages wxw-img">
+    </section>
+  </section>
+  <section style="text-align: center;margin-right: 0%;margin-left: 0%;" powered-by="xiumi.us">
+    <section style="vertical-align: middle;display: inline-block;line-height: 0;">
+      <img class="rich_pages wxw-img" data-ratio="0.1293333" src="https://mmbiz.qpic.cn/mmbiz_gif/zclelrx3ZQBocPD8NVE4pNlrHiakJFibWYT2XTJ6BWUJ3k72P24pgibx0XlzHOlBic1SneL5b1ib8fJeQGbIw2pUDsg/640?wx_fmt=gif" data-type="gif" data-w="750" style="vertical-align: middle;box-sizing: border-box;" data-imgqrcoded="1">
+    </section>
+  </section>
+  <section powered-by="xiumi.us">
+    <p style="white-space: normal;">
+      <br>
+    </p>
+  </section>
+</section>
